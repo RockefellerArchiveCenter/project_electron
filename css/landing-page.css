@@ -116,6 +116,11 @@ h6 {
     background-size: cover;
 }
 
+.values {
+    padding: 100px 0;
+    color: #f8f8f8;
+}
+
 .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
