@@ -1,5 +1,6 @@
 ---
 layout: default
+img: launch.jpg
 category: Progress
 title: Project Electron Is Live!
 description: |
