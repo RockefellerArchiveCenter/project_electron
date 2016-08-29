@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/hillcrest.jpg) no-repeat center center;
+    background: url(../img/lightning.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -112,7 +112,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/park_banner.jpg) no-repeat center center;
+    background: url(../img/lightning.jpg) no-repeat center center;
     background-size: cover;
 }
 
