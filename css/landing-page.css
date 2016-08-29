@@ -21,9 +21,10 @@ h6 {
     font-weight: 500;
 }
 
-.content-section, .content-section-a {
-    padding-top: 4em;
-    padding-bottom: 5em;
+.content-section, .content-section-a, .content-section-b {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    font-size: 18px;
 }
 
 .lead {
@@ -42,14 +43,14 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 17%;
+    padding-bottom: 17%;
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 5em;
+    font-size: 7em;
 }
 
 .intro-divider {
@@ -94,12 +95,10 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
     background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
@@ -121,9 +120,9 @@ h6 {
     background-size: cover;
 }
 
-.values {
-    padding: 20px 0;
+.values, .team {
     color: #000000;
+    /*font-size: 18px;*/
 }
 
 .banner h2 {
@@ -134,6 +133,7 @@ h6 {
 
 .banner ul {
     margin-bottom: 0;
+    margin-top: 1em;
 }
 
 .banner-social-buttons {
@@ -173,15 +173,6 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
-}
-
-.values {
-  font-size: 18px;
-}
-
-.team {
-  font-size: 18px;
-  float: right;
 }
 
 .about {
