@@ -21,6 +21,11 @@ h6 {
     font-weight: 500;
 }
 
+.content-section, .content-section-a {
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
