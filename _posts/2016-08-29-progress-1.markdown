@@ -5,4 +5,4 @@ category: Progress
 title: Project Electron Is Live!
 description: |
 ---
-  Last week, the Rockefeller Archive center released a [press release](http://www.rockarch.org/programs/digital/marist.php) officially announcing the launch of Project Electron.  We, the RAC Digital Team, have created this site to be the home of all things Project Electron. Join us for the ride!
+  Last week, the Rockefeller Archive Center and Marist College released a [joint press release](http://www.rockarch.org/programs/digital/marist.php) officially announcing the launch of Project Electron.  We, the RAC Digital Team, have created this site to be the home of all things Project Electron. Join us for the ride!
