@@ -24,19 +24,19 @@ We acknowledge that at some point we may need to implement proprietary software 
 
 Written in a variety of languages and hosted on [GitHub](https://github.com/) or other web-accessible version-control platform
 
-**License:** [MIT](https://opensource.org/licenses/MIT) by default, other licenses as necessary.
+**License:** [MIT](https://opensource.org/licenses/MIT) or license dictated by the software being utilized.
 
 ### User documentation
 
 Written in [Markdown](https://daringfireball.net/projects/markdown/) to facilitate format conversion and hosted on [GitHub wiki](https://help.github.com/articles/about-github-wikis/) (or other web-accessible version-control platform) associated with code repository
 
-**License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation.
+**License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation. MIT or license dictated by the software being utilized.
 
 ### Technical documentation (including data models)
 
 Written in [Markdown](https://daringfireball.net/projects/markdown/) to facilitate format conversion and hosted on [GitHub wiki](https://help.github.com/articles/about-github-wikis/) (or other web-accessible version-control platform) associated with code repository
 
-**License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation.
+**License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation. MIT or license dictated by the software being utilized.
 
 ### Planning documents (policy documents, anonymized [user stories](https://en.wikipedia.org/wiki/User_story), [personas](https://www.usability.gov/how-to-and-tools/methods/personas.html), functional requirements, etc)
 
