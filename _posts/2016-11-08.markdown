@@ -1,0 +1,8 @@
+---
+layout: default
+img: computer.jpg
+category: Progress
+title: We're Making Progress
+description: |
+---
+We've been working hard since officially announcing Project Electron in September, and we have an update for you in the form of a [blog post](http://blog.rockarch.org/?p=1635)! We're in a discovery phase, where we are gathering user stories from our donors and depositors, other information professionals, and our researchers and staff.
