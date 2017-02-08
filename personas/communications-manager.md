@@ -6,19 +6,19 @@ _Communications Manager_
 
 ## Background
 
-Won Young Lin is 38 years old and is from Pittsburgh, Pennsylvania. She lives outside the city and commutes to work in her car. She’s active, but has a young son who takes up much of her free time. She’s happily married. She’s committed to her work, but prefers to not regularly work long hours because of her family life. Her parents immigrated to the United States and instilled in her a sense of civic duty, and she’s extremely proud to work for a nonprofit because she sees it as her way to give back to her community. Although Won is not primarily responsible for transfer of her organization’s records to the archive, she does have a voice in what records are sent, and what restrictions are placed on them.
+Won Young Lin is 38 years old and is from Pittsburgh, Pennsylvania. She lives outside the city and commutes to work in her car. She’s active and happily married, and has a young son who takes up much of her free time. She’s committed to her work, but prefers to not regularly work long hours because of her family life. Her parents immigrated to the United States and instilled in her a sense of civic duty, and she’s extremely proud to work for a nonprofit because she sees it as her way to give back to her community. Although Won is not primarily responsible for transfer of her organization’s records to the archive, she does have a voice in what records are sent, and what restrictions are placed on them.
 
 ## Goals and Motivations
 
-Won wants continued access to her organization’s records, even after transferring them to an archive, because she believes in the evidential power of records. However, she’s also passionate about protecting her organization’s brand. She wants to make a name for herself in the organization, and approving transfer of records that are damaging or embarrassing to the organization would hurt her standing.
+Won wants to access to her organization’s records, even after transferring them to an archive. She believes that public access to her organization’s records is important for transparency’s sake. However, she’s also passionate about protecting her organization’s image. She wants to make a name for herself in the organization, and approving transfer of records that are damaging or embarrassing to the organization would hurt her standing.
 
 ## Needs
 
-In order to meet her needs, Won needs access to any records that have been transferred to the archive. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly signoff on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
+In order to meet her needs, Won needs access to any records that have been transferred to the archive. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly sign off on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
 
 ## Pain Points
 
-Won often struggles with her organization’s legal team, who are extremely risk averse, and often question the value of public access to historical records. She also doesn’t often have final say on what material the archive can publish online, so she has to act as an intermediary between multiple stakeholders. She gets frustrated when the archive doesn’t communicate new policies or changes in service back to her department. Currently, gaining access to material sent to the archive takes longer than she’d like.
+Won struggles with her organization’s legal team, who are extremely risk averse and question the value of public access to historical records. She also doesn’t often have final say on what material the archive can publish online, so she has to act as an intermediary between multiple stakeholders. She gets frustrated when the archive doesn’t communicate new policies or changes in service back to her department. Currently, gaining access to material sent to the archive takes longer than she’d like.
 
 ## Current Devices, Apps & IT Use
 
