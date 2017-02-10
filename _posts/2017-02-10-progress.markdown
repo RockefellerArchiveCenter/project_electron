@@ -1,0 +1,8 @@
+---
+layout: default
+img: nashmia-khan.jpg
+category: Progress
+title: User Stories and Personas
+description: |
+---
+  The Digital Team has been working hard for the last few months to nail down a set of users stories and personas to aid us in development. We've been gathering information from conversations, interviews, and a literature review since September 2016, and we're finally ready to show off the fruits of our labor. Hillel posted [an in-depth look at our process](http://blog.rockarch.org/?p=1668) on our blog, and we've made the [user stories](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/user-stories) and [personas](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/personas) available on Github.  In line with our “open by default” licensing principle, we’re making these design artifacts available with a CC0 license, which means you can take them and use them freely in your own local environments.
