@@ -8,4 +8,20 @@ Requirements for transfers.
 
 ## Examples
 
-Example transfers. These are illustrative and not prescriptive.
+A set of example transfers, broken into four broad record types. These examples are intended to be illustrative and not prescriptive.
+
+### Administrative records
+
+President's office, program and policy, etc.
+
+### Board materials
+
+Board books, dockets and minutes.
+
+### Communications and Publications
+
+Annual reports, newsletters, etc.
+
+### Grant records
+
+Some with additional metadata.
