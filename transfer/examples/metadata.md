@@ -8,7 +8,6 @@ A file named `metadata.json` should be included in the `data/` directory of the 
   "title": "Annual Reports",
   "dates":[
     {
-      "type": "creation",
       "start": "1994-01-01",
       "end": "1997-01-01"
     }
@@ -16,11 +15,13 @@ A file named `metadata.json` should be included in the `data/` directory of the 
   "creators": [
     {
       "name": "Ford Foundation",
-      "id": "https://www.fordfoundation.org#organization"
+      "id": "https://www.fordfoundation.org#organization",
+      "role": "creator",
+      "type": "organization"
     }
   ],
   "languages": ["http://id.loc.gov/vocabulary/iso639-2/eng", "http://id.loc.gov/vocabulary/iso639-2/spa"],
-  "description": "Annual reports from the Ford Foundation.",
+  "description": "Annual reports discussing the accomplishments and major strategic initiatives of the Ford Foundation.",
   "restrictions": [{}]
 }
 ```
