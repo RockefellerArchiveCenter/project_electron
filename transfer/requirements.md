@@ -7,29 +7,12 @@ The data elements outlined below are the minimum elements necessary to support a
 
 This metadata should be serialized as a single JSON or JSON-LD file in each transfer.
 
-#### Identifier (Record ID assigned by donor or system)
-Required, not repeatable
-
-#### Title
-Required, not repeatable
-
-#### Date
-Required, repeatable
-
-#### Creator
-Required, repeatable
-
-#### Language of Materials
-Required, repeatable
-
-#### Description (information about the nature of records)
-Required, not repeatable
-
-#### Restrictions (information about restrictions on records)
-No required, repeatable
+See [Metadata Template](examples/metadata.md) for further details.
 
 ## Transfer Structure
+
 Transfers should be structured according to [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including Java, Python, PHP and Ruby.
 
 ## Transfer Protocol
+
 Transfer packages should be pushed to RAC temporary storage via SFTP. If required by large file sizes or volume, file chunking may be implemented. Transfers will take place through a firewall with only non-standard ports open, and IP address whitelisting will be used.

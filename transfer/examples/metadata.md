@@ -29,7 +29,7 @@ A file named `metadata.json` should be included in the `data/` directory of the 
 ## Identifier  
 
 *   **Definition**: A unique identifier applied to each group of record composed of characters, numbers or letters, or a combination thereof, that uniquely identify the record within a given domain.
-*   **Purpose**: Ensures that records can be identified as unique within a system or during a system migration.
+*   **Purpose**: Ensures that records can be uniquely identified within the RAC's systems during archival processes.
 *   **Data type**: String
 *   **Obligation**: Required
 *   **Repeatability**: No
@@ -38,7 +38,7 @@ A file named `metadata.json` should be included in the `data/` directory of the 
 ## Title
 
 *   **Definition**: The title of a group of records. Do not include dates in the title element.
-*   **Purpose**: Enables information search and discovery, facilitates user choice and provides additional context.
+*   **Purpose**: Enables information search and discovery, facilitates user choice and provides additional context for archival records.
 *   **Data type**: String
 *   **Obligation**: Required
 *   **Repeatability**: No
@@ -48,7 +48,7 @@ A file named `metadata.json` should be included in the `data/` directory of the 
 ## Dates
 
 *   **Definition**: The date on or date range in which the group of records was created.
-*   **Purpose**: 	Provides evidence that the record is authentic and records date information about the item.
+*   **Purpose**: 	Provides evidence that the record is authentic and records date information about the group of records.
 *   **Data type**: Values must meet ISO 8601: Standard for Representation of Dates and Times.
 *   **Obligation**: Required
 *   **Repeatability**: No
@@ -62,7 +62,7 @@ Look at AS date model. How complex these are may depend a lot on what parsers ar
 
 *   **Definition**: Identifies the individuals, organizations or departments that created the group of records.
 *   **Purpose**: Provides evidence and context for records by identifying the creator of the record and supports user search, allowing information to be filtered.
-*   **Data type**: Name object
+*   **Data type**: Name object (see below)
 *   **Obligation**: Required
 *   **Repeatability**: Yes
 *   **Examples**:
@@ -77,7 +77,7 @@ A human-readable string.
 
 Used when a naming scheme is used for assigning names.
 
-Possible to have a more robust data model; look at AS model.
+Possible to have a more robust data model; look at AS model. Is this desirable?
 
 *   role (could be something other than creator)
 *   type (person/organization)
@@ -95,7 +95,7 @@ Possible to have a more robust data model; look at AS model.
 
 Use URIs? What about records that have no language content?
 
-Could also make this a single value and just ask organizations to use `mul` if there are multiple languages present.
+Could also make this non-repeatable and use `mul` if there are multiple languages present.
 
 ## Description
 
@@ -117,6 +117,6 @@ Could also make this a single value and just ask organizations to use `mul` if t
 
 Depends a lot on what "restriction" means to our donors; may have to just be a text field.
 
-Wouldn't it be great if we had a set of locally-maintained restrictions? Or would that be a waste of time?
+Wouldn't it be great if we had a set of locally-maintained donor-specific restrictions? Or would that be a waste of time?
 
-What about IP?
+What about IP? Could point to [rightsstatements.org](http://rightsstatements.org/en/) for this...
