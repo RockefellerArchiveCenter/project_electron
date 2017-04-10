@@ -131,3 +131,12 @@ Depends a lot on what "restriction" means to our donors; may have to just be a t
 Wouldn't it be great if we had a set of locally-maintained donor-specific restrictions? Or would that be a waste of time?
 
 What about IP? Could point to [rightsstatements.org](http://rightsstatements.org/en/) for this...
+
+## Optional data elements
+
+*   **Definition**: Additional donor-supplied elements
+*   **Purpose**: Allows for the transfer of additional metadata elements which may be relevant to an understanding of the records.
+*   **Data type**: JSON key value pairs or arrays
+*   **Obligation**: Optional
+*   **Repeatability**: No
+*   **Examples**:
