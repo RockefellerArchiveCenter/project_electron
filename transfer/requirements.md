@@ -19,6 +19,8 @@ See [Metadata Template](examples/metadata.md) for further details.
 
 Transfers should be structured according to [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including Java, Python, PHP and Ruby.
 
+We prefer transfers that are both semantically meaningful and smaller in size. In cases where large transfers need to bro separated into multiple bags, the `bagCount` and `groupIdentifier` fields will be used to create relationships between bags. 
+
 ## Transfer Protocol
 
 Transfer packages should be pushed to RAC temporary storage via SFTP. If required by large file sizes or volume, file chunking may be implemented. Transfers will take place through a firewall with only non-standard ports open, and IP address whitelisting will be used.
