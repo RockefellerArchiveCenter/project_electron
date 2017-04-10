@@ -84,6 +84,17 @@ Possible to have a more robust data model; look at AS model. Is this desirable?
 *   URI
 *   Name String
 
+## Record type
+
+*   **Definition**: The broad category into which the records fall.
+*   **Purpose**: Allows different validation rules for transfer metadata to be used for different kinds of records.
+*   **Data type**: Locally controlled(?): administrative records, board materials, communications and publications, grant records.
+*   **Obligation**: Required
+*   **Repeatability**: Yes
+*   **Examples**:
+
+If multiple record types are allowed in a single transfer, how do we distinguish which is which? Does it matter? OTOH, making these transfers semantically meaningful would seem to indicate that we only have one type of record per transfer.
+
 ## Languages
 
 *   **Definition**: The natural language(s) in which the materials are written.
