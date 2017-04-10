@@ -1,6 +1,12 @@
 # Preliminary Requirements for Transfer of Digital Records
 Rockefeller Archive Center/Project Electron/March 2017
 
+Transfers should:
+
+*   be semantically meaningful
+*   contain the necessary contextual information to be archivally managed and preserved
+*   be structured consistently so as to allow for automated validation
+
 ## Metadata
 
 The data elements outlined below are the minimum elements necessary to support archival management of records in any medium or format, as specified by [Describing Archives: A Content Standard](http://www2.archivists.org/standards/DACS). These metadata elements should be applied at an aggregate level. If desired, additional data elements may be supplied by the donor organization.
