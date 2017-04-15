@@ -19,7 +19,9 @@ See [Metadata Template](examples/metadata.md) for further details.
 
 Transfers should be structured according to [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including Java, Python, PHP and Ruby.
 
-We prefer transfers that are both semantically meaningful and smaller in size. In cases where large transfers need to bro separated into multiple bags, the `bagCount` and `groupIdentifier` fields will be used to create relationships between bags. 
+We prefer transfers that are both semantically meaningful and smaller in size. In cases where large transfers need to bro separated into multiple bags, the `bagCount` and `groupIdentifier` fields will be used to create relationships between bags.
+
+[BagIt Profiles](https://github.com/ruebot/bagit-profiles) may be used to extend the BagIt specification and make use of [existing validation tools](https://github.com/ruebot/bagit-profiles-validator).
 
 ## Transfer Protocol
 
