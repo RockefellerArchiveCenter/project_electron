@@ -4,24 +4,16 @@ Contains requirements and other documentation for transfers of digital records f
 
 ## Requirements
 
-Requirements for transfers.
+High-level [requirements](requirements.md) for transfers.
 
-## Examples
+## Metadata
 
-A set of example transfers, broken into four broad record types. These examples are intended to be illustrative and not prescriptive.
+Specification for [metadata](metadata.md) to be included in transfers
 
-### Administrative records
+## BagIt Specification
 
-President's office, program and policy, etc.
+The Rockefeller Archive Center's [specification](bagit-specification.md) for bags containing digital records.
 
-### Board materials
+## Generating examples
 
-Board books, dockets and minutes.
-
-### Communications and Publications
-
-Annual reports, newsletters, etc.
-
-### Grant records
-
-Some with additional metadata.
+Scripts to [generate sample bags](example-scripts/) with user-supplied payloads.
