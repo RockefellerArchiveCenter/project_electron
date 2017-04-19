@@ -26,3 +26,10 @@ We prefer transfers that are both semantically meaningful and smaller in size. I
 ## Transfer Protocol
 
 Transfer packages should be pushed to RAC temporary storage via SFTP. If required by large file sizes or volume, file chunking may be implemented. Transfers will take place through a firewall with only non-standard ports open, and IP address whitelisting will be used.
+
+## Transfer Size
+
+A single bag should not exceed 500 gigabytes in size. Bags exceeding this size can be handled in two ways.
+
+1.  For transfers containing multiple files, multiple bags can be created and linked by using `Bag-Group-Identifier` and `Bag-Count` fields.
+2.  For transfers which cannot be divided into sets of files as above, a single bag should be created and transferred via secured hard drives.
