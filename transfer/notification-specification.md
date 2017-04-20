@@ -4,36 +4,25 @@ Transfer notifications come in two flavors: success and error.
 
 ## Success
 
+Notifications indicating success will have a `code` value of `200`. The `message` value provides information about the process that was successfully completed, while the optional `action` value indicates system actions that have been taken as a result of the successful process.
+
 ```
 {
-  "result": "done",
-  "message": "Bag successfully checked for viruses."
+  "code": 200,
+  "message": "Bag successfully checked for viruses",
+  "action": "Staged for appraisal"
 }
 ```
-
-Should result be integers (ideally corresponding to error codes below)?
 
 ## Error
 
+Notifications indicating an error has occurred will have a `code` value of `400`. The `error` value indicates a general category of error, while the `message` value provides information about the specific error that occurred. The optional `action` value indicates system actions that have been taken as a result of the error.
+
 ```
 {
-  "error": 200,
-  "message": "Bag validation failed. Metadata elements are missing.",
-  "action": "staged for deletion"
+  "code": 400,
+  "error": "Bag validation failure",
+  "message": "Metadata elements are missing",
+  "action": "Staged for deletion",
 }
 ```
-
-### Error codes
-
-Should we care about avoiding collision (even if it's just perceived semantic collision) with existing error codes for HTTP and things like that?
-
-### Actions
-
-Should these be integers rather than text?
-
-Thinking the list would look like this:
-*   Viruses found
-*   Incorrect bag structure
-*   Incorrect metadata
-
-Might be desirable to provide more granularity (particularly for bag structure or metadata)
