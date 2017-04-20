@@ -14,6 +14,10 @@ Specification for [metadata](metadata.md) to be included in transfers
 
 The Rockefeller Archive Center's [specification](bagit-specification.md) for bags containing digital records.
 
-## Generating examples
+## Example Bags
 
-Scripts to [generate sample bags](example-scripts/) with user-supplied payloads.
+Scripts to [generate and validate sample bags](example-scripts/) with user-supplied payloads.
+
+## Messaging Specification
+
+A specification for [structured messages](messaging-specification.md) automatically delivered by the transfer system.
