@@ -18,6 +18,6 @@ The Rockefeller Archive Center's [specification](bagit-specification.md) for bag
 
 Scripts to [generate and validate sample bags](example-scripts/) with user-supplied payloads.
 
-## Messaging Specification
+## Notification Specification
 
-A specification for [structured messages](messaging-specification.md) automatically delivered by the transfer system.
+A specification for [structured notifications](notification-specification.md) automatically delivered by the transfer system.
