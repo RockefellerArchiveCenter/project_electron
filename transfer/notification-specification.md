@@ -6,7 +6,7 @@ Transfer notifications come in two flavors: success and error.
 
 ```
 {
-  "result": "done"
+  "result": "done",
   "message": "Bag successfully checked for viruses."
 }
 ```
@@ -17,8 +17,8 @@ Should result be integers (ideally corresponding to error codes below)?
 
 ```
 {
-  "error": 200;
-  "message": "Bag validation failed. Metadata elements are missing."
+  "error": 200,
+  "message": "Bag validation failed. Metadata elements are missing.",
   "action": "staged for deletion"
 }
 ```
