@@ -35,10 +35,10 @@
       "Record-Creators":{
         "required":true,
         "values":[
-        "Ford Foundation",
-        "Rockefeller Foundation",
-        "Rockefeller University",
-        "Commonwealth Fund"
+          "Ford Foundation",
+          "Rockefeller Foundation",
+          "Rockefeller University",
+          "Commonwealth Fund"
         ]
       },
       "Record-Type":{
