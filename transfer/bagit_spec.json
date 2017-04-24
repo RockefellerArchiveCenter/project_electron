@@ -34,12 +34,6 @@
       },
       "Record-Creators":{
         "required":true,
-        "values":[
-          "Ford Foundation",
-          "Rockefeller Foundation",
-          "Rockefeller University",
-          "Commonwealth Fund"
-        ]
       },
       "Record-Type":{
         "required":true,
@@ -56,10 +50,6 @@
       },
       "Restrictions":{
         "required":false,
-        "values":[
-          "restricted",
-          "open"
-        ]
       },
       "Bagging-Date":{
          "required":true
@@ -68,9 +58,6 @@
          "required":true
       }
    },
-   "Manifests-Required":[
-      "md5"
-   ],
    "Allow-Fetch.txt":false,
    "Serialization":"optional",
    "Accept-Serialization":[
