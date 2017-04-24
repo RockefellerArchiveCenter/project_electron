@@ -10,7 +10,7 @@
 
 The data elements outlined below are the minimum elements necessary to support archival management of records in any medium or format, as specified by [Describing Archives: A Content Standard](http://www2.archivists.org/standards/DACS). These metadata elements should be applied at an aggregate level. If desired, additional data elements may be supplied by the donor organization.
 
-This metadata should be serialized as a single JSON or JSON-LD file in each transfer.
+This metadata should be serialized as a single [JSON](http://www.json.org/) or [JSON-LD](http://json-ld.org/) file in each transfer.
 
 See [Metadata Template](metadata.md) for further details.
 
@@ -18,7 +18,7 @@ See [Metadata Template](metadata.md) for further details.
 
 Transfers should be structured according to [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including Java, Python, PHP and Ruby.
 
-[BagIt Profiles](https://github.com/ruebot/bagit-profiles) may be used to extend the BagIt specification and make use of [existing validation tools](https://github.com/ruebot/bagit-profiles-validator).
+A [BagIt Profile](https://github.com/ruebot/bagit-profiles) is used to extend the BagIt specification and make use of [existing validation tools](https://github.com/ruebot/bagit-profiles-validator).
 
 See [Rockefeller Archive Center BagIt Specification](bagit-specification.md) for further details.
 
