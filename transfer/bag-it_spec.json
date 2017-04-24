@@ -1,0 +1,84 @@
+{
+     "BagIt-Profile-Info":{
+      "BagIt-Profile-Identifier":"http://rockarch.org/standards/bagit/transfer.json",
+      "Source-Organization":"Rockarch.org",
+      "Contact-Name":"Hillel Arnold",
+      "Contact-Email":"harnold@rockarch.org",
+      "External-Description":"BagIt profile for transferring records from donors to the RAC",
+      "Version":"1.0"
+   },
+   "Bag-Info":{
+      "Source-Organization":{
+         "required":true,
+         "values":[
+            "Ford Foundation",
+            "Rockefeller Foundation",
+            "Rockefeller University",
+            "Commonwealth Fund"
+         ]
+      },
+      "External-Identifier":{
+        "required":true,
+      },
+      "Internal-Sender-Description":{
+         "required":true,
+      },
+      "Title":{
+        "required":true,
+      },
+      "Date-Start":{
+        "required":true,
+      },
+      "Date-End":{
+        "required":true,
+      },
+      "Record-Creators":{
+        "required":true,
+        "values":[
+        "Ford Foundation",
+        "Rockefeller Foundation",
+        "Rockefeller University",
+        "Commonwealth Fund"
+        ]
+      },
+      "Record-Type":{
+        "required":true,
+        "values":[
+          "administrative records",
+          "board materials",
+          "communications and publications",
+          "grant records",
+          "annual reports"
+        ]
+      },
+      "Language":{
+        "required":true,
+      },
+      "Restrictions":{
+        "required":false,
+        "values":[
+          "restricted",
+          "open"
+        ]
+      },
+      "Bagging-Date":{
+         "required":true
+      },
+      "Payload-Oxum":{
+         "required":true
+      }
+   },
+   "Manifests-Required":[
+      "md5"
+   ],
+   "Allow-Fetch.txt":false,
+   "Serialization":"optional",
+   "Accept-Serialization":[
+      "application/zip",
+      "application/rar",
+      "application/tar"
+   ],
+   "Accept-BagIt-Version":[
+      "0.97"
+   ]
+}
