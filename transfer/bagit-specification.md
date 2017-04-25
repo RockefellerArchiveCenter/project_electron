@@ -54,6 +54,8 @@ Language
 Restrictions
 Bagging-Date
 Payload-Oxum
+Bag-Count
+Bag-Group-Identifier
 ```
 
 ###### data
@@ -190,3 +192,27 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Repeatability:** No
 *   **Examples:**
     *   "279164409832.1198"
+    
+### Bag-Count
+
+*   **Definition:** Reserved field specified by the BagIt specification. Two numbers separated by 'of', in particular, 'N of T', where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as '?' (question mark).
+*   **Purpose:** Provide information how many bags make up the record transfer.
+*   **Data type:** String
+*   **Obligation:** Optional
+*   **Repeatability:** No
+*   **Examples:**
+    *   "1 of 2"
+    *   "4 of 4"
+    *   "3 of ?"
+
+### Bag-Group-Identifier
+
+*   **Definition:** Reserved field specified by the BagIt specification. A unique identifier for the entire set of bags to which this bag belongs.
+*   **Purpose:** Provide an identifier to logically group multi-bag transfers together.
+*   **Data type:** String
+*   **Obligation:** Optional
+*   **Repeatability:** No
+*   **Examples:**
+    *   "xOmy5"
+    *   "AnnualReports"
+    *   "Group1"
