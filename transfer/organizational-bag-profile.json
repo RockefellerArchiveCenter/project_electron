@@ -1,6 +1,6 @@
 {
      "BagIt-Profile-Info":{
-      "BagIt-Profile-Identifier":"http://rockarch.org/standards/bagit/transfer.json",
+      "BagIt-Profile-Identifier":"http://rockarch.org/standards/bagit/organizational-bag-profile.json",
       "Source-Organization":"Rockarch.org",
       "Contact-Name":"Hillel Arnold",
       "Contact-Email":"harnold@rockarch.org",
