@@ -2,11 +2,11 @@
 This page describes the specifics of the RAC's BagIt specification. Senders will create and bag all materials before sending them to the RAC for ingest.
 
 ## Specification
-1.  RAC packages conform to the [BagIt packaging specification] (https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
+1.  RAC packages conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
 2.  RAC packages may be
   1.  serialized (single zip, rar, or tar)
   2.  un-serialized
-3.  All bags must conform to the [RAC BagIt profile]  (https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
+3.  All bags must conform to the [RAC BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
 
 ## RAC BagIt Structure
 This section includes a simple example of an RAC BagIt Specification-compliant bag. Although the RAC accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
