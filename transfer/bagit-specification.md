@@ -181,3 +181,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:** "279164409832.1198"
+
+### Optional Tags
+*   Follow the BagIt specification for any optional tags or tage directories. Donors may include optional tags of their own, btu the RAC will ignore these.
+
