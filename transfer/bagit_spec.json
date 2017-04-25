@@ -56,7 +56,13 @@
       },
       "Payload-Oxum":{
          "required":true
-      }
+      },
+      "Bag-Count":{
+         "required":false
+      },
+      "Bag-Group-Identifier":{
+         "required":false
+      },
    },
    "Allow-Fetch.txt":false,
    "Serialization":"optional",
