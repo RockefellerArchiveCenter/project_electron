@@ -4,8 +4,8 @@ This page describes the specifics of the RAC's BagIt specification. Senders will
 ## Specification
 1.  RAC packages conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
 2.  RAC packages may be
-  1.  serialized (single zip, rar, or tar)
-  2.  un-serialized
+    1.  serialized (single zip, rar, or tar)
+    2.  un-serialized
 3.  All bags must conform to the [RAC BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
 
 ## RAC BagIt Structure
@@ -57,7 +57,7 @@ Payload-Oxum
 ```
 
 ###### data
-Required directory for payload items. May be serialized or un-serialized.
+Required directory for payload items. This directory may be serialized as a single file (for example a ZIP file), or un-serialized as a number of files and subdirectories.
 
 ###### metadata.json
 Valid JSON or JSON-LD file that includes metadata elements included in bag-info.txt as well as any additional elements donors wish to provide to the RAC.
@@ -70,10 +70,11 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 *   **Definition:** The organization responsible for sending the content.
 *   **Purpose:** Provides information to the RAC about the organization sending the records.
-*   **Data type:** Locally controlled: Ford Foundation, Rockefeller Foundation, Commonwealth Fund, etc. Will be expanded as necessary.
+*   **Data type:** Locally controlled. See the [RAC BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "Ford Foundation"
+*   **Examples:**
+    *   "Ford Foundation"
 
 ### External-Identifier
 
@@ -82,7 +83,9 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** String
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "OyGpXmSFVkCpds7i4gRv", "Grant2561"
+*   **Examples:**
+    *   "OyGpXmSFVkCpds7i4gRv"
+    *   "Grant2561"
 
 ### Internal-Sender-Description
 
@@ -91,7 +94,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** String
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "Annual reports discussing the accomplishments and major strategic initiatives of the Ford Foundation."
+*   **Examples:**
+    *   "Annual reports discussing the accomplishments and major strategic initiatives of the Ford Foundation."
 
 ### Title
 
@@ -100,25 +104,29 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** String
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "Annual Reports"
+*   **Examples:**
+    *   "Annual Reports"
 
 ### Date-Start
 
-*   **Definition:** The start date for which the group of records was created.
-*   **Purpose:** Enables information search and discovery, facilitates user choice and provides additional context for archival records.
-*   **Data type:** Values must meet ISO 8601: Standard for Representation of Dates and Times.
-*   **Obligation:** Required
-*   **Repeatability:** No
-*   **Examples:** "1995-01-01", "2002"
-
-### Date-End
-
-*   **Definition:** The start date for which the group of records ends.
+*   **Definition:** The earliest date on which records in the bag were created.
 *   **Purpose:** Enables information search and discovery, facilitates user choice and provides additional context for archival records.
 *   **Data type:** Values must meet _ISO 8601: Standard for Representation of Dates and Times_.
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "1997-12-31"
+*   **Examples:**
+    *   "1995-01-01"
+    *   "2002"
+
+### Date-End
+
+*   **Definition:** The latest date on which records in the transfer were created. Use only if this value differs from `Date-Start`.
+*   **Purpose:** Enables information search and discovery, facilitates user choice and provides additional context for archival records.
+*   **Data type:** Values must meet _ISO 8601: Standard for Representation of Dates and Times_.
+*   **Obligation:** Required for date ranges
+*   **Repeatability:** No
+*   **Examples:**
+    *   "1997-12-31"
 
 ### Record-Creators
 
@@ -128,8 +136,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
-  *   "Ford Foundation Communications Office"
-  *   "Walker, Darren"
+    *   "Ford Foundation Communications Office"
+    *   "Walker, Darren"
 
 ### Record-Type
 
@@ -139,15 +147,15 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
-  *   "annual reports"
-  *   "grant records"
+    *   "annual reports"
+    *   "grant records"
 
 ### Languages
 
-* **Definition:** The natural language(s) in which the materials are written.
-* **Purpose:** Assists user evaluation of relevance and facilitates machine translation.
-* **Data type:** Values must meet _ISO 639-2: Codes for the Representation of Names of Languages_. Use URIs linking directly to the language code. If materials have no language, please use "nil"
-* **Obligation:** Required
+*   **Definition:** The natural language(s) in which the materials are written.
+*   **Purpose:** Assists user evaluation of relevance and facilitates machine translation.
+*   **Data type:** Values must meet _ISO 639-2: Codes for the Representation of Names of Languages_. Use URIs linking directly to the language code. If materials have no language, please use "nil"
+*   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
     *   "http://id.loc.gov/vocabulary/iso639-2/eng"
@@ -160,7 +168,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
-*   **Examples:** "The annual report for 1996 might have IP restrictions due to photographs for which the Ford Foundation does not own copyright."
+*   **Examples:**
+    *   "The annual report for 1996 might have IP restrictions due to photographs for which the Ford Foundation does not own copyright."
 
 ### Bagging-Date
 
@@ -169,7 +178,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** Values must meet _ISO 8601: Standard for Representation of Dates and Times_.
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "2016-04-24"
+*   **Examples:**
+    *   "2016-04-24"
 
 ### Payload-Oxum
 
@@ -178,8 +188,5 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Data type:** OctetCount.StreamCount
 *   **Obligation:** Required
 *   **Repeatability:** No
-*   **Examples:** "279164409832.1198"
-
-### Optional Tags
-*   Follow the BagIt specification for any optional tags or tage directories. Donors may include optional tags of their own, btu the RAC will ignore these.
-
+*   **Examples:**
+    *   "279164409832.1198"
