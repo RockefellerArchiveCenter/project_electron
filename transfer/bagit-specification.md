@@ -54,9 +54,10 @@ Record-Type
 Language
 Restrictions
 Bagging-Date
-Payload-Oxum
 Bag-Count
 Bag-Group-Identifier
+Payload-Oxum
+BagIt-Profile-Identifier
 ```
 
 ###### data
@@ -176,28 +177,18 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Bagging-Date
 
-*   **Definition:** Reserved field specified by the BagIt specification. Date that the content was prepared for delivery.
-*   **Puropose:** Provides the date the bag was created.
+*   **Definition:** Date that the content was prepared for delivery.
+*   **Puropose:** Provides the date the bag was created to ensure authenticity.
 *   **Data type:** Values must meet _ISO 8601: Standard for Representation of Dates and Times_.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
     *   "2016-04-24"
 
-### Payload-Oxum
-
-*   **Definition:** Reserved field specified by the BagIt specification. The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt` if at all possible.
-*   **Purpose:** Payload-Oxum is intended for machine consumption.
-*   **Data type:** OctetCount.StreamCount
-*   **Obligation:** Required
-*   **Repeatability:** No
-*   **Examples:**
-    *   "279164409832.1198"
-
 ### Bag-Count
 
-*   **Definition:** Reserved field specified by the BagIt specification. Two numbers separated by 'of', in particular, 'N of T', where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as '?' (question mark).
-*   **Purpose:** Provide information how many bags make up the record transfer.
+*   **Definition:** Two numbers separated by 'of', in particular, 'N of T', where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as '?' (question mark).
+*   **Purpose:** Allows donors to split large bags into multiple parts that can be reassembled later.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
@@ -208,8 +199,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Bag-Group-Identifier
 
-*   **Definition:** Reserved field specified by the BagIt specification. A unique identifier for the entire set of bags to which this bag belongs.
-*   **Purpose:** Provide an identifier to logically group multi-bag transfers together.
+*   **Definition:** A unique identifier for the entire set of bags to which this bag belongs.
+*   **Purpose:** Provide an identifier to logically group multi-bag transfers.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
@@ -217,3 +208,23 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
     *   "xOmy5"
     *   "AnnualReports"
     *   "Group1"
+
+### Payload-Oxum
+
+*   **Definition:** The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt` if at all possible.
+*   **Purpose:** Payload-Oxum is intended for machine consumption.
+*   **Data type:** OctetCount.StreamCount
+*   **Obligation:** Required
+*   **Repeatability:** No
+*   **Examples:**
+    *   "279164409832.1198"
+
+### BagIt-Profile-Identifier
+
+*   **Definition:** An HTTP URI that
+*   **Data type:** Locally controlled (URL TBD)
+*   **Obligation:** Required
+*   **Repeatability:** No
+*   **Examples:**
+    *   "https://standards.rockarch.org/bagit/organizational-bag-profile.json"
+    *   "http://rockarch.org/bagitprofiles/bag-profile.json"
