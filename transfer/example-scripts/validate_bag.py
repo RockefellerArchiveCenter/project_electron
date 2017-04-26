@@ -6,7 +6,7 @@ import os
 
 def validate_bag(target):
     bag = bagit.Bag(target)
-    profile = bagit_profile.Profile('http://example.com/bagitprofile.json')
+    profile = bagit_profile.Profile('https://raw.github.com/ruebot/bagit-profiles/master/bagProfileBar.json')
     if profile.validate_serialization(target):
         print "Serialization validates"
         if profile.validate(bag):
@@ -17,7 +17,7 @@ def validate_bag(target):
         print "Serialization does not validate"
 
 def main():
-    target = raw_input("Please enter the relative or absolute path of a bag to validate: ")
+    target = raw_input("Please enter the path of a bag to validate: ")
     if os.path.isdir(target):
         validate_bag(target)
     else:
