@@ -1,25 +1,9 @@
 # Example Scripts
 
-These scripts use placeholder metadata and ask users to specify a directory (which may contain subdirectories) as the bag payload. Metadata values can be edited by changing variables in each script. A script to validate bags is also available.
+Scripts to create and validate bags.
 
-These scripts rely on [bagit-python](https://github.com/LibraryOfCongress/bagit-python), as well as [bagit-profiles-validator](https://github.com/ruebot/bagit-profiles-validator), which are both Python libraries for creating and validating bags.
+`create_bag.py` prompts users to specify a directory (which may contain subdirectories) as the bag payload. Metadata values written to `bag-info.txt` can be edited by changing variables in each script.
 
-## Administrative records
+`validate_bag.py` prompts users to specify an existing bag to validate. In addition to validating against the BagIt Specification, this validates against the [Rockefeller Archive Center BagIt Profile](../organizational-bag-profile.json).
 
-`administrative_records_bag.py`
-
-## Board materials
-
-`board_materials_bag.py`
-
-## Communications and Publications
-
-`publications_bag.py`
-
-## Grant records
-
-`grant_records_bag.py`
-
-## Validation
-
-`validate_bag.py`
+These scripts make use of existing Python libraries for working with BagIt-compliant bags. Both require [bagit-python](https://github.com/LibraryOfCongress/bagit-python), and `validate_bag.py` requires [bagit-profiles-validator](https://github.com/ruebot/bagit-profiles-validator) as well.
