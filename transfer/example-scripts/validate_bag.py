@@ -6,7 +6,7 @@ import os
 
 def validate_bag(target):
     bag = bagit.Bag(target)
-    profile = bagit_profile.Profile('https://raw.github.com/ruebot/bagit-profiles/master/bagProfileBar.json')
+    profile = bagit_profile.Profile('https://raw.githubusercontent.com/RockefellerArchiveCenter/project_electron/master/transfer/organizational-bag-profile.json')
     if profile.validate_serialization(target):
         print "Serialization validates"
         if profile.validate(bag):

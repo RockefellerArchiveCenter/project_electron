@@ -222,7 +222,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 ### BagIt-Profile-Identifier
 
 *   **Definition:** An HTTP URI that
-*   **Data type:** Locally controlled (URL TBD)
+*   **Data type:** Locally controlled, temporary URL: "https://raw.githubusercontent.com/RockefellerArchiveCenter/project_electron/master/transfer/organizational-bag-profile.json"
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**

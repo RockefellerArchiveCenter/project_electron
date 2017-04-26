@@ -23,7 +23,7 @@ def make_bag(target):
         'Bagging-Date':date,
         'Bag-Count':'1 of 2',
         'Bag-Group-Identifier':'Grants1968',
-        'BagIt-Profile-Identifier': 'https://raw.github.com/ruebot/bagit-profiles/master/bagProfileBar.json'
+        'BagIt-Profile-Identifier': 'https://raw.githubusercontent.com/RockefellerArchiveCenter/project_electron/master/transfer/organizational-bag-profile.json'
         }
 
     # make bag
