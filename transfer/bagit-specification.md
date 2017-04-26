@@ -40,7 +40,7 @@ Tag-File-Character-Encoding: UTF-8
 This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen `md5`, but `sha256` is also acceptable.
 
 ###### bag-info.txt
-The Rockefeller Archive Center requires the the presence of the following fields, but some of them may be nil or empty. For more details on the content and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from `bag-info.txt` as structured data.
+The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the **BagIt Specification**. For more details on the content, requirements, and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from `bag-info.txt` as structured data.
 
 ```
 Source-Organization
