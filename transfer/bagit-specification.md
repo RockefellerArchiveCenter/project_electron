@@ -1,15 +1,17 @@
 # Rockefeller Archive Center BagIt Specification
-This page describes the specifics of the RAC's BagIt specification. Senders will create and bag all materials before sending them to the RAC for ingest.
+This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
+
+Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, a [bag profile for organizational records](organizational-bag-profile.json) as well as [example Python scripts](example-scripts/) to create and validate bags are available in this repository. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
 
 ## Specification
-1.  RAC packages conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
-2.  RAC packages may be
-    1.  serialized (single zip, rar, or tar)
+1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
+2.  Rockefeller Archive Center bags may be
+    1.  serialized (single ZIP, RAR, or TAR file)
     2.  un-serialized
-3.  All bags must conform to the [RAC BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
+3.  All bags must valid according to the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
 
 ## RAC BagIt Structure
-This section includes a simple example of an RAC BagIt Specification-compliant bag. Although the RAC accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
+This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag. Although the Rockefeller Archive Center accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
 
 ```
 <RAC-BAG-ID>/
@@ -35,11 +37,10 @@ Tag-File-Character-Encoding: UTF-8
 ```
 
 ###### manifest-md5.txt
-This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For our example we have chosen `md5`, but `sha256` is also acceptable.
-
+This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen `md5`, but `sha256` is also acceptable.
 
 ###### bag-info.txt
-The RAC requires the the presence of the following fields, but some of them may be nil or empty. For more details on the content and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from bag-info.txt as structured data.
+The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the **BagIt Specification**. For more details on the content, requirements, and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from `bag-info.txt` as structured data.
 
 ```
 Source-Organization
@@ -53,9 +54,10 @@ Record-Type
 Language
 Restrictions
 Bagging-Date
-Payload-Oxum
 Bag-Count
 Bag-Group-Identifier
+Payload-Oxum
+BagIt-Profile-Identifier
 ```
 
 ###### data
@@ -71,8 +73,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 ### Source-Organization
 
 *   **Definition:** The organization responsible for sending the content.
-*   **Purpose:** Provides information to the RAC about the organization sending the records.
-*   **Data type:** Locally controlled. See the [RAC BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
+*   **Purpose:** Provides information to the Rockefeller Archive Center about the organization sending the records.
+*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
@@ -81,7 +83,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 ### External-Identifier
 
 *   **Definition:** A unique identifier applied to each group of records composed of characters, numbers or letters, or a combination thereof, that uniquely identify the record within a given domain.
-*   **Purpose:** Ensures that records can be uniquely identified within the RAC's systems during archival processes.
+*   **Purpose:** Ensures that records can be uniquely identified within the Rockefeller Archive Center's systems during archival processes.
 *   **Data type:** String
 *   **Obligation:** Required
 *   **Repeatability:** No
@@ -175,28 +177,18 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Bagging-Date
 
-*   **Definition:** Reserved field specified by the BagIt specification. Date that the content was prepared for delivery.
-*   **Puropose:** Provides the date the bag was created.
+*   **Definition:** Date that the content was prepared for delivery.
+*   **Puropose:** Provides the date the bag was created to ensure authenticity.
 *   **Data type:** Values must meet _ISO 8601: Standard for Representation of Dates and Times_.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
     *   "2016-04-24"
 
-### Payload-Oxum
-
-*   **Definition:** Reserved field specified by the BagIt specification. The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt` if at all possible.
-*   **Purpose:** Payload-Oxum is intended for machine consumption.
-*   **Data type:** OctetCount.StreamCount
-*   **Obligation:** Required
-*   **Repeatability:** No
-*   **Examples:**
-    *   "279164409832.1198"
-    
 ### Bag-Count
 
-*   **Definition:** Reserved field specified by the BagIt specification. Two numbers separated by 'of', in particular, 'N of T', where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as '?' (question mark).
-*   **Purpose:** Provide information how many bags make up the record transfer.
+*   **Definition:** Two numbers separated by 'of', in particular, 'N of T', where T is the total number of bags in a group of bags and N is the ordinal number within the group; if T is not known, specify it as '?' (question mark).
+*   **Purpose:** Allows donors to split large bags into multiple parts that can be reassembled later.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
@@ -207,8 +199,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Bag-Group-Identifier
 
-*   **Definition:** Reserved field specified by the BagIt specification. A unique identifier for the entire set of bags to which this bag belongs.
-*   **Purpose:** Provide an identifier to logically group multi-bag transfers together.
+*   **Definition:** A unique identifier for the entire set of bags to which this bag belongs.
+*   **Purpose:** Provide an identifier to logically group multi-bag transfers.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
@@ -216,3 +208,23 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
     *   "xOmy5"
     *   "AnnualReports"
     *   "Group1"
+
+### Payload-Oxum
+
+*   **Definition:** The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt` if at all possible.
+*   **Purpose:** Payload-Oxum is intended for machine consumption.
+*   **Data type:** OctetCount.StreamCount
+*   **Obligation:** Required
+*   **Repeatability:** No
+*   **Examples:**
+    *   "279164409832.1198"
+
+### BagIt-Profile-Identifier
+
+*   **Definition:** An HTTP URI that
+*   **Data type:** Locally controlled (URL TBD)
+*   **Obligation:** Required
+*   **Repeatability:** No
+*   **Examples:**
+    *   "https://standards.rockarch.org/bagit/organizational-bag-profile.json"
+    *   "http://rockarch.org/bagitprofiles/bag-profile.json"
