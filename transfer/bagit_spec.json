@@ -18,22 +18,22 @@
          ]
       },
       "External-Identifier":{
-        "required":true,
+        "required":true
       },
       "Internal-Sender-Description":{
-         "required":true,
+         "required":true
       },
       "Title":{
-        "required":true,
+        "required":true
       },
       "Date-Start":{
-        "required":true,
+        "required":true
       },
       "Date-End":{
-        "required":true,
+        "required":true
       },
       "Record-Creators":{
-        "required":true,
+        "required":true
       },
       "Record-Type":{
         "required":true,
@@ -46,10 +46,10 @@
         ]
       },
       "Language":{
-        "required":true,
+        "required":true
       },
       "Restrictions":{
-        "required":false,
+        "required":false
       },
       "Bagging-Date":{
          "required":true
@@ -62,7 +62,7 @@
       },
       "Bag-Group-Identifier":{
          "required":false
-      },
+      }
    },
    "Allow-Fetch.txt":false,
    "Serialization":"optional",
