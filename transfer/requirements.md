@@ -31,7 +31,7 @@ If desired, additional data elements may be supplied by the donor organization. 
 
 ## Notifications
 
-During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success and error, and are provided in formats suitable for both machine and human consumption.
+During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption.
 
 ### Success Messages
 
@@ -52,7 +52,7 @@ Machine-readable notifications indicating success will have a `code` value of `2
 
 Success notifications for humans will contain the following information:
 *   A description of the process(es) successfully completed
-*   The time the process(es) were completed
+*   The time at which the process(es) completed
 *   What process(es) will happen next
 *   What actions, if any, need to be taken by a person
 

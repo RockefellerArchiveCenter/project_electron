@@ -147,7 +147,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 *   **Definition:** The broad category into which the records fall.
 *   **Purpose:** Allows records to be staged appropriately for archival processes and facilitates the appropriate application of embargo periods, which vary by record type.
-*   **Data type:** Locally controlled: administrative records, annual reports, board materials, communications and publications, grant records. The RAC may expand or reduce these types as necessary.
+*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
