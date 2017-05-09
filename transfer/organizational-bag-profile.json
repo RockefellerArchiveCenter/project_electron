@@ -67,9 +67,7 @@
    "Allow-Fetch.txt":false,
    "Serialization":"optional",
    "Accept-Serialization":[
-      "application/zip",
-      "application/rar",
-      "application/tar"
+      "application/zip"
    ],
    "Accept-BagIt-Version":[
       "0.97"

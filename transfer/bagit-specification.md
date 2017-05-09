@@ -6,7 +6,7 @@ Donor organizations are responsible for creating bags which comply to this speci
 ## Specification
 1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
 2.  Rockefeller Archive Center bags may be
-    1.  serialized (single ZIP, RAR, or TAR file)
+    1.  serialized (single ZIP file)
     2.  un-serialized
 3.  All bags must valid according to the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON")
 
