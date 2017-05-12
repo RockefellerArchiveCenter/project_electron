@@ -78,7 +78,9 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
+    *   "Asian Cultural Council"
     *   "Ford Foundation"
+    *   "Social Science Research Council"
 
 ### External-Identifier
 
@@ -100,6 +102,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Repeatability:** No
 *   **Examples:**
     *   "Annual reports discussing the accomplishments and major strategic initiatives of the Ford Foundation."
+    *   "Board reports from all Russell Sage Foundation board meetings."
 
 ### Title
 
@@ -110,6 +113,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Repeatability:** No
 *   **Examples:**
     *   "Annual Reports"
+    *   "Grant Records"
 
 ### Date-Start
 
@@ -140,8 +144,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
-    *   "Ford Foundation Communications Office"
-    *   "Walker, Darren"
+    *   "Rockefeller Brothers Fund Communications Office"
+    *   "Shah, Rajiv"
 
 ### Record-Type
 
