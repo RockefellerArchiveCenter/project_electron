@@ -15,25 +15,32 @@
             "Rockefeller Foundation",
             "Rockefeller University",
             "Commonwealth Fund"
-         ]
+         ],
+         "repeatable":false
       },
       "External-Identifier":{
-        "required":true
+        "required":true,
+        "repeatable":false
       },
       "Internal-Sender-Description":{
-         "required":true
+         "required":true,
+         "repeatable":false
       },
       "Title":{
-        "required":true
+        "required":true,
+        "repeatable":false
       },
       "Date-Start":{
-        "required":true
+        "required":true,
+        "repeatable":false
       },
       "Date-End":{
-        "required":true
+        "required":true,
+        "repeatable":false
       },
       "Record-Creators":{
-        "required":true
+        "required":true,
+        "repeatable":true
       },
       "Record-Type":{
         "required":true,
@@ -43,25 +50,32 @@
           "communications and publications",
           "grant records",
           "annual reports"
-        ]
+        ],
+        "repeatable":true
       },
       "Language":{
-        "required":true
+        "required":true,
+        "repeatable":true
       },
       "Restrictions":{
-        "required":false
+        "required":false,
+        "repeatable":false
       },
       "Bagging-Date":{
-         "required":true
+         "required":true,
+         "repeatable":false
       },
       "Payload-Oxum":{
-         "required":true
+         "required":true,
+         "repeatable":false
       },
       "Bag-Count":{
-         "required":false
+         "required":false,
+         "repeatable":false
       },
       "Bag-Group-Identifier":{
-         "required":false
+         "required":false,
+         "repeatable":false
       }
    },
    "Allow-Fetch.txt":false,
