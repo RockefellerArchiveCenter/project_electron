@@ -46,15 +46,15 @@ Based on user stories and personas, develop requirements for repository
 
 Determine a baseline for repository product and identify further development priorities.
 
-### Identify 2-3 possible solutions - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Identify 2-3 possible solutions - May 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Identify a small number of potential storage solutions based on requirements.
 
-### Install and test storage solutions - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Install and test storage solutions - May 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Look for and set up test installs of potential repository solutions and develop a report with pros and cons.
 
-### Select storage solution - June 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Select storage solution - June 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Using the potential solutions report, requirements and personas, select a repository solution.
 
@@ -74,15 +74,15 @@ January 2017 - September 2017
 
 Develop strawperson transfer architecture and requirements. Determine MVP and subsequent development (will likely depend on technical capacity/organization size).
 
-### Donor/Depositor Requirements - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Donor/Depositor Requirements - May 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop complete requirements for donor and depositor organizations so that they can implement the necessary tools and services to transfer records to RAC temporary storage. This should include example transfers based on data from a number of organizations which illustrate various options.
 
-### Temporary Storage Requirements - May 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Temporary Storage Requirements - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Develop requirements for temporary “staging” storage.
 
-### Post-Transfer Service Requirements - May 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Post-Transfer Service Requirements - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Develop firm requirements for post transfer services including but not limited to virus checking, validation and fixity testing.
 
@@ -98,7 +98,7 @@ Model archival description to support functional requirements and use cases, usi
 
 Research practices and examples of data models and produce annotated bibliography.
 
-### RAC Staff Data Modeling Exercise - September 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### RAC Staff Data Modeling Exercise - September 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Engage select RAC staff in data modeling exercises to learn from domain expertise and encourage computational thinking.
 
