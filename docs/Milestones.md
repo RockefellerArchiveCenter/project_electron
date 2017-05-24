@@ -78,11 +78,11 @@ Develop strawperson transfer architecture and requirements. Determine MVP and su
 
 Develop complete requirements for donor and depositor organizations so that they can implement the necessary tools and services to transfer records to RAC temporary storage. This should include example transfers based on data from a number of organizations which illustrate various options.
 
-### Temporary Storage Requirements - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Temporary Storage Requirements - May 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop requirements for temporary “staging” storage.
 
-### Post-Transfer Service Requirements - May 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Post-Transfer Service Requirements - May 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop firm requirements for post transfer services including but not limited to virus checking, validation and fixity testing.
 
