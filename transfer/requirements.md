@@ -31,20 +31,23 @@ If desired, additional data elements may be supplied by the donor organization. 
 
 ## Notifications
 
-During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption.
+During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption. We have modeled the machine-actionable notifications after [W3's Activity Streams 2.0 specification](https://www.w3.org/TR/activitystreams-core/).
 
 ### Success Messages
 
 #### For Machines
 
-Machine-readable notifications indicating success will have a `code` value of `200`. The `message` value provides information about the process that was successfully completed, while the optional `action` value indicates system actions that have been taken as a result of the successful process. The value of `time` is a timestamp of the time the process completed successfully.
+Machine-readable notifications indicating success will have a `type` value of `Accept`. The `summary` value provides information about the process that was successfully completed. The `object` value provides a reference to the object the action was taken on. The optional `result` value provides additional information about the actions that have been taken as a result of the successful process. The value of `endTime` is a timestamp of the time the process completed successfully.
 
 ```
 {
-  "code": 200,
-  "message": "Bag successfully checked for viruses",
-  "action": "Staged for appraisal"
-  "time": 2017-04-21T20:01:07+00:00
+  "type": "Accept",
+  "summary": "Bag successfully checked for viruses",
+  "object": "Bag_001",
+  "result": {
+    "name": "Staged for appraisal"
+  }
+  "endTime": 2017-04-21T20:01:07+00:00
 }
 ```
 
@@ -62,14 +65,17 @@ It may be desirable to bundle these notifications in a daily digest, rather than
 
 #### For Machines
 
-Notifications indicating an error has occurred will have a `code` value of `400`. The `error` value indicates a general category of error, while the `message` value provides information about the specific error that occurred. The optional `action` value indicates system actions that have been taken as a result of the error and `time` is a timestamp of the time the error occurred.
+Notifications indicating an error has occurred will have a `type` value of `Reject`. The `summary` provides information about the specific error. The `content` value provides specific information about reason for the error. The `object` value provides a reference to the object the action was taken on. The optional `result` value indicates system actions that have been taken as a result of the error and `endTime` is a timestamp of the time the error occurred.
 
 ```
 {
-  "code": 400,
-  "error": "Bag validation failure",
-  "message": "Metadata elements are missing",
-  "action": "Staged for deletion",
+  "type": "Reject",
+  "summary": "Bag validation failure",
+  "content": "Metadata elements are missing",
+  "object": "Bag_001",
+  "result": {
+    "name": "Staged for deletion"
+  }
   "time": 2017-04-21T20:01:07+00:00
 }
 ```
