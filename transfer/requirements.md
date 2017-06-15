@@ -31,7 +31,7 @@ If desired, additional data elements may be supplied by the donor organization. 
 
 ## Notifications
 
-During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption. We have modeled the machine-actionable notifications after [W3's Activity Streams 2.0 specification](https://www.w3.org/TR/activitystreams-core/).
+During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption. Machine-actionable notifications comply with the [W3's Activity Streams 2.0 specification](https://www.w3.org/TR/activitystreams-core/). The below examples are illustrative of how the RAC may use the Activity Streams and should not be regarded as strictly prescriptive.
 
 ### Success Messages
 
@@ -65,18 +65,17 @@ It may be desirable to bundle these notifications in a daily digest, rather than
 
 #### For Machines
 
-Notifications indicating an error has occurred will have a `type` value of `Reject`. The `summary` provides information about the specific error. The `content` value provides specific information about reason for the error. The `object` value provides a reference to the object the action was taken on. The optional `result` value indicates system actions that have been taken as a result of the error and `endTime` is a timestamp of the time the error occurred.
+Notifications indicating an error has occurred will have a `type` value of `Reject`. The `summary` provides information about the specific error and specific information about reason for the error. The `object` value provides a reference to the object the action was taken on. The optional `result` value indicates system actions that have been taken as a result of the error and `endTime` is a timestamp of the time the error occurred.
 
 ```
 {
   "type": "Reject",
-  "summary": "Bag validation failure",
-  "content": "Metadata elements are missing",
+  "summary": "Bag validation failure. Metadata elements are missing",
   "object": "Bag_001",
   "result": {
     "name": "Staged for deletion"
   }
-  "time": 2017-04-21T20:01:07+00:00
+  "endTime": 2017-04-21T20:01:07+00:00
 }
 ```
 
