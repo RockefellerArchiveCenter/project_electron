@@ -27,7 +27,7 @@ A [BagIt Profile](https://github.com/ruebot/bagit-profiles) will be used to vali
 
 A minimal set of data elements describing the group of records contained in the transfer must be included as key-value pairs in `bag-info.txt`. These are the minimum elements necessary to support archival management of records in any medium or format, as specified by [Describing Archives: A Content Standard](http://www2.archivists.org/standards/DACS). The RAC will index this metadata as structured data. For more details, please see the **Bag-Info Field Specification** section in the [Rockefeller Archive Center BagIt Specification](bagit-specification.md).
 
-If desired, additional data elements may be supplied by the donor organization. This metadata should be serialized as a single [JSON](http://www.json.org/) or [JSON-LD](http://json-ld.org/) file named `metadata.json` and should be included in the `data/` directory of the bag. The RAC will preserve this file as a bitstream alongside the records that it pertains to, but it may not be indexed as structured data.
+If desired, additional data elements may be supplied by the donor organization. This metadata should be serialized as a single [JSON](http://www.json.org/) or [JSON-LD](http://json-ld.org/) file named `metadata.json`, should use UTF-8 character encoding, and should be included in the `data/` directory of the bag. The RAC will preserve this file as a bitstream alongside the records that it pertains to, but it may not be indexed as structured data.
 
 ## Notifications
 
