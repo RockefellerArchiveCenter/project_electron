@@ -1,5 +1,7 @@
 # Requirements for Transfer of Digital Records
 
+Version 1.0.0 (2017-06-20)
+
 ## Table of Contents
 *   [Structure](#structure)
 *   [Metadata](#metadata)
