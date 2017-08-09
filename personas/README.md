@@ -15,7 +15,7 @@ Personas developed for Project Electron.
 ### Researchers
 
 [Nina Reyes](documentary-filmmaker.md), documentary filmmaker  
-[Beatriz Oliviera](graduate-student.md), graduate student  
+[Beatriz Oliveira](graduate-student.md), graduate student  
 [Marc Richards](historian.md), historian  
 [Tony Destefano](personal-interest-researcher.md), personal interest researcher
 
