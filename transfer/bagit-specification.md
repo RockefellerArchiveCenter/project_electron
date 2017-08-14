@@ -67,7 +67,7 @@ BagIt-Profile-Identifier
 Required directory for payload items. This directory may be serialized as a single file (for example a ZIP file), or un-serialized as a number of files and subdirectories.
 
 ###### metadata.json
-Valid JSON or JSON-LD file that includes metadata elements included in bag-info.txt as well as any additional elements donors wish to provide to the RAC.
+Valid JSON or JSON-LD file that includes metadata elements included in bag-info.txt as well as any additional elements donors wish to provide to the RAC. This file is optional.
 
 ---
 
