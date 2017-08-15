@@ -5,7 +5,7 @@
       "Contact-Name":"Hillel Arnold",
       "Contact-Email":"harnold@rockarch.org",
       "External-Description":"BagIt profile for transferring records from donors to the RAC",
-      "Version":"1.0"
+      "Version":"1.1"
    },
    "Bag-Info":{
       "Source-Organization":{
@@ -78,6 +78,7 @@
          "repeatable":false
       }
    },
+   "Manifests-Required":[],
    "Allow-Fetch.txt":false,
    "Serialization":"optional",
    "Accept-Serialization":[
