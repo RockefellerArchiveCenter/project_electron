@@ -1,0 +1,8 @@
+---
+layout: default
+img: data-transfer.jpg
+category: Progress
+title: Transferring Records
+description: |
+---
+  Our recent work has focused on building out the part of Project Electron that facilitates the transfer of records from donors to the Rockefeller Archive Center. Hillel recently posted an [overview of the requirements](http://blog.rockarch.org/?p=1784) that we defined for the structure of these transfers, which are also [shared in more detail on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/transfer). We also held a hackathon, hosted by our partners at Marist College IT, to plan and start to build out the infrastructure. Check out Hannah's [blog post]http://blog.rockarch.org/?p=1815) for more details the hackathon. We are now in the midst of coding the pieces of the transfer process and creating user interfaces, and are looking forward to testing transfers very soon!  
