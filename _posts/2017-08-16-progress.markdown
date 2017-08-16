@@ -1,0 +1,8 @@
+---
+layout: default
+img: data-transfer.jpg
+category: Progress
+title: Developing the Transfer Process
+description: |
+---
+  We've focused our recent work on building out functionality to facilitate the transfer of records to the RAC from donors. Hillel recently posted an [overview of the requirements](http://blog.rockarch.org/?p=1784) that we defined for the structure of these transfers, which are also [shared in more detail on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/transfer). In addition, we held a hackathon hosted by our partners at Marist College IT to plan and start to build out the infrastructure. Check out Hannah's [blog post](http://blog.rockarch.org/?p=1815) for more details on the hackathon. We are are looking forward to testing transfers very soon!  
