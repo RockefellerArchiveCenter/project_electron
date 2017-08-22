@@ -29,7 +29,18 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
 ### Description
 
 ###### RAC-BAG-ID
-The name of the root directory of the bag.
+The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters:
+
+*   `<` (less than)
+*   `>` (greater than)
+*   `:` (colon)
+*   `"` (double quote)
+*   `/` (forward slash)
+*   `\` (backslash)
+*   `|` (vertical bar or pipe)
+*   `?` (question mark)
+*   `*` (asterisk)
+*   `~` (tilde)
 
 ###### bagit.txt
 As required in the BagIt spec. Includes BagIt version and tag file character encoding.
