@@ -40,7 +40,6 @@ The name of the root directory of the bag. This directory name may include Unico
 *   `|` (vertical bar or pipe)
 *   `?` (question mark)
 *   `*` (asterisk)
-*   `~` (tilde)
 
 ###### bagit.txt
 As required in the BagIt spec. Includes BagIt version and tag file character encoding.
