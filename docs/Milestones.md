@@ -178,6 +178,7 @@ Create user scenarios based on Project Electron personas and local expertise.
 
 Develop functional requirements and create structured tests to ensure development matches requirements for the following project components:
 - Native Fedora services (for example, fixity checks) as well as services external to Fedora (for example file format reports).
+
 Fedora is already installed on Marist’s infrastructure, and version updates have been automated to the extent possible.
 
 ### Integrations - August 2018
