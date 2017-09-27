@@ -65,7 +65,6 @@ Date-End
 Record-Creators
 Record-Type
 Language
-Restrictions
 Bagging-Date
 Bag-Count
 Bag-Group-Identifier
@@ -181,16 +180,6 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Examples:**
     *   "http://id.loc.gov/vocabulary/iso639-2/eng"
     *   "http://id.loc.gov/vocabulary/iso639-2/spa"
-
-### Restrictions
-
-*   **Definition:** Any restrictions related specifically to the group of records in the bag. Do not record general restrictions related to all records (or record types) from a given person or organization.
-*   **Purpose:** Provides information to users about the availability of records, and assists archivists in responsibly providing access to records.
-*   **Data type:** String
-*   **Obligation:** Optional
-*   **Repeatability:** No
-*   **Examples:**
-    *   "The annual report for 1996 might have IP restrictions due to photographs for which the Ford Foundation does not own copyright."
 
 ### Bagging-Date
 
