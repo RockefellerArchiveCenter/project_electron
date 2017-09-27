@@ -57,10 +57,6 @@
         "required":true,
         "repeatable":true
       },
-      "Restrictions":{
-        "required":false,
-        "repeatable":false
-      },
       "Bagging-Date":{
          "required":true,
          "repeatable":false
