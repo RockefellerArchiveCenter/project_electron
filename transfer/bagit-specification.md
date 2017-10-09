@@ -174,12 +174,12 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 *   **Definition:** The natural language(s) in which the materials are written.
 *   **Purpose:** Assists user evaluation of relevance and facilitates machine translation.
-*   **Data type:** Values must meet _ISO 639-2: Codes for the Representation of Names of Languages_. Use URIs linking directly to the language code. If materials have no language, please use "nil"
+*   **Data type:** Values must meet _ISO 639-3: Codes for the Representation of Names of Languages_. If materials have no language, please use "nil"
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
-    *   "http://id.loc.gov/vocabulary/iso639-2/eng"
-    *   "http://id.loc.gov/vocabulary/iso639-2/spa"
+    *   "eng"
+    *   "spa"
 
 ### Bagging-Date
 
