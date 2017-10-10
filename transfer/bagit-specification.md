@@ -86,7 +86,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 *   **Definition:** The organization responsible for sending the content.
 *   **Purpose:** Provides information to the Rockefeller Archive Center about the organization sending the records.
-*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
+*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/organizational-bag-profile.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
@@ -163,7 +163,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 *   **Definition:** The broad category into which the records fall.
 *   **Purpose:** Allows records to be staged appropriately for archival processes and facilitates the appropriate application of embargo periods, which vary by record type.
-*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/bagit_spec.json "RAC BagIt JSON") for acceptable values.
+*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/organizational-bag-profile.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
 *   **Repeatability:** Yes
 *   **Examples:**
