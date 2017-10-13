@@ -104,7 +104,7 @@ Test transfers with select donor/depositor organizations
 
 September 2017 - May 2018
 
-### User Scenarios - September 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### User Scenarios - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Create user scenarios based on Project Electron personas and local expertise.
 
@@ -114,7 +114,7 @@ Develop functional requirements and create structured tests to ensure developmen
 - Extend the existing transfer application to support archival appraisal and accessioning functions.
 - Systems integrations with Archivematica, ArchivesSpace and Fedora.
 
-### Hackathon - October 11, 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Hackathon - October 11, 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Collaborative hackathon to kick off development of appraisal and accessioning functionality.
 
@@ -186,11 +186,11 @@ Model archival description to support functional requirements and use cases, usi
 
 Research practices and examples of data models and produce annotated bibliography.
 
-### RAC Staff Data Modeling Exercise - September 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### RAC Staff Data Modeling Exercise - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Engage select RAC staff in data modeling exercises to learn from domain expertise and encourage computational thinking.
 
-### Initial Draft of Data Model - October 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Initial Draft of Data Model - October 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 Determine what objects we need to model and draft initial models.
 
 ## Rights and Restrictions
@@ -199,7 +199,7 @@ October 2017 - September 2018
 
 Related to a number of archival functions, this area of development would allow for default PREMIS rights statements detailing access and use restrictions to be automatically applied to transfers from a given organization. It would also allow users to select and apply additional rights statements to transfers via the transfer application.
 
-### Create Default PREMIS Rights Statements - December 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Create Default PREMIS Rights Statements - December 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Create PREMIS rights statements that represent our agreements with the initial set of donor organizations interviewed during the discovery phase of Project Electron.
 
