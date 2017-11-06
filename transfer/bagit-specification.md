@@ -1,6 +1,6 @@
 # Rockefeller Archive Center BagIt Specification
 
-Version 1.3.0 (2017-09-27)
+Version 1.4.0 (2017-11-05)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
 
@@ -165,7 +165,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Purpose:** Allows records to be staged appropriately for archival processes and facilitates the appropriate application of embargo periods, which vary by record type.
 *   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/organizational-bag-profile.json "RAC BagIt JSON") for acceptable values.
 *   **Obligation:** Required
-*   **Repeatability:** Yes
+*   **Repeatability:** No
 *   **Examples:**
     *   "annual reports"
     *   "grant records"
