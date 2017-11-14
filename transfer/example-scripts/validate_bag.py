@@ -64,19 +64,14 @@ def validate_datatypes(bag):
 def validate_metadata_file(bag):
     """checks if the metadata file path and is json is correct if exist"""
 
-    metadata_file = join(str(bag), 'data', 'metadata.json')
-
-    if not isfile(metadata_file):
-        print 'no metadata file'
-    else:
-        try:
-            data = ''
-            with open(metadata_file,'r') as open_file:
-                data = open_file.read()
-                return data
-                return json.loads(data)
-        except ValueError as e:
-            print "invalid json: {}".format(e)
+    try:
+        data = ''
+        with open(metadata_file,'r') as open_file:
+            data = open_file.read()
+            return data
+            return json.loads(data)
+    except ValueError as e:
+        print "invalid json: {}".format(e)
 
     return False
 
@@ -116,11 +111,15 @@ def validate_bag(target):
         exit()
 
     #Make sure metadata.json is valid
-    if validate_metadata_file(bag):
-        print "Optional metadata.json file is valid"
+    metadata_file = join(str(bag), 'data', 'metadata.json')
+    if not isfile(metadata_file):
+        print 'no metadata file'
     else:
-        print "Optional metadata.json file is not valid JSON"
-        exit()
+        if validate_metadata_file(bag):
+            print "Optional metadata.json file is valid"
+        else:
+            print "Optional metadata.json file is not valid JSON"
+            exit()
 
 def main():
     target = raw_input("Please enter the path of a bag to validate: ")
