@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised September 2017
+Revised December 2017
 
 ## Discovery
 
@@ -96,7 +96,7 @@ Develop requirements for temporary “staging” storage.
 
 Develop firm requirements for post transfer services including but not limited to virus checking, validation and fixity testing.
 
-### Test Transfer Process - September/October 2017 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Test Transfer Process - September/October 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Test transfers with select donor/depositor organizations
 
@@ -108,7 +108,7 @@ September 2017 - May 2018
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements and QA Tests - September 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Functional Requirements and QA Tests - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop functional requirements and create structured tests to ensure development matches requirements for the following project components:
 - Extend the existing transfer application to support archival appraisal and accessioning functions.
@@ -118,7 +118,7 @@ Develop functional requirements and create structured tests to ensure developmen
 
 Collaborative hackathon to kick off development of appraisal and accessioning functionality.
 
-### Integrations - November 2017-March 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Integrations - November 2017-March 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Build out integrations with existing systems and tools, including Archivematica, ArchivesSpace and Fedora, and develop processes such as:
 - Bundling transfers and other information into a Submission Information Package suitable for ingest into Archivematica.
@@ -190,7 +190,7 @@ Research practices and examples of data models and produce annotated bibliograph
 
 Engage select RAC staff in data modeling exercises to learn from domain expertise and encourage computational thinking.
 
-### Initial Draft of Data Model - October 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Initial Draft of Data Model - October 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 Determine what objects we need to model and draft initial models.
 
 ## Rights and Restrictions
