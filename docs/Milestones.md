@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised December 2017
+Revised February 2018
 
 ## Discovery
 
