@@ -1,6 +1,6 @@
 <section id="progress">
 <!-- Page Content -->
-{% for post in site.posts reversed %}
+{% for post in site.posts %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
     <div class="content-section-a">
@@ -13,6 +13,7 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <div class="lead"> {{ post.date | date: '%B %d, %Y' }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                       <img class="img-responsive" src="img/progress/{{ post.img }}" alt="">
@@ -36,6 +37,7 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
+                    <div class="lead"> {{ post.date | date: '%B %d, %Y' }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/progress/{{ post.img }}" alt="">

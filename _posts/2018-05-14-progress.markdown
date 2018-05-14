@@ -3,6 +3,7 @@ layout: default
 img: aurora-homescreen.png
 category: Progress
 title: Announcing Aurora 1.0
+date: 2018-05-14
 description: |
 ---
 
