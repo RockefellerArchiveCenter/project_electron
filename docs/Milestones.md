@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised February 2018
+Revised May 2018
 
 ## Discovery
 
@@ -145,7 +145,7 @@ Create user scenarios based on Project Electron personas and local expertise.
 
 Develop functional requirements and create structured tests to ensure development matches requirements for an ArchivesSpace integration. Research tools to help processing archivists describe born-digital records.
 
-### Integrations - April - May 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Integrations - April - May 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Specify and build out integrations with existing systems and tools, including ArchivesSpace. This likely includes data mapping between ArchivesSpace and Fedora data models.
 
@@ -215,10 +215,11 @@ Create a script for standardized usability testing of the transfer application u
 
 Create tasks based on user scenarios that facilitate the targeted usability testing of the features and functions of the transfer application. Add and revise tasks to adapt to design iteration.
 
-### Usability Testing - February - September 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Usability Testing - June - September 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
 
 Conduct iterative usability testing of the transfer application with RAC staff. Report problems identified in testing and recommend design solutions. Repeat testing periodically as new features are introduced during application development.    
 
 ## Service Level Agreement ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
 
 Create a service level agreement to govern maintenance of repository.
+
