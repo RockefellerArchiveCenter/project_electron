@@ -1,0 +1,14 @@
+---
+layout: default
+img: aurora-homescreen.png
+category: Progress
+title: Announcing Aurora 1.0
+date: 2018-06-07
+description: |
+---
+
+We are very pleased to announce the initial release of Aurora, an application to receive, virus check, and validate transfers of digital records.
+
+[Checkout Aurora](https://github.com/RockefellerArchiveCenter/aurora) on GitHub  
+Download the 1.0-alpha source code [here](https://github.com/RockefellerArchiveCenter/aurora/releases).  
+Read more on [our blog](http://blog.rockarch.org/?p=1997).
