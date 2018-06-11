@@ -1,6 +1,6 @@
 {
      "BagIt-Profile-Info":{
-      "BagIt-Profile-Identifier":"http://rockarch.org/standards/bagit/organizational-bag-profile.json",
+      "BagIt-Profile-Identifier":"https://raw.githubusercontent.com/RockefellerArchiveCenter/project_electron/master/transfer/organizational-bag-profile.json",
       "Source-Organization":"Rockarch.org",
       "Contact-Name":"Hillel Arnold",
       "Contact-Email":"harnold@rockarch.org",
@@ -14,7 +14,8 @@
             "Ford Foundation",
             "Rockefeller Foundation",
             "Rockefeller University",
-            "Commonwealth Fund"
+            "Commonwealth Fund",
+            "Test Organization"
          ],
          "repeatable":false
       },
