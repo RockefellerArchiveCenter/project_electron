@@ -1,4 +1,4 @@
-## Rockefeller Archive Center Data Modelling Bibliography
+## Rockefeller Archive Center Data Modeling Bibliography
 
 Compiled by Patrick Galligan
 
