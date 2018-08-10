@@ -9,6 +9,6 @@ description: |
 
 We are very pleased to announce the initial release of Aurora, a web application to support and regularize the ongoing secure transfer of digital records from active organizations to archives.
 
-- Checkout [Aurora on GitHub](https://github.com/RockefellerArchiveCenter/aurora) .
-- Download the [source code](https://github.com/RockefellerArchiveCenter/aurora/releases).   
+- Check out [Aurora on GitHub](https://github.com/RockefellerArchiveCenter/aurora) .
+- Download the [source code](https://github.com/RockefellerArchiveCenter/aurora).   
 - Read more on [our blog](http://blog.rockarch.org/?p=1997).
