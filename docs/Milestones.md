@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised May 2018
+Revised August 2018
 
 ## Discovery
 
@@ -215,7 +215,7 @@ Create a script for standardized usability testing of the transfer application u
 
 Create tasks based on user scenarios that facilitate the targeted usability testing of the features and functions of the transfer application. Add and revise tasks to adapt to design iteration.
 
-### Usability Testing - June - September 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Usability Testing - June - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Conduct iterative usability testing of the transfer application with RAC staff. Report problems identified in testing and recommend design solutions. Repeat testing periodically as new features are introduced during application development.    
 
