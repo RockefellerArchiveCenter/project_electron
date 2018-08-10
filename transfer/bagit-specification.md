@@ -1,17 +1,17 @@
 # Rockefeller Archive Center BagIt Specification
 
-Version 1.4.0 (2017-11-05)
+Version 1.5.0 (2018-08-10)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
 
-Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, a [bag profile for organizational records](organizational-bag-profile.json) as well as [example Python scripts](example-scripts/) to create and validate bags are available in this repository. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
+Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, a [BagIt Profile for organizational records](organizational-bag-profile.json) as well as [example Python scripts](example-scripts/) to create and validate bags are available in this repository. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
 
 ## Specification
-1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification")
-2.  Rockefeller Archive Center bags may be
+1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification").
+2.  Rockefeller Archive Center bags may be:
     1.  serialized (single ZIP or TAR file)
     2.  un-serialized
-3.  All bags must valid according to the [Rockefeller Archive Center BagIt Profile](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/transfer/organizational-bag-profile.json)
+3.  All bags must valid according to the organization's BagIt Profile. An [example BagIt Profile](organizational-bag-profile.json) is provided in this repository.
 
 ## RAC BagIt Structure
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag. Although the Rockefeller Archive Center accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
