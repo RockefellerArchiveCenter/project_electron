@@ -7,8 +7,8 @@ date: 2018-06-07
 description: |
 ---
 
-We are very pleased to announce the initial release of Aurora, an application to receive, virus check, and validate transfers of digital records.
+We are very pleased to announce the initial release of Aurora, a web application to support and regularize the ongoing secure transfer of digital records from active organizations to archives.
 
-[Checkout Aurora](https://github.com/RockefellerArchiveCenter/aurora) on GitHub  
-Download the 1.0-alpha source code [here](https://github.com/RockefellerArchiveCenter/aurora/releases).  
-Read more on [our blog](http://blog.rockarch.org/?p=1997).
+- Checkout [Aurora on GitHub](https://github.com/RockefellerArchiveCenter/aurora) .
+- Download the [source code](https://github.com/RockefellerArchiveCenter/aurora/releases).   
+- Read more on [our blog](http://blog.rockarch.org/?p=1997).
