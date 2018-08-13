@@ -1,6 +1,6 @@
 # Project Electron
 
-[Project Electron](http://projectelectron.rockarch.org/), is an initiative to build sustainable, open, and user-centered infrastructure for the archival management of digital records at the [Rockefeller Archive Center](http://rockarch.org/). Project updates are available on [Bits & Bytes](http://blog.rockarch.org/), the RAC's blog. 
+[Project Electron](http://projectelectron.rockarch.org/) is an initiative to build sustainable, open, and user-centered infrastructure for the archival management of digital records at the [Rockefeller Archive Center](http://rockarch.org/). Project updates are available on [Bits & Bytes](http://blog.rockarch.org/), the RAC's blog. 
 
 The `master` branch of this repository contains documentation, code, and other project artifacts that we want to share and keep under version control. See the `gh-pages` branch for the Jekyll-hosted site at [http://projectelectron.rockarch.org](http://projectelectron.rockarch.org).
 
