@@ -98,6 +98,6 @@ Transfer packages should be pushed to RAC temporary storage via SFTP. If require
 
 ## Size
 
-A single bag should not exceed 2 gigabytes in size. If a bag exceeds this size limit and contains multiple files, the preferred approach is to divide it into multiple bags which do not exceed the size limit, and to link these bags together by using `Bag-Group-Identifier` and `Bag-Count` fields. These bags can then be transferred via regular processes.
+A single bag should not exceed 2 gigabytes in size. If a bag exceeds this size limit and contains multiple files, the preferred approach is to divide it into multiple bags which do not exceed the size limit, linking these bags together by using `Bag-Group-Identifier` and `Bag-Count` fields. These smaller bags can then be transferred via regular processes.
 
-Bags which exceed the size limit and cannot be divided up are are considered edge cases. The RAC should be consulted before any attempt is made to transfer these bags so that the appropriate method of transfer can be determined. These bags must be checked for viruses prior to transfer, and a system-generated log of that activity (including the application, version and last updated date of virus definitions) must accompany each bag.
+Bags which exceed the size limit and cannot be subdivided are are considered edge cases. The RAC should be consulted before any attempt is made to deliver these bags so that the appropriate method of transfer can be determined. These bags must be checked for viruses prior to transfer, and a system-generated log of that activity - including the application, version and last updated date of virus definitions - must accompany each bag.
