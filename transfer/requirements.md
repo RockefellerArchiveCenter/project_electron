@@ -13,9 +13,9 @@ Version 1.2.0 (2018-08-23)
 
 ## Transfers should...
 
-*   be semantically meaningful
-*   contain the necessary contextual information to be archivally managed and preserved
-*   be structured consistently so as to allow for automated validation
+*   Be semantically meaningful.
+*   Contain the necessary contextual information to be archivally managed and preserved.
+*   Be structured consistently so as to allow for automated validation.
 
 ## Structure
 
@@ -23,7 +23,7 @@ Transfers should be structured according to the [Rockefeller Archive Center BagI
 
 This document extends the [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
 
-A [BagIt Profile](https://github.com/ruebot/bagit-profiles) will be used to validate transfers. A [bag profile for organizational records](organizational-bag-profile.json) as well as [example scripts](example-scripts/) to create and validate bags are available in this repository.
+A [BagIt Profile](https://github.com/ruebot/bagit-profiles) will be used to validate transfers. An example [BagIt Profile for organizational records](organizational-bag-profile.json) as well as [example scripts](example-scripts/) to create and validate bags are available in this repository.
 
 ## Metadata
 
@@ -33,7 +33,7 @@ If desired, additional data elements may be supplied by the donor organization. 
 
 ## Notifications
 
-During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption. Machine-actionable notifications comply with the [W3's Activity Streams 2.0 specification](https://www.w3.org/TR/activitystreams-core/). The below examples are illustrative of how the RAC may use the Activity Streams and should not be regarded as strictly prescriptive.
+During the process of transferring digital records to the custody of the Rockefeller Archive Center, messages will be generated to allow humans and machines to understand the status of transfers, trigger processes, and take appropriate actions to correct any errors. Transfer notification messages indicate either success or error, and are provided in formats suitable for both machine and human consumption. Machine-actionable notifications comply with the [W3's Activity Streams 2.0 specification](https://www.w3.org/TR/activitystreams-core/). The examples below are illustrative of how the RAC may use the Activity Streams and should not be regarded as strictly prescriptive.
 
 ### Success Messages
 
