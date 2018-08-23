@@ -2,7 +2,7 @@
 
 Scripts to create and validate bags.
 
-`create_bag.py` prompts users to specify a directory (which may contain subdirectories) as the bag payload. Metadata values written to `bag-info.txt` can be edited by changing variables in each script.
+`create_bag.py` creates a valid bag using metadata values hardcoded into the script. The directory to bag (which may contain subdirectories) can either be passed as the first argument or entered when at the script prompt.
 
 `validate_bag.py` prompts users to specify an existing bag to validate. In addition to validating against the BagIt Specification, this validates against the [Rockefeller Archive Center BagIt Profile](../organizational-bag-profile.json).
 

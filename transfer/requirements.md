@@ -1,6 +1,6 @@
 # Requirements for Transfer of Digital Records
 
-Version 1.1.0 (2017-08-25)
+Version 1.2.0 (2018-08-23)
 
 ## Table of Contents
 *   [Structure](#structure)
@@ -98,8 +98,6 @@ Transfer packages should be pushed to RAC temporary storage via SFTP. If require
 
 ## Size
 
-A single bag should not exceed 2 gigabytes in size. Bags exceeding this size can be handled in three ways.
+A single bag should not exceed 2 gigabytes in size. If a bag exceeds this size limit and contains multiple files, the preferred approach is to divide it into multiple bags which do not exceed the size limit, and to link these bags together by using `Bag-Group-Identifier` and `Bag-Count` fields. These bags can then be transferred via regular processes.
 
-1.  For transfers containing multiple files, multiple bags can be created and linked by using `Bag-Group-Identifier` and `Bag-Count` fields.
-2.  For transfers more than 2 gigabytes but less than 500 gigabytes in size which cannot be divided into sets of files as above, a single bag can be created and transferred via SFTP. Files in these transfers must be checked for viruses before they are sent to the RAC. A system-generated log of this activity is required.
-3.  For transfers exceeding 500 gigabytes in size which cannot be divided into sets of files as above, a single bag should be created and transferred via secured hard drives. Files transferred in this way must be checked for viruses before they are sent to the RAC. A system-generated log of this activity is required.
+Bags which exceed the size limit and cannot be divided up are are considered edge cases. The RAC should be consulted before any attempt is made to transfer these bags so that the appropriate method of transfer can be determined. These bags must be checked for viruses prior to transfer, and a system-generated log of that activity (including the application, version and last updated date of virus definitions) must accompany each bag.
