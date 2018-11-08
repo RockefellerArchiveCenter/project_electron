@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised August 2018
+Revised November 2018
 
 ## Discovery
 
@@ -39,7 +39,7 @@ Develop overall strategy for using Archivematica in ingest processes.
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements and QA Tests - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Functional Requirements - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 
 Develop functional requirements and create structured tests to ensure deliverables match requirements.
@@ -108,7 +108,7 @@ September 2017 - May 2018
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements and QA Tests - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
+### Functional Requirements - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop functional requirements and create structured tests to ensure development matches requirements for the following project components:
 - Extend the existing transfer application to support archival appraisal and accessioning functions.
@@ -129,30 +129,6 @@ Build out integrations with existing systems and tools, including Archivematica,
 
 Collaborative hackathon to kick off development of integrations and bundling processes.
 
-### QA Testing - April 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
-
-Test new development and integrations using automated or manual QA tests.
-
-## Arrangement & Description
-
-March 2018 - June 2018
-
-### User Scenarios - March 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
-
-Create user scenarios based on Project Electron personas and local expertise.
-
-### Functional Requirements and QA Tests - March 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
-
-Develop functional requirements and create structured tests to ensure development matches requirements for an ArchivesSpace integration. Research tools to help processing archivists describe born-digital records.
-
-### Integrations - April - May 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
-
-Specify and build out integrations with existing systems and tools, including ArchivesSpace. This likely includes data mapping between ArchivesSpace and Fedora data models.
-
-### QA Testing - June 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
-
-Test new development and integrations using automated or manual QA tests.
-
 ## Preservation Services
 
 June 2018 - September 2018
@@ -160,7 +136,7 @@ June 2018 - September 2018
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements and QA Tests - June 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Functional Requirements - June 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Develop functional requirements and create structured tests to ensure development matches requirements for the following project components:
 - Native Fedora services (for example, fixity checks) as well as services external to Fedora (for example file format reports).
@@ -170,11 +146,6 @@ Fedora is already installed on Marist’s infrastructure, and version updates ha
 ### Integrations - August 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
 
 Specify and build out integrations with Fedora and other preservation services.
-
-### QA Testing - September 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
-
-Test new development and integrations using automated or manual QA tests.
-
 
 ## Data modeling
 
@@ -192,16 +163,6 @@ Engage select RAC staff in data modeling exercises to learn from domain expertis
 
 ### Initial Draft of Data Model - October 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 Determine what objects we need to model and draft initial models.
-
-## Rights and Restrictions
-
-October 2017 - September 2018
-
-Related to a number of archival functions, this area of development would allow for default PREMIS rights statements detailing access and use restrictions to be automatically applied to transfers from a given organization. It would also allow users to select and apply additional rights statements to transfers via the transfer application.
-
-### Create Default PREMIS Rights Statements - December 2017 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
-
-Create PREMIS rights statements that represent our agreements with the initial set of donor organizations interviewed during the discovery phase of Project Electron.
 
 ## Usability Testing
 
