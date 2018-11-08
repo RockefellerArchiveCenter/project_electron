@@ -30,7 +30,7 @@ Using the potential solutions report, requirements and personas, select a reposi
 
 Install selected repository solution in deployment environment.
 
-### Repository customization - TBD, based on customizations necessary ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Repository customization - October 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Customize repository based on functional requirements so it meets minimum viable product baseline.
 
@@ -60,7 +60,7 @@ Test transfers with select donor/depositor organizations
 
 ## Appraisal/Accessioning
 
-September 2017 - May 2018
+September 2017 - December 2018
 
 ### User Scenarios - September 2017 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
@@ -76,7 +76,7 @@ Develop functional requirements and create structured tests to ensure developmen
 
 Collaborative hackathon to kick off development of appraisal and accessioning functionality.
 
-### Integrations - November 2017-March 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Integrations - November 2017-December 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Build out integrations with existing systems and tools, including Archivematica, ArchivesSpace and Fedora, and develop processes such as:
 - Bundling transfers and other information into a Submission Information Package suitable for ingest into Archivematica.
@@ -89,19 +89,20 @@ Collaborative hackathon to kick off development of integrations and bundling pro
 
 ## Preservation Services
 
-June 2018 - September 2018
-### User Scenarios - June 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+June 2018 - December 2018
+
+### User Scenarios - June 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements - June 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Functional Requirements - June 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop functional requirements and create structured tests to ensure development matches requirements for the following project components:
 - Native Fedora services (for example, fixity checks) as well as services external to Fedora (for example file format reports).
 
 Fedora is already installed on Marist’s infrastructure, and version updates have been automated to the extent possible.
 
-### Integrations - August 2018 ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+### Integrations - December 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
 
 Specify and build out integrations with Fedora and other preservation services.
 
@@ -130,11 +131,11 @@ January - September 2018
 
 Create a script for standardized usability testing of the transfer application user interface.
 
-### User Tasks - February - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### User Tasks - February - September 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Create tasks based on user scenarios that facilitate the targeted usability testing of the features and functions of the transfer application. Add and revise tasks to adapt to design iteration.
 
-### Usability Testing - June - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Usability Testing - June - September 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Conduct iterative usability testing of the transfer application with RAC staff. Report problems identified in testing and recommend design solutions. Repeat testing periodically as new features are introduced during application development.    
 
