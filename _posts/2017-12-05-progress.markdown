@@ -2,7 +2,7 @@
 layout: default
 img: code-screen.jpg
 category: Progress
-title: We're Making Progress
+title: Making Progress
 date: 2017-12-05
 description: |
 ---
