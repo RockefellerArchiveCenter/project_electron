@@ -1,6 +1,6 @@
 # Project Electron Milestones
 
-Revised November 2018
+Revised January 2019
 
 ## Archival Storage Implementation
 
@@ -76,7 +76,7 @@ Develop functional requirements and create structured tests to ensure developmen
 
 Collaborative hackathon to kick off development of appraisal and accessioning functionality.
 
-### Integrations - November 2017-December 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Integrations - November 2017-December 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Build out integrations with existing systems and tools, including Archivematica, ArchivesSpace and Fedora, and develop processes such as:
 - Bundling transfers and other information into a Submission Information Package suitable for ingest into Archivematica.
@@ -102,7 +102,7 @@ Develop functional requirements and create structured tests to ensure developmen
 
 Fedora is already installed on Marist’s infrastructure, and version updates have been automated to the extent possible.
 
-### Integrations - December 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Integrations - December 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Specify and build out integrations with Fedora and other preservation services.
 
@@ -139,7 +139,7 @@ Create tasks based on user scenarios that facilitate the targeted usability test
 
 Conduct iterative usability testing of the transfer application with RAC staff. Report problems identified in testing and recommend design solutions. Repeat testing periodically as new features are introduced during application development.    
 
-## Service Level Agreement ![not yet started](https://img.shields.io/badge/status-not--yet--started-red.svg?style=flat-square)
+## Service Level Agreement ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Create a service level agreement to govern maintenance of repository.
 
@@ -175,11 +175,11 @@ Determine appropriate means of placing documentation under version control and m
 
 Develop overall strategy for using Archivematica in ingest processes.
 
-### User Scenarios - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### User Scenarios - September 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Create user scenarios based on Project Electron personas and local expertise.
 
-### Functional Requirements - September 2018 ![in progress](https://img.shields.io/badge/status-in--progress-orange.svg?style=flat-square)
+### Functional Requirements - September 2018 ![complete](https://img.shields.io/badge/status-complete-green.svg?style=flat-square)
 
 Develop functional requirements and create structured tests to ensure deliverables match requirements.
 
