@@ -1,0 +1,12 @@
+---
+layout: default
+img: microservices-section.jpg
+category: Progress
+title: Building Microservices for Integration
+date: 2019-01-22
+description: |
+---
+
+As we’ve continued to refine Aurora’s functionality, we’ve also built microservices applications which integrate a number of systems, moving digital records and data between them. We’ve clustered our services together into five applications: each comes with a Docker container, a comprehensive README, and a constellation-themed name.
+
+[Read more on our blog](https://blog.rockarch.org/project-electron-update-building-microservices-for-integration) about our approach to microservices, an introduction to the five applications, and find links to the code.
