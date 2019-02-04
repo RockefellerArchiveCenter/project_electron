@@ -2,7 +2,7 @@
 
 _Personal Interest Researcher_
 
-![persona image](img/tony-destafano.jpg)
+![persona image](img/tony-destefano.jpg)
 
 ## Background
 
