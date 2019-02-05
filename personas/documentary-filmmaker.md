@@ -1,4 +1,4 @@
-# Nina Reyes
+# Ángel Reyes
 
 _Documentary Filmmaker_
 
