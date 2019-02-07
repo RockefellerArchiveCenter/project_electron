@@ -6,7 +6,7 @@ _Documentary Filmmaker_
 
 ## Background
 
-Ángel is 33 years old and lives in Los Angeles, CA. They got their start as a production assistant and slowly worked their way up to directing documentary films. They're coming off their first documentary, which had modest success. Ángel has already started working on their second feature, which necessitates a lot of travel. They are betting most of their savings and industry capital on this film, so it will dominate their life for the next few years. Ángel is also deeply involved in their community and is a self-described latinx social activist.
+Ángel is 33 years old and lives in Los Angeles, CA. They got their start as a production assistant and slowly worked their way up to directing documentary films. They're coming off their first documentary, which had modest success. Ángel has already started working on their second feature, which necessitates a lot of travel. They are betting most of their savings and industry capital on this film, so it will dominate their life for the next few years. Ángel is also deeply involved in their community and is a self-described Latinx social activist.
 
 ## Goals and Motivations
 
