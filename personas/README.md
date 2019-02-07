@@ -17,7 +17,7 @@ Personas developed for Project Electron.
 [Ángel Reyes](documentary-filmmaker.md), documentary filmmaker  
 [Beatriz Oliveira](graduate-student.md), graduate student  
 [Marc Richards](historian.md), historian  
-[Tony Destefano](personal-interest-researcher.md), personal interest researcher
+[Tony DeStefano](personal-interest-researcher.md), personal interest researcher
 
 ### Information Professionals
 
