@@ -35,7 +35,8 @@ Patrick Galligan
 Kanisha Greaves  
 Bonnie Gordon  
 Renee Pappous  
-Brent Phillips  
+Brent Phillips
+Hannah Sistrunk
 Marissa Vassari  
 Julia Welby  
 
