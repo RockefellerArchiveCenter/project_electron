@@ -14,10 +14,10 @@ Personas developed for Project Electron.
 
 ### Researchers
 
-[Nina Reyes](documentary-filmmaker.md), documentary filmmaker  
+[Ángel Reyes](documentary-filmmaker.md), documentary filmmaker  
 [Beatriz Oliveira](graduate-student.md), graduate student  
 [Marc Richards](historian.md), historian  
-[Tony Destefano](personal-interest-researcher.md), personal interest researcher
+[Tony DeStefano](personal-interest-researcher.md), personal interest researcher
 
 ### Information Professionals
 
@@ -35,7 +35,8 @@ Patrick Galligan
 Kanisha Greaves  
 Bonnie Gordon  
 Renee Pappous  
-Brent Phillips  
+Brent Phillips
+Hannah Sistrunk
 Marissa Vassari  
 Julia Welby  
 

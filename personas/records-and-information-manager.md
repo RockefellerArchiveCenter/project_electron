@@ -6,7 +6,7 @@ _Records and Information Manager_
 
 ## Background
 
-Nashmia is 30 years old, has a Master’s in Library Science from the University of Michigan. Nashmia’s currently single and lives in a house that she owns in New Jersey. She has five years of Records Management experience working at corporate archive before moving to a large nonprofit. She has official ARMA certification.
+Nashmia is 30 years old, has a Master’s in Library Science from the University of Michigan. Nashmia’s currently single and lives in a house that she owns in New Jersey. She has five years of Records Management experience working at a corporate archive before moving to a large nonprofit. She has official ARMA certification.
 
 ## Goals and Motivations
 
