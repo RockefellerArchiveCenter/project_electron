@@ -18,7 +18,7 @@ In order to meet her goals, Laura needs excellent search tools for archival mate
 
 ## Pain Points
 
-One of the biggest headaches for Laura is chasing down material that is inaccurately cited in publications. She also routinely finds that researchers underestimate the amount of time their research will take because they can’t tell how much material there is to look at. Although she is annoyed by researchers who don’t follow reading room rules, she thinks this is largely the result of unclear and confusing policies and procedures, and she wants to simplify these processes and procedures so that her institution’s staff doesn’t have to deal with the blowback.
+One of the biggest headaches for Laura is chasing down citation information for researchers so that they can accurately cite records in publications. She also routinely finds that researchers underestimate the amount of time their research will take because they can’t tell how much material there is to look at. Although she is annoyed by researchers who don’t follow reading room rules, she thinks this is largely the result of unclear and confusing policies and procedures, and she wants to simplify these processes and procedures so that her institution’s staff doesn’t have to deal with the blowback.
 
 ## Current Devices, Apps & IT Use
 
