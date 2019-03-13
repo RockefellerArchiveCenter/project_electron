@@ -14,7 +14,7 @@ As the unofficial DeStefano family historian, Tony wants to find out about his f
 
 ## Needs
 
-Tony expects to be able to easily search for and have direct access to archival content. Since he is unable to travel long distances because of his age and financial situation, he wants to be able to download interesting things. He would like to share downloaded files and/or links with his family via email or social media. Tony has age-induced visual impairment, so he often has a hard time reading text on a screen and relies on being able to zoom and resize text.
+Tony expects to be able to easily search for and have direct access to archival content. Since he is unable to travel long distances because of his age and financial situation, he wants to be able to download interesting things. He would like to share downloaded files and/or links with his family via email or social media. Tony has age-induced visual impairment, so he often has a hard time reading text on a screen and relies on being able to zoom and resize text. He is also a little hard of hearing, so needs audiovisual content to be captioned or transcribed.
 
 ## Pain Points
 
