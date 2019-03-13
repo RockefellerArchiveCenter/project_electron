@@ -14,11 +14,11 @@ Won wants to access to her organization’s records, even after transferring the
 
 ## Needs
 
-In order to meet her needs, Won needs access to any records that have been transferred to the archive. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly sign off on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
+In order to meet her needs, Won needs access to any records that have been transferred to the archive. In particular, she often needs to quickly locate visually appealing content for use in social media or promotional materials. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly sign off on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
 
 ## Pain Points
 
-Won struggles with her organization’s legal team, who are extremely risk averse and question the value of public access to historical records. She also doesn’t often have final say on what material the archive can publish online, so she has to act as an intermediary between multiple stakeholders. She gets frustrated when the archive doesn’t communicate new policies or changes in service back to her department. Currently, gaining access to material sent to the archive takes longer than she’d like.
+Won struggles with her organization’s legal team, who are extremely risk averse and question the value of public access to historical records. She also doesn’t often have final say on what material the archive can publish online, so she has to act as an intermediary between multiple stakeholders. She gets frustrated when the archive doesn’t communicate new policies or changes in service back to her department. Currently, gaining access to material sent to the archive takes longer than she’d like, and she finds the archive's search interface confusing and difficult to navigate.
 
 ## Current Devices, Apps & IT Use
 
