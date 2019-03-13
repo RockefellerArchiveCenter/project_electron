@@ -10,7 +10,7 @@ Laura works as a public services librarian for special collections at a large ac
 
 ## Goals and Motivations
 
-Laura is motivated by the needs of her patrons, and she loves to connect people with information. Although she likes answering people’s questions, she enjoys teaching them how to find the answer for themselves even more. She also wants to make sure that the privacy of her patrons is protected and that archival material in the reading room is not damaged or misplaced. In addition, she wants to create interesting exhibits and programming that will bring more researchers to visit the special collections. When material is restricted due to donor agreements, she wants to make sure those restrictions are enforced consistently and equitably.
+Laura is motivated by the needs of her patrons, and she loves to connect people with information. Although she likes answering people’s questions, she enjoys teaching them how to find the answer for themselves even more. She also wants to make sure that the privacy of her patrons is protected and that archival material in the reading room is not damaged or misplaced. In addition, she wants to create interesting exhibits and programming that will bring more researchers to visit the special collections. When material is restricted due to donor agreements, she wants to make sure those restrictions are documented transparently and enforced consistently and equitably.
 
 ## Needs
 
