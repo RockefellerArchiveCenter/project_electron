@@ -14,7 +14,7 @@ _Documentary Filmmaker_
 
 ## Needs
 
-Ángel needs requested materials and information as fast as possible and would love to be able to see the material online before requesting copies for production. They seek transcripts for audiovisual materials to be able to access and search for relevant content quickly. They're looking for quick reference responses from the archive with confirmation that the materials and information are what they need. Ángel is not interested in archival context or jargon because the archival record is a means to an end for them.
+Ángel needs requested materials and information as fast as possible and would love to be able to see the material online before requesting copies for production. They seek transcripts for audiovisual materials to be able to access and search for relevant content quickly and rights information to know if and how they can use archival records. They're looking for quick reference responses from the archive with confirmation that the materials and information are what they need. Ángel is not interested in archival context or jargon because the archival record is a means to an end for them.
 
 ## Pain Points
 
