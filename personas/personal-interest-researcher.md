@@ -18,7 +18,7 @@ Tony expects to be able to easily search for and have direct access to archival 
 
 ## Pain Points
 
-Tony is easily overwhelmed by new technology and finds that it changes at a pace that is too fast for him to keep up with.
+Tony is easily overwhelmed by new technology and finds that it changes at a pace that is too fast for him to keep up with. He isn't familiar with how archival records are typically arranged and described, so he sometimes struggles to navigate through collections information to find things that interest him.
 
 ## Current Devices, Apps & IT Use
 
