@@ -6,7 +6,7 @@ _Museum Preservation Archivist_
 
 ## Background
 
-Elena works as a preservation archivist at a large museum in New York City. Her job is temporary and partially grant-funded. She lives in Brooklyn and commutes to work via bicycle when the weather permits. Her social circle is large and diverse. In her spare time, she volunteers at a local community center teaching technology skills to elementary and middle school kids. Her graduate degree, which she recently received, focused heavily on digital preservation techniques and activities. She is very involved in professional organizations and activities at the regional and national levels.
+Elena works as a preservation archivist at a large museum in New York City. Her job is temporary and partially grant-funded. She lives in Brooklyn and commutes to work via bicycle when the weather permits. Her social circle is large and diverse. In her spare time, she volunteers at a local community center teaching technology skills to elementary and middle school kids. Her graduate degree, which she recently received, focused heavily on digital preservation techniques and activities, although she is also conversant in paper-based conservation methods. She is very involved in professional organizations and activities at the regional and national levels.
 
 ## Goals and Motivations
 
@@ -14,7 +14,7 @@ Elena would really like to find a full-time permanent job. She sees her current 
 
 ## Needs
 
-Elena needs to automate as many processes as possible because she is way overcommitted and cannot possibly accomplish everything on her plate otherwise. She wants a comprehensive framework with which she can queue and trigger many of the microprocesses she needs to perform, such as file format identification and fixity checking. She also needs extensible preservation-level storage for digital records. Elena is also constantly looking for a community that can help support her work through technical expertise, policy development, or both.
+Elena needs to automate as many processes as possible because she is way overcommitted and cannot possibly accomplish everything on her plate otherwise. She wants a comprehensive framework with which she can queue and trigger many of the digital preservation processes she needs to perform, such as file format identification and fixity checking. She also needs extensible preservation-level storage for digital records. Elena is also constantly looking for a community that can help support her work through technical expertise, policy development, or both.
 
 ## Pain Points
 
