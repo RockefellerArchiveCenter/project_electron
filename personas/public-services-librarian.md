@@ -1,5 +1,3 @@
-Expressing confidence in researchers and willingness to support, but not desire to serve as an intellectual intermediary
-
 # Laura Kozlowski
 
 _Public Services Librarian_
