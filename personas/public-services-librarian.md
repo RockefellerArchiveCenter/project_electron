@@ -6,7 +6,7 @@ _Public Services Librarian_
 
 ## Background
 
-Laura works as a public services librarian for special collections at a large academic library in California. In addition to running the reading room, she also coordinates exhibits, events and other outreach activities using primary source materials from her institution’s collections. In her mid 30’s, she is recently married and has a pet dog named Chico.
+Laura works as a public services librarian for special collections at a large academic library in California. In addition to running the reading room, she also coordinates exhibits, events, loans, and other outreach activities using primary source materials from her institution’s collections which include diverse formats including born-digital, digitized, and physical materials. In her mid 30’s, she is recently married and has a pet dog named Chico.
 
 ## Goals and Motivations
 
