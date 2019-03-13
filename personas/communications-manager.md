@@ -14,7 +14,7 @@ Won wants to access to her organization’s records, even after transferring the
 
 ## Needs
 
-In order to meet her needs, Won needs access to any records that have been transferred to the archive. In particular, she often needs to quickly locate visually appealing content for use in social media or promotional materials. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly sign off on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
+In order to meet her needs, Won needs access to any records that have been transferred to the archive, even if they are not yet available to the public. In particular, she needs to quickly locate visually appealing content for use in social media or promotional materials. She often needs continued communication with archive staff to help facilitate access and use of her nonprofit’s materials. She needs to explicitly sign off on any records that are sent to the archive. She also likes to see some reporting back from the archive on how researchers are using their historical materials.
 
 ## Pain Points
 
