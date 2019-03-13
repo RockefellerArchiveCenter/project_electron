@@ -24,7 +24,7 @@ Personas developed for Project Electron.
 [Annette Johnson](appraisal-and-acquisitions-archivist.md), acquisitions and appraisal archivist  
 [Matthew Harris](head-of-arrangement-and-description.md), arrangement and description manager  
 [Elena Gutierrez](preservation-archivist.md), preservation archivist  
-[Laura Kozlowski](public-services-librarian.md), public services archivist  
+[Laura Kozlowski](public-services-librarian.md), public services librarian  
 
 ## Authors
 
