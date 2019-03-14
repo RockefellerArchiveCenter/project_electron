@@ -14,7 +14,7 @@ Matthew is primarily concerned with providing access to his institution’s hold
 
 ## Needs
 
-In general, Matthew needs tools that allow him to maximize his team’s efficiency. This includes tools for transforming unstructured data into structured data, enriching and enhancing metadata with external vocabularies for names and subjects, and batch editing tools for specific data fields. He also needs to track multiple processes so that he can make sure things are happening on schedule, and he wants to maintain an audit trail of arrangement and description actions so that if something goes wrong he can trace it back to the source. Many of the collections held by his institution have significant access restrictions, including embargos, and he wants to make sure that agreements signed with donors are honored.
+In general, Matthew needs tools that allow him to maximize his team’s efficiency. This includes tools for transforming unstructured data into structured data, enriching and enhancing metadata with external vocabularies for names and subjects, and batch editing tools for specific data fields. He also needs to track multiple processes so that he can make sure things are happening on schedule, and he wants to maintain an audit trail of arrangement and description actions so that if something goes wrong he can trace it back to the source. Many of the collections held by his institution have significant access restrictions, including embargoes, and he wants to make sure that agreements signed with donors are honored.
 
 ## Pain Points
 

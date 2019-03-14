@@ -11,10 +11,7 @@ These stories are divided into four groups:
 
 ## Authors
 
-Hillel Arnold  
-Bob Clark  
-Patrick Galligan  
-Meg Hogan
+Rockefeller Archive Center staff, 2017-2019
 
 ## License
 

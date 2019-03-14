@@ -14,12 +14,12 @@ As the unofficial DeStefano family historian, Tony wants to find out about his f
 
 ## Needs
 
-Tony expects to be able to easily search for and have direct access to archival content. Since he is unable to travel long distances because of his age and financial situation, he wants to be able to download interesting things. He would like to share downloaded files and/or links with his family via email or social media. Tony has age-induced visual impairment, so he often has a hard time reading text on a screen and relies on being able to zoom and resize text.
+Tony expects to be able to easily search for and have direct access to archival content. Since he is unable to travel long distances because of his age and financial situation, he wants to be able to download interesting things. He would like to share downloaded files and/or links with his family via email or social media. Tony has age-induced visual impairment, so he often has a hard time reading text on a screen and relies on being able to zoom and resize text. He is also a little hard of hearing, so needs audiovisual content to be captioned or transcribed.
 
 ## Pain Points
 
-Tony is easily overwhelmed by new technology and finds that it changes at a pace that is too fast for him to keep up with.
+Tony is easily overwhelmed by new technology and finds that it changes at a pace that is too fast for him to keep up with. He isn't familiar with how archival records are typically arranged and described, so he sometimes struggles to navigate through collections information to find things that interest him.
 
 ## Current Devices, Apps & IT Use
 
-Tony is intimidated by technology. When he goes to the library, he looks for the card catalog rather than using the online catalog. He has a three-year old Windows PC that his daughter got for him and which he mostly uses for browsing the web, accessing email and social media through accounts set up for him by his nephew. He infrequently uses basic word processing applications, and he likes to save interesting images to his hard drive for later use. His nephew also helped him install the JAWS screen reader, and he has been learning to use this assistive technology to help him access content he has difficulty seeing on the screen.
+Tony is intimidated by technology. When he goes to the library, he looks for the card catalog rather than using the online catalog. He has a three-year old Windows PC that his daughter got for him and which he mostly uses for browsing the web, accessing email and social media through accounts set up for him by his nephew. He infrequently uses basic word processing applications, and he likes to save interesting images to his hard drive for later use. His nephew also helped him install the NVDA screen reader, and he has been learning to use this assistive technology to help him access content he has difficulty seeing on the screen.
