@@ -28,17 +28,7 @@ Personas developed for Project Electron.
 
 ## Authors
 
-Hillel Arnold  
-Amy Berish  
-Bob Clark  
-Patrick Galligan  
-Kanisha Greaves  
-Bonnie Gordon  
-Renee Pappous  
-Brent Phillips  
-Hannah Sistrunk  
-Marissa Vassari  
-Julia Welby  
+Rockefeller Archive Center staff, 2017-2019 
 
 ## License
 
