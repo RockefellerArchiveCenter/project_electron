@@ -6,7 +6,7 @@ _Archival services staff_
 
 ## Background
 
-Cara works in a county archives in the Midwest, where she has recently transitioned to a full-time position after working there part-time for 2 years. Cara is 28 years old, and lives in an apartment with her two cats. She likes to run, and participates in local running events for charity. Cara is also interested in enealogy, and is inspired to see researchers connect personally to their family's history through local historical materials. She attends community talks and events about local history whenever she can, and always promotes her archives' public programs.
+Cara works in a county archives in the Midwest, where she has recently transitioned to a full-time position after working there part-time for 2 years. Cara is 28 years old, and lives in an apartment with her two cats. She likes to run, and participates in local running events for charity. Cara is also interested in genealogy, and is inspired to see researchers connect personally to their family's history through local historical materials. She attends community talks and events about local history whenever she can, and always promotes her archives' public programs.
 
 ## Goals and Motivations
 
@@ -18,7 +18,7 @@ Cara manages and tracks a lot of requests, and needs the systems and workflows s
 
 ## Pain Points
 
-Cara doesn't always feel like her coworkers know the specifics of her work, and while she knows she is doing a good job, she would like her processes to be visible both on a personal level, and to clarify expectations. Cara has intermittent back pain and so is conscious about the physical labor involved with repeatedly lifting and moving boxes of archival material. Because of this, she wants to be as efficient and strategic as possible with physical work.
+Cara doesn't always feel like her coworkers know the specifics of her work, and while she knows she is doing a good job, she would like her processes to be visible both on a personal level, and to clarify expectations. Cara has intermittent back pain and is conscious about the physical labor involved with repeatedly lifting and moving boxes of archival material. Because of this, she wants to be as efficient and strategic as possible with physical work.
 
 ## Current Devices, Apps & IT Use
 
