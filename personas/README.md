@@ -25,10 +25,11 @@ Personas developed for Project Electron.
 [Matthew Harris](head-of-arrangement-and-description.md), arrangement and description manager  
 [Elena Gutierrez](preservation-archivist.md), preservation archivist  
 [Laura Kozlowski](public-services-librarian.md), public services librarian  
+[Cara Watson](archivel-services-staff.md), archival services staff
 
 ## Authors
 
-Rockefeller Archive Center staff, 2017-2019 
+Rockefeller Archive Center staff, 2017-2019
 
 ## License
 
