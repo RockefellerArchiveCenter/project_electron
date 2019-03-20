@@ -1,6 +1,6 @@
 # Cara Watson
 
-_Archival services staff_
+_Access services staff_
 
 ![persona image](img/cara-watson.jpg)
 
@@ -18,7 +18,7 @@ Cara manages and tracks a lot of requests, and needs the systems and workflows s
 
 ## Pain Points
 
-Cara doesn't always feel like her coworkers know the specifics of her work, and while she knows she is doing a good job, she would like her processes to be visible both on a personal level, and to clarify expectations. Cara has intermittent back pain and is conscious about the physical labor involved with repeatedly lifting and moving boxes of archival material. Because of this, she wants to be as efficient and strategic as possible with physical work.
+Cara doesn't always feel like her coworkers know and appreciate the specifics of her work, and while she knows she is doing a good job, she would like her processes to be visible both on a personal level, and to clarify expectations. Cara has intermittent back pain and is conscious about the physical labor involved with repeatedly lifting and moving boxes of archival material. Because of this, she wants to be as efficient and strategic as possible with physical work.
 
 ## Current Devices, Apps & IT Use
 
