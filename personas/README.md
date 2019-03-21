@@ -25,7 +25,7 @@ Personas developed for Project Electron.
 [Matthew Harris](head-of-arrangement-and-description.md), arrangement and description manager  
 [Elena Gutierrez](preservation-archivist.md), preservation archivist  
 [Laura Kozlowski](public-services-librarian.md), public services librarian  
-[Cara Watson](archival-services-staff.md), archival services staff
+[Cara Watson](access-services-staff.md), access services staff
 
 ## Authors
 
