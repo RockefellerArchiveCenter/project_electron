@@ -1,4 +1,7 @@
-.DS_Store
 *.DS_Store
-_site/
 Thumbs.db
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
