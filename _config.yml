@@ -7,8 +7,8 @@ permalink: /:title
 theme_settings:
   # Meta
   title: Project Electron
-  avatar: assets/img/avatar.png
-  favicon: assets/favicon.ico
+  avatar: assets/RAClogo.jpg
+  favicon: assets/favicon.png
   gravatar: # Email MD5 hash
   description: "Project Electron resources and documentation from the Rockefeller Archive Center" # used by search engines
 
