@@ -1,15 +1,16 @@
 # SITE CONFIGURATION
-baseurl: "/type-theme"
-url: "https://rohanchandra.github.io/"
+baseurl:
+url: "https://blog.rockarch.org"
+permalink: /:title
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type Theme
+  title: Project Electron
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "A website with blog posts and pages" # used by search engines
+  description: "Project Electron resources and documentation from the Rockefeller Archive Center" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -29,9 +30,9 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "RockefellerArchiveCenter"
   google_plus:
-  instagram:
+  instagram: "rockefellerarchivecenter"
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -39,12 +40,12 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "rockarch_org"
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: UA-10013579-3 # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
   search: false # Enable the search feature
