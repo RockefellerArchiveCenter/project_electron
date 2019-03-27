@@ -1,0 +1,20 @@
+#NAVIGATION
+
+- title: "Values"
+  subcategories:
+    - subtitle: "Project Values"
+      subhref: "/project-values/"
+
+- title: "About"
+  href: "/about/"
+
+#EXAMPLE
+# - title: "News"
+#   href: "/news/"
+#
+# - title: "Snippets"
+#   subcategories:
+#     - subtitle: "Example1"
+#       subhref: "#"
+#     - subtitle: "Example2"
+#       subhref: "#"

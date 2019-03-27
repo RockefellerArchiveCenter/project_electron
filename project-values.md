@@ -17,7 +17,7 @@ to define user communities – including Rockefeller Archive Center staff, on-si
 individual donors – to understand their needs. We will seek to implement constraints and affordances to the user’s benefit, assigning
 repetitive, detailed and time-consuming work to machines while enabling humans to exercise their critical thinking skills to full
 capacity. We will provide solutions to support donors and donor organizations with a wide range of technical expertise while protecting
-our researchers’ privacy by limiting collection and retentionof personally identifying information and anonymizing data used for analysis.
+our researchers’ privacy by limiting collection and retention of personally identifying information and anonymizing data used for analysis.
 
 ## Support archival practices and standards
 The project deliverables will maintain compatibility with existing standards for data content and structure, and will support established
