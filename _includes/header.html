@@ -9,9 +9,7 @@
 			<img class="avatar" src="{{ site.baseurl }}/{{ site.theme_settings.avatar }}" alt=""/>
 		</a>
 		{% endif %}
-		<h1 class="site-title">
-			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
-		</h1>
+		<a class="site-title" href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
 	</div>
 	<nav class="site-nav">
 		<ul>
@@ -26,7 +24,7 @@
 			{% endfor %}
 			<!-- Social icons from Font Awesome, if enabled  -->
 			{% include icons.html %}
-            
+
             <!-- Search bar -->
             {% if site.theme_settings.search %}
             <li>
@@ -40,5 +38,5 @@
             {% endif %}
 		</ul>
 	</nav>
-    
+
 </header>
