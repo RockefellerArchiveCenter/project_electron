@@ -112,6 +112,10 @@ a {
   color: $link-color;
   text-decoration: none;
 }
+.post-content a {
+  text-decoration: underline;
+}
+
 .nav {
   list-style: none;
   margin: 0;
