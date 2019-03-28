@@ -7,7 +7,7 @@
   width: 100%;
 
   a {
-    color: $header-link-color;
+    color: #072F53;
   }
 
   .avatar {
@@ -28,24 +28,32 @@
 /* --- Navigation --- */
 
 .navbar	{
-  margin: 1em 0 0 0;
   padding: 0;
+  margin-top: .75em;
   list-style: none;
   line-height: 1.5;
   float: right;
   text-align: right;
+  background-color: #1c4364;
 
-  li {
-    display: inline;
-    float: left;
-    margin-right: 0.4em;
-    list-style: none;
+  li 	{
+  	display: block;
+    float: left;  /* This lines up the menu items horizontally */
+  	text-align: left;  /* All text is placed in the center of the box */
+  	list-style: none;  /* Removes the default styling (bullets) for the list */
+  	padding: .5em;
+  	margin: 0;
   }
 
-  a:hover a:focus {
-    color: #3B637C;
-    text-decoration: underline;
+  a {
+    color: #fff;
+    display: block;
   }
+
+  li:hover, li:focus, a:hover, a:focus {
+    background-color: #072F53;
+  }
+
 
   li ul {
 		display: none;  /* Hides the drop-down menu */
@@ -56,6 +64,10 @@
 
   li:hover ul {
     display: block; /* Displays the drop-down box when the menu item is hovered over */
+  }
+
+  li ul li {
+    background-color: #1c4364;
   }
 
   @media (max-width: 1100px) {
