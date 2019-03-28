@@ -2,8 +2,29 @@
 
 - title: "Values"
   subcategories:
-    - subtitle: "Project Values"
+    - subtitle: "Project values"
       subhref: "/project-values/"
+    - subtitle: "Archival access values"
+      subhref: "/archival-access-values/"
+    - subtitle: "Licensing principles"
+      subhref: "/licensing-principles/"
+
+- title: "Resources"
+  subcategories:
+    - subtitle: "Personas and user stories"
+      subhref: "/personas-user-stories"
+    - subtitle: "Data modeling"
+      subhref: "/data-modeling"
+
+- title: "Transfer records"
+  subcategories:
+    - subtitle: "Requirements"
+      subhref: "/requirements"
+    - subtitle: "BagIt specification"
+      subhref: "/bagit-spec"
+    - subtitle: "Example scripts"
+      subhref: "/scripts"
+
 
 - title: "About"
   href: "/about/"
