@@ -14,12 +14,12 @@
 		</h1>
 	</div>
 
-	<nav class="site-nav">
-  	<ul>
+	<nav>
+  	<ul class="navbar">
     	{% for nav in site.data.nav %}
       	{% if nav.subcategories != null %}
         	<li>
-          	<a class="page-link" href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
+          	<a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
           	<ul>
           	{% for subcategory in nav.subcategories %}
             	<li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
@@ -27,18 +27,19 @@
           	</ul>
         	</li>
       	{% elsif nav.title == page.title %}
-         	<li class="active">
+         	<li>
            	<a href="{{ nav.url }}">{{ nav.title }}</a>
          	</li>
       	{% else %}
         	<li>
-          	<a class="page-link" href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+          	<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
         	</li>
       	{% endif %}
     	{% endfor %}
 			{% include icons.html %}
   	</ul>
 	</nav>
+</header>
 
 	<!-- <nav class="site-nav">
 		<ul>
@@ -55,7 +56,7 @@
 
 
             <!-- Search bar -->
-            {% if site.theme_settings.search %}
+            <!-- {% if site.theme_settings.search %}
             <li>
             <form action="{{ site.baseurl }}/search.html" method="get">
                 <input type="text" id="search-box" name="query" placeholder="Search" class="">
@@ -64,8 +65,4 @@
                 </button>
             </form>
             </li>
-            {% endif %}
-		<!-- </ul>
-	</nav> -->
-
-</header>
+            {% endif %} -->
