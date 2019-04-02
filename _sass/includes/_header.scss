@@ -34,50 +34,42 @@
   line-height: 1.5;
   float: right;
   text-align: right;
-  background-color: #1c4364;
 
   li 	{
-  	display: block;
+  	height: auto;
+    width: 150px;
     float: left;  /* This lines up the menu items horizontally */
-  	text-align: left;  /* All text is placed in the center of the box */
+  	text-align: center;  /* All text is placed in the center of the box */
   	list-style: none;  /* Removes the default styling (bullets) for the list */
   	padding: .5em;
   	margin: 0;
+    background-color: #1c4364;
   }
 
   a {
     color: #fff;
     display: block;
+    text-decoration: none;  /* Removes the default hyperlink styling. */
   }
 
   li:hover, li:focus, a:hover, a:focus {
     background-color: #072F53;
   }
 
-
   li ul {
-		display: none;  /* Hides the drop-down menu */
-		height: auto;
-		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */
-	}
+    display: none;  /* Hides the drop-down menu */
+    height: auto;
+    margin: 0; /* Aligns drop-down box underneath the menu item */
+    padding: 0; /* Aligns drop-down box underneath the menu item */
+  }
 
   li:hover ul {
     display: block; /* Displays the drop-down box when the menu item is hovered over */
   }
 
   li ul li {
-    background-color: #1c4364;
-  }
-
-  @media (max-width: 1100px) {
-    ul {
-      display: inline-block;
-      float: left;
-      padding-top: $padding-small;
-      text-align: left;
-      width: 100%;
-    }
+    float: right;
+    background-color: #366b82;
   }
 }
 

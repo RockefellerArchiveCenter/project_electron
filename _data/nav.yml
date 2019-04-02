@@ -16,7 +16,7 @@
     - subtitle: "Data modeling"
       subhref: "/data-modeling"
 
-- title: "Transfer records"
+- title: "Transfers"
   subcategories:
     - subtitle: "Requirements"
       subhref: "/requirements"
