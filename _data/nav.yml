@@ -12,18 +12,18 @@
 - title: "Research"
   subcategories:
     - subtitle: "Personas and user stories"
-      subhref: "/personas-user-stories"
+      subhref: "/personas-user-stories/"
     - subtitle: "Data modeling"
-      subhref: "/data-modeling"
+      subhref: "/data-modeling/"
 
 - title: "Transfer"
   subcategories:
     - subtitle: "Requirements"
-      subhref: "/requirements"
+      subhref: "/transfer-requirements/"
     - subtitle: "BagIt specification"
       subhref: "/bagit-spec"
     - subtitle: "Example scripts"
-      subhref: "/scripts"
+      subhref: "/scripts/"
 
 
 - title: "About"
