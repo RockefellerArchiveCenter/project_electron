@@ -3,7 +3,6 @@
   background: $brand-color;
   border-bottom: 1px solid $border-color;
   display: inline-block;
-  float: left;
   width: 100%;
 
   a {
@@ -61,6 +60,9 @@
     height: auto;
     margin: 0; /* Aligns drop-down box underneath the menu item */
     padding: 0; /* Aligns drop-down box underneath the menu item */
+    position: absolute;
+    width: 150px;
+    outline: 2px solid #072F53;
   }
 
   li:hover ul {
