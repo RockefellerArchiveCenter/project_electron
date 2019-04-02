@@ -9,14 +9,14 @@
     - subtitle: "Licensing principles"
       subhref: "/licensing-principles/"
 
-- title: "Resources"
+- title: "Research"
   subcategories:
     - subtitle: "Personas and user stories"
       subhref: "/personas-user-stories"
     - subtitle: "Data modeling"
       subhref: "/data-modeling"
 
-- title: "Transfers"
+- title: "Transfer"
   subcategories:
     - subtitle: "Requirements"
       subhref: "/requirements"
