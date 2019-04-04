@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Personas and User Stories
+title: User Stories and Personas
 permalink: /personas-user-stories/
 ---
 

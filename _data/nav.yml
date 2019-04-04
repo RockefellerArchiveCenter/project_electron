@@ -11,7 +11,7 @@
 
 - title: "Research"
   subcategories:
-    - subtitle: "Personas and user stories"
+    - subtitle: "User stories and personas"
       subhref: "/personas-user-stories/"
     - subtitle: "Data modeling"
       subhref: "/data-modeling/"
