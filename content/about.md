@@ -4,6 +4,23 @@ title: About
 permalink: /about/
 ---
 
+## Project components
+### Aurora
+A web application to support and regularize the ongoing secure transfer of digital records
+and their metadata to the archives.
+
+### Zodiac
+An API Gateway to manage system interactions.
+
+### Microservices
+A set of microservice applications which support integrations between current and future systems and assist in the archival
+processes of accessioning, preservation, description, and access.
+
+### Repsoitory
+A repository to store digital records and metadata.
+
+### Discovery
+An archival discovery system.
 
 ## Meet the RAC Team
 
