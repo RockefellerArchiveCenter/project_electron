@@ -21,7 +21,7 @@
     - subtitle: "Requirements"
       subhref: "/transfer-requirements/"
     - subtitle: "BagIt specification"
-      subhref: "/bagit-spec"
+      subhref: "/rac-bagit-spec/"
     - subtitle: "Example scripts"
       subhref: "/scripts/"
 
