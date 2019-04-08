@@ -30,9 +30,9 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
           | metadata.json
 ```
 
-### Description
+## Description
 
-#### RAC-BAG-ID
+### RAC-BAG-ID
 The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters:
 
 *   `<` (less than)
@@ -45,7 +45,7 @@ The name of the root directory of the bag. This directory name may include Unico
 *   `?` (question mark)
 *   `*` (asterisk)
 
-###### bagit.txt
+##### bagit.txt
 As required in the BagIt spec. Includes BagIt version and tag file character encoding.
 
 ```
@@ -53,10 +53,10 @@ BagIt-Version: 0.97
 Tag-File-Character-Encoding: UTF-8
 ```
 
-###### manifest-md5.txt
+##### manifest-md5.txt
 This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen `md5`, but `sha256` is also acceptable.
 
-###### bag-info.txt
+##### bag-info.txt
 The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the **BagIt Specification**. For more details on the content, requirements, and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from `bag-info.txt` as structured data. Please use standardized names and avoid the use of all acronyms as separate stakeholders may share the same acronyms but they may mean different things.
 
 ```
@@ -76,10 +76,10 @@ Payload-Oxum
 BagIt-Profile-Identifier
 ```
 
-###### data
+##### data
 Required directory for payload items. This directory may be serialized as a single file (for example a ZIP file), or un-serialized as a number of files and subdirectories.
 
-###### metadata.json
+##### metadata.json
 Valid JSON or JSON-LD file that includes metadata elements included in bag-info.txt as well as any additional elements donors wish to provide to the RAC. This file is optional.
 
 ---
