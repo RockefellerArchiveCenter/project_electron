@@ -4,8 +4,29 @@ title: About
 permalink: /about/
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+## Meet the RAC Team
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+### Hillel Arnold
+
+Hillel heads the Digital Programs at the RAC, and makes sure the project stay on schedule, under budget and in compliance with the project values.  
+
+![Hillel](/assets/img/hillel_bio.jpg)
+
+### Hannah Sistrunk
+
+Hannah is focused on usability and project management work. She'll be coordinating with Project Electron partners and helping to ensure that we are building engaging and well-documented infrastructure that benefits users.  
+
+![Hannah](/assets/img/hannah_bio.jpg)
+
+### Patrick Galligan
+
+Patrick is the resident data person at the RAC. He'll be helping model the connections between different systems in Project Electron, and helping make sure all the data is going to the right place.  
+
+![Patrick](/assets/img/patrick_bio.jpg)
+
+### Bonnie Gordon
+
+Bonnie is all about preserving born digital records, and will help develop processes to get donors' records into the repository.  
+
+![Bonnie](/assets/img/bonnie_bio.jpg)
