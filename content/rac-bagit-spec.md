@@ -4,7 +4,7 @@ title:  Rockefeller Archive Center BagIt Specification
 permalink: /rac-bagit-spec/
 ---
 
-Version 1.5.0 (2018-08-10)
+Version 1.5.1 (2019-04-08)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
 
@@ -15,7 +15,7 @@ Donor organizations are responsible for creating bags which comply to this speci
 2.  Rockefeller Archive Center bags may be:
     1.  serialized (single ZIP or TAR file)
     2.  un-serialized
-3.  All bags must valid according to the organization's BagIt Profile. An [example BagIt Profile](organizational-bag-profile.json) is provided in this repository.
+3.  All bags must valid according to the organization's BagIt Profile. There is an [example BagIt Profile](organizational-bag-profile.json) provided for reference.
 
 ## RAC BagIt Structure
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag. Although the Rockefeller Archive Center accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
@@ -30,9 +30,9 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
           | metadata.json
 ```
 
-## Description
+### Description
 
-### RAC-BAG-ID
+#### RAC-BAG-ID
 The name of the root directory of the bag. This directory name may include Unicode characters and characters in the extended character set (128–255), except for the following reserved characters:
 
 *   `<` (less than)
@@ -57,7 +57,7 @@ Tag-File-Character-Encoding: UTF-8
 This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen `md5`, but `sha256` is also acceptable.
 
 ##### bag-info.txt
-The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the **BagIt Specification**. For more details on the content, requirements, and usage of each field, please see the **Bag-Info Field Specification** section at the bottom of this document. The RAC will index metadata from `bag-info.txt` as structured data. Please use standardized names and avoid the use of all acronyms as separate stakeholders may share the same acronyms but they may mean different things.
+The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the BagIt Specification. For more details on the content, requirements, and usage of each field, please see the [Bag-Info Field Specification](#bag-info-field-specifications) section below. The RAC will index metadata from `bag-info.txt` as structured data. Please use standardized names and avoid the use of all acronyms as separate stakeholders may share the same acronyms but they may mean different things.
 
 ```
 Source-Organization
