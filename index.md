@@ -21,4 +21,6 @@ and their metadata to the archives
 processes of accessioning, preservation, description, and access
 - An archival discovery system
 
-[Our Blog] [Aurora] [Zodiac]
+<a class="button" href="https://blog.rockarch.org/">Our Blog</a>
+<a class="button" href="https://github.com/RockefellerArchiveCenter/aurora">Aurora</a>
+<a class="button" href="https://github.com/RockefellerArchiveCenter/zodiac">Zodiac</a>
