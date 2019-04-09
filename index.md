@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Project Electron
 subtitle: Building infrastructure for data in motion
 permalink: /
