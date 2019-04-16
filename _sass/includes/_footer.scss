@@ -1,8 +1,15 @@
 .site-footer {
-  @extend %padding-regular;
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  color: lighten($text-color, 30%);
+  margin-top: .5em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  float: left;
+  color: lighten($text-color, 10%);
   font-size: 0.9em;
+}
+
+.license-footer{
+  float: right;
+  margin-top: .5em;
+  margin-right: 2em;
+  margin-bottom: 1em;
 }
