@@ -6,22 +6,41 @@
   border-radius: 50%;
 }
 
-.img-position {
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container {
   position: relative;
+  width: 16.67%;
   min-height: .05em;
   padding-right: .75em;
   padding-left: .75em;
   float: left;
 }
 
-.col-sm-8 {
+.text-container {
   position: relative;
+  width: 83.33%;
   min-height: .05em;
   padding-right: .75em;
   padding-left: .75em;
+  float: left;
 }
 
 .row {
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+  box-sizing: border-box;
+}
+
+.row:after {
+  clear: both;
 }
