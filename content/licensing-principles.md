@@ -20,19 +20,19 @@ It is critical to the success of this project that we clearly tell others how th
 
 ### Proprietary solutions as absolute last resort
 
-We acknowledge that at some point we may need to implement proprietary software or code in order to solve a particularly difficult problem, but that should _always_ be a last resort. Proprietary software will only be used with approval of both parties involved in the project&#39;s development.
+We acknowledge that at some point we may need to implement proprietary software or code in order to solve a particularly difficult problem, but that should _always_ be a last resort. Proprietary software will only be used with approval of both parties involved in the project's development.
 
 ## Specific Approaches
 
 ### Code
 
-Written in a variety of languages and hosted on [GitHub](https://github.com/) or other web-accessible version-control platform
+Written in a variety of languages and hosted on [GitHub](https://github.com/) or other web-accessible version-control platform.
 
 **License:** [MIT](https://opensource.org/licenses/MIT) or license dictated by the software being utilized.
 
 ### User documentation
 
-Written in [Markdown](https://daringfireball.net/projects/markdown/) to facilitate format conversion and hosted on [GitHub wiki](https://help.github.com/articles/about-github-wikis/) (or other web-accessible version-control platform) associated with code repository
+Written in [Markdown](https://daringfireball.net/projects/markdown/) to facilitate format conversion and hosted on [GitHub wiki](https://help.github.com/articles/about-github-wikis/), the [Rockefeller Archive Center Documentation Site](https://docs.rockarch.org/) or other web-accessible version-control platform associated with the code repository.
 
 **License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation. MIT or license dictated by the software being utilized.
 
@@ -42,8 +42,8 @@ Written in [Markdown](https://daringfireball.net/projects/markdown/) to facilita
 
 **License:** [MIT](https://opensource.org/licenses/MIT). This is the same license as the code; any open software license is also applicable to the software documentation. If we use different licenses for the documentation than the software, we will need to make sure to apply an MIT license to any code quoted or used as an example in the documentation. MIT or license dictated by the software being utilized.
 
-### Planning documents (policy documents, anonymized [user stories](https://en.wikipedia.org/wiki/User_story), [personas](https://www.usability.gov/how-to-and-tools/methods/personas.html), functional requirements, etc)
+### Planning documents (policy documents, anonymized [user stories](https://en.wikipedia.org/wiki/User_story), [personas](https://www.usability.gov/how-to-and-tools/methods/personas.html), functional requirements, etc.)
 
-Images and documents (preferably in [Markdown](https://daringfireball.net/projects/markdown/)) linked from [Project Electron Website](http://projectelectron.rockarch.org/) Documentation Page (currently hosted on [GitHub Pages](https://pages.github.com/))
+Images and documents (preferably written in [Markdown](https://daringfireball.net/projects/markdown/)) linked from the project website which is currently hosted on [GitHub Pages](https://pages.github.com/)).
 
-**License:** [Creative Commons](https://creativecommons.org/). These aren&#39;t really software documentation, and would not fit well within the MIT License.
+**License:** [Creative Commons](https://creativecommons.org/). These aren't software documentation, and would not fit well within the MIT License.
