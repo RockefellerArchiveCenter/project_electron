@@ -4,7 +4,7 @@ title:  Requirements for the Transfer of Digital Records
 permalink: /transfer-requirements/
 ---
 
-Version 1.2.1 (2019-04-09)
+Version 1.2.2 (2019-04-23)
 
 ## Table of Contents
 *   [Structure](#structure)
@@ -23,15 +23,15 @@ Version 1.2.1 (2019-04-09)
 
 ## Structure
 
-Transfers should be structured according to the [Rockefeller Archive Center BagIt Specification](bagit-specification.md).
+Transfers should be structured according to the [Rockefeller Archive Center BagIt Specification](/rac-bagit-spec/).
 
 This document extends the [BagIt specification](https://tools.ietf.org/html/draft-kunze-bagit-14), a hierarchical file packaging format for storage and transfer of arbitrary digital content suitable for disk-based or network-based storage and transfer, developed by the Library of Congress. Libraries for this specification are available in many languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
 
-A [BagIt Profile](https://github.com/ruebot/bagit-profiles) will be used to validate transfers. An example [BagIt Profile for organizational records](organizational-bag-profile.json) as well as [example scripts](example-scripts/) to create and validate bags are available for reference.
+A [BagIt Profile](https://github.com/ruebot/bagit-profiles) will be used to validate transfers. An example [BagIt Profile for organizational records](https://gist.github.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575) as well as [example scripts](/scripts/) to create and validate bags are available for reference.
 
 ## Metadata
 
-A minimal set of data elements describing the group of records contained in the transfer must be included as key-value pairs in `bag-info.txt`. These are the minimum elements necessary to support archival management of records in any medium or format, as specified by [Describing Archives: A Content Standard](http://www2.archivists.org/standards/DACS). The RAC will index this metadata as structured data. For more details, please see the **Bag-Info Field Specification** section in the [Rockefeller Archive Center BagIt Specification](bagit-specification.md).
+A minimal set of data elements describing the group of records contained in the transfer must be included as key-value pairs in `bag-info.txt`. These are the minimum elements necessary to support archival management of records in any medium or format, as specified by [Describing Archives: A Content Standard](http://www2.archivists.org/standards/DACS). The RAC will index this metadata as structured data. For more details, please see the [Bag-Info Field Specification](/rac-bagit-spec/#bag-info-field-specifications) section in the Rockefeller Archive Center BagIt Specification.
 
 If desired, additional data elements may be supplied by the donor organization. This metadata should be serialized as a single [JSON](http://www.json.org/) or [JSON-LD](http://json-ld.org/) file named `metadata.json`, should use UTF-8 character encoding, and should be included in the `data/` directory of the bag. The RAC will preserve this file as a bitstream alongside the records that it pertains to, but it may not be indexed as structured data.
 
