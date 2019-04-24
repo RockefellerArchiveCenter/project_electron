@@ -5,6 +5,10 @@
   float: left;
   color: lighten($text-color, 10%);
   font-size: 0.9em;
+  a {
+      text-decoration: underline;
+      @extend .body-link;
+  }
 }
 
 .license-footer{
