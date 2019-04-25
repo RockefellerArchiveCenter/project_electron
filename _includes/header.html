@@ -14,18 +14,32 @@
 		</h1>
 	</div>
 
-	<nav class ="navbar" role="navigation">
+	<nav id="nav" role="navigation">
   	<ul>
-    	{% for nav in site.data.nav %}
+			<!-- Menu toggle on smaller screens  -->
+				<li id="toggleMenu" role="button" aria-haspopup="true">
+					<a href="/sitemap.html">
+						<i aria-hidden="true" class="fa fa-bars"></i> <i aria-hidden="true" class="fa fa-times"></i>
+
+						<!-- As icons are being used to represent open/close,
+							provide hidden text for screen readers -->
+						<span id="toggleMenu-text">Toggle Navigation</span>
+
+					</a>
+				</li>
+			<!--  Menu item with submenus -->
+			{% for nav in site.data.nav %}
       	{% if nav.subcategories != null %}
         	<li>
-          	<a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} &#x25BC;</a>
+          	<a href="#">{{ nav.title }}</a>
 						<ul>
 						{% for subcategory in nav.subcategories %}
           		<li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
           	{% endfor %}
 						</ul>
 					</li>
+
+				<!--  Simple menu items without submenu -->
     		{% elsif nav.title == page.title %}
        		<li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
     		{% else %}
