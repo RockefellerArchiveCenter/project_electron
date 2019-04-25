@@ -11,6 +11,9 @@
 		{% endif %}
 		<h1 class="site-title">
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}</a>
+			{% if site.theme_settings.subtitle %}
+				<br /><span class="site-subtitle">{{ site.theme_settings.subtitle }}</span>
+			{% endif %}
 		</h1>
 	</div>
 

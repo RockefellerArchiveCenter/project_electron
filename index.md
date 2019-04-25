@@ -8,7 +8,7 @@ hide: true
 ---
 
 
-Project Electron aims to build sustainable, user-centered, and standards-compliant infrastructure
+Rockefeller Archive Center's Project Electron aims to build sustainable, user-centered, and standards-compliant infrastructure
 to support the ongoing acquisition, management, and preservation of digital records so that we can make
 them available in the broadest and most equitable way possible.  
 
