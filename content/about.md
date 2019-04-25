@@ -6,6 +6,8 @@ permalink: /about/
 
 ## Project components
 
+Project Electron consists of a specification and web application to facilitate ongoing transfers of digital records and their associated metadata from organizations to archives, a repository to store digital records and metadata, an API layer to manage system interactions, and integrations with current and future systems which assist in the archival processes of appraisal, acquisition, arrangement, description, access and preservation.
+
 ### Transfer Specification
 A specification for transferring digital records to the RAC over a network connection. This was developed using existing standards and frameworks such as BagIt, BagIt Profiles, Activity Streams, and OAIS.
 
