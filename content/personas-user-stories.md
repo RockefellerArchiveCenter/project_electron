@@ -17,7 +17,7 @@ These user stories are divided into four user groups:
   - Rockefeller Archive Center Staff
   - Allied Information Professionals
 
-[All User stories are available on GitHub](add link) and released under a Creative Commons 1.0 Universal License.
+[All User stories are available on GitHub](add link).
 
 ## Personas
 
@@ -27,4 +27,4 @@ Based on the user stories, we developed thirteen user personas and a persona tem
   - Researchers
   - Information Professionals
 
-  [All personas are available on GitHub](add repo link) and released under a Creative Commons 1.0 Universal License.
+  [All personas are available on GitHub](add repo link).
