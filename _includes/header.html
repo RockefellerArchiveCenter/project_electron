@@ -17,51 +17,33 @@
 		</h1>
 	</div>
 
+
 	<nav id="nav" role="navigation">
-  	<ul>
-			<!-- Menu toggle on smaller screens  -->
-				<li id="toggleMenu" role="button" aria-haspopup="true">
-					<a href="/sitemap.html">
-						<i aria-hidden="true" class="fa fa-bars"></i> <i aria-hidden="true" class="fa fa-times"></i>
+		<ul>
+			{% for page in site.pages %}
+			{% if page.title and page.hide != true %}
+			<li>
+				<a href="{{ page.url | relative_url }}">
+					{{ page.title }}
+				</a>
+			</li>
+			{% endif %}
+			{% endfor %}
+			<!-- Social icons from Font Awesome, if enabled  -->
+			{% include icons.html %}
 
-						<!-- As icons are being used to represent open/close,
-							provide hidden text for screen readers -->
-						<span id="toggleMenu-text">Toggle Navigation</span>
-
-					</a>
-				</li>
-			<!--  Menu item with submenus -->
-			{% for nav in site.data.nav %}
-      	{% if nav.subcategories != null %}
-        	<li>
-          	<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
-						<ul>
-						{% for subcategory in nav.subcategories %}
-          		<li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
-          	{% endfor %}
-						</ul>
-					</li>
-
-				<!--  Simple menu items without submenu -->
-    		{% elsif nav.title == page.title %}
-       		<li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
-    		{% else %}
-        	<li>
-						<a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a></li>
-      	{% endif %}
-    	{% endfor %}
+			      			<!-- Search bar -->
+			            {% if site.theme_settings.search %}
+			            <li>
+			            <form action="{{ site.baseurl }}/search.html" method="get">
+			                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+			                <button type="submit" class="">
+			                    <i class="fa fa-fw fa-search"></i>
+			                </button>
+			            </form>
+			            </li>
+			            {% endif %}
 		</ul>
 	</nav>
-</header>
 
-            <!-- Search bar -->
-            <!-- {% if site.theme_settings.search %}
-            <li>
-            <form action="{{ site.baseurl }}/search.html" method="get">
-                <input type="text" id="search-box" name="query" placeholder="Search" class="">
-                <button type="submit" class="">
-                    <i class="fa fa-fw fa-search"></i>
-                </button>
-            </form>
-            </li>
-            {% endif %} -->
+</header>

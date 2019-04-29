@@ -2,6 +2,7 @@
 layout: page
 title:  Rockefeller Archive Center BagIt Specification
 permalink: /rac-bagit-spec/
+hide: true
 ---
 
 Version 1.5.2 (2019-04-22)

@@ -2,6 +2,7 @@
 layout: page
 title:  Requirements for the Transfer of Digital Records
 permalink: /transfer-requirements/
+hide: true
 ---
 
 Version 1.2.2 (2019-04-23)

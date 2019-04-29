@@ -2,6 +2,7 @@
 layout: page
 title: Project Components
 permalink: /components/
+hide: true
 ---
 
 Project Electron consists of a specification and web application to facilitate ongoing transfers of digital records and their associated metadata from organizations to archives, a repository to store digital records and metadata, an API layer to manage system interactions, and integrations with current and future systems which assist in the archival processes of appraisal, acquisition, arrangement, description, access and preservation.

@@ -2,6 +2,7 @@
 layout: page
 title: Licensing Principles and Approaches
 permalink: /licensing-principles/
+hide: true
 ---
 
 ## Licensing Principles

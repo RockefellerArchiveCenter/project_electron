@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Project Electron
+title: About
 permalink: /about/
 ---
 

@@ -2,6 +2,7 @@
 layout: page
 title:  Example Scripts for the Transfer of Digital Records
 permalink: /scripts/
+hide: true
 ---
 These example Python scripts create and validate bags with user-supplied payloads. These scripts make use of existing Python libraries for working with BagIt-compliant bags. Both require [bagit-python](https://github.com/LibraryOfCongress/bagit-python), and `validate_bag.py` requires [bagit-profiles-validator](https://github.com/ruebot/bagit-profiles-validator).
 

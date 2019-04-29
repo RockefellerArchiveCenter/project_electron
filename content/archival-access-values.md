@@ -2,6 +2,7 @@
 layout: page
 title: Guiding Principles for Archival Access
 permalink: /archival-access-values/
+hide: true
 ---
 
 ## Open by default

@@ -2,6 +2,7 @@
 layout: page
 title: Project Values
 permalink: /project-values/
+hide: true
 ---
 
 ## Create reproducible and modular deliverables

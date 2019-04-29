@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transfer Specification
+title: Transfer
 permalink: /transfer/
 ---
 
