@@ -112,6 +112,10 @@ a {
   color: $link-color;
   text-decoration: none;
 }
+a:focus {
+  color: $link-focus;
+  text-decoration: underline;
+}
 .post-content p a{
   text-decoration: underline;
 }

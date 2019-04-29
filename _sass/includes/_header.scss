@@ -39,7 +39,7 @@
       margin-right: 0.4em;
     }
     a:hover, a:focus {
-      color: #000;
+      color: $link-focus;
       text-decoration: underline;
     }
     @media (max-width: 1100px) {
@@ -49,6 +49,7 @@
         padding-top: $padding-small;
         text-align: left;
         width: 100%;
+      }
     }
   }
 
@@ -87,4 +88,3 @@
           color: $search-color;
         }
       }
-    }
