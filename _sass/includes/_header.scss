@@ -38,6 +38,9 @@
       margin-top: .7em;
       margin-right: 0.4em;
     }
+    a {
+      font-weight: 800;
+    }
     a:hover, a:focus {
       color: $link-focus;
       text-decoration: underline;
