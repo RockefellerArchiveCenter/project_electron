@@ -4,9 +4,6 @@
   border-bottom: 1px solid $border-color;
   display: inline-block;
   width: 100%;
-
-  a {
-    color: #072F53;
   }
 
   .avatar {
@@ -17,7 +14,6 @@
 
   .site-title {
     float: left;
-    font-weight: bold;
     font-size: 1em;
     line-height: 1.2;
     margin-top: 0.6em;
@@ -42,6 +38,10 @@
       margin-top: .7em;
       margin-right: 0.4em;
     }
+    a:hover, a:focus {
+      color: #000;
+      text-decoration: underline;
+    }
     @media (max-width: 1100px) {
       ul {
         display: inline-block;
@@ -49,43 +49,42 @@
         padding-top: $padding-small;
         text-align: left;
         width: 100%;
-      }
     }
   }
 
     /* --- Search form --- */
     form {
-        border: 0;
-        border-bottom: 2px solid $search-color;
-        outline: 0;
+      border: 0;
+      border-bottom: 2px solid $search-color;
+      outline: 0;
 
-        *:focus {
-            outline: none;
-        }
+      *:focus {
+          outline: none;
+      }
 
-        input{
-            &[type=text] {
-                box-sizing: border-box;
-                border: 0;
-                outline: 0;
-                color: $search-color;
-            }
+      input{
+          &[type=text] {
+              box-sizing: border-box;
+              border: 0;
+              outline: 0;
+              color: $search-color;
+          }
 
-            &::-moz-placeholder {
-                color: $search-color;
-                opacity: 1;
-            }
+          &::-moz-placeholder {
+              color: $search-color;
+              opacity: 1;
+          }
 
-            &:-ms-input-placeholder, &::-webkit-input-placeholder {
-                color: $search-color;
-            }
+          &:-ms-input-placeholder, &::-webkit-input-placeholder {
+              color: $search-color;
+          }
         }
 
         button {
-           border: none;
-           font-size: 0.9em;
-           background-color: $brand-color;
-           color: $search-color;
+          border: none;
+          font-size: 0.9em;
+          background-color: $brand-color;
+          color: $search-color;
         }
+      }
     }
-}
