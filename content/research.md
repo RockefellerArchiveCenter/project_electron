@@ -19,7 +19,7 @@ These user stories are divided into four user groups:
   - Rockefeller Archive Center Staff
   - Allied Information Professionals
 
-[All User stories are available on GitHub](add link).
+[All user stories are available on GitHub](add link).
 
 ### Personas
 
