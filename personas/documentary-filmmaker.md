@@ -18,7 +18,7 @@ _Documentary Filmmaker_
 
 ## Pain Points
 
-They find the traditional archival research process tedious and time-consuming. There’s too much archival jargon, access and use statements are not clear, and the material isn’t accessible online. Ángel can’t travel on a limited budget, and would love to see materials before having to pay for high quality representations of them. Ángel also needs materials as quickly, and doesn’t like the long wait times for archival duplication. Sometimes they have trouble finding what they need because the description is either too minimal or inaccurate.
+They find the traditional archival research process tedious and time-consuming. There’s too much archival jargon, access and use statements are not clear, and the material isn’t accessible online. Ángel can’t travel on a limited budget, and would love to see materials before having to pay for high quality representations of them. Ángel also needs materials quickly, and doesn’t like the long wait times for archival duplication. Sometimes they have trouble finding what they need because the description is either too minimal or inaccurate.
 
 ## Current Devices, Apps & IT Use
 
