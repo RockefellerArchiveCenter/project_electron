@@ -19,7 +19,7 @@ These user stories are divided into four user groups:
   - Rockefeller Archive Center Staff
   - Allied Information Professionals
 
-[All user stories are available on GitHub](add link).
+[All user stories are available on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/user-stories).
 
 ### Personas
 
@@ -29,7 +29,7 @@ Based on the user stories, we developed thirteen user personas and a persona tem
   - Researchers
   - Information Professionals
 
-  [All personas are available on GitHub](add repo link).
+  [All personas are available on GitHub](https://github.com/RockefellerArchiveCenter/personas/tree/master/project-electron-personas).
 
 ## Data modeling
 
