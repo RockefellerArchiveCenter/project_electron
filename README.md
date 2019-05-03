@@ -13,6 +13,10 @@ The Project Electron Transfer Milestones document the tasks and timelines for th
 
 The `/user-stores` directory contains CSV files of user stories gathered during the discovery phase of Project Electron. Learn more at [http://projectelectron.rockarch.org](http://projectelectron.rockarch.org).
 
+## Authors
+
+Rockefeller Archive Center staff
+
 ## License
 
 All code and documentation are available under the [MIT license](/LICENSE), and all planning documents and policies are available under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). 
