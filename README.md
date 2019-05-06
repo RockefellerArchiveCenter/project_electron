@@ -4,7 +4,7 @@
 
 For more information about the project, visit [http://projectelectron.rockarch.org](http://projectelectron.rockarch.org), which is a static Jekyll site hosted on Github Pages and available on the `gh-pages` branch of this repository.
 
-Project updates are also available on [Bits & Bytes](http://blog.rockarch.org/), the RAC's blog. 
+Project updates are also available on [Bits & Bytes](http://blog.rockarch.org/), the RAC's blog.
 
 ## user-stories
 
@@ -15,8 +15,8 @@ The Project Electron Transfer Milestones document the tasks and timelines for th
 
 ## Authors
 
-Rockefeller Archive Center staff
+Rockefeller Archive Center staff.
 
 ## License
 
-All code and documentation are available under the [MIT license](/LICENSE), and all planning documents and policies are available under the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). 
+All code and documentation are available under the [MIT license](LICENSE), and all planning documents and policies are available under the [CC0 license](LICENSE-CC0.md). 
