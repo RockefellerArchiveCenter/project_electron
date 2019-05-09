@@ -36,7 +36,7 @@ a.button {
 .body-link {
   &:hover {
     text-decoration: underline;
-    color: darken($link-color, 40%);
+    color: $link-focus;
   }
 }
 // States

@@ -19,6 +19,11 @@
     margin-top: 0.6em;
   }
 
+  .site-title a:hover, a:focus {
+    color: $link-focus;
+    text-decoration: underline;
+  }
+
   .site-subtitle {
     color: $tags-color
   }
