@@ -7,7 +7,7 @@ permalink: /:title
 theme_settings:
   # Meta
   title: Project Electron
-  subtitle: Rockefeller Archive Center Digital Records Infrastructure
+  subtitle: Digital Records Infrastructure
   avatar: assets/RAClogo.jpg
   favicon: assets/favicon.png
   gravatar: # Email MD5 hash
