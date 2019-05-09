@@ -113,7 +113,7 @@ a {
   text-decoration: none;
 }
 a:focus {
-  color: $link-focus;
+  color: darken($text-color, 30%);
   text-decoration: underline;
 }
 .post-content p a{

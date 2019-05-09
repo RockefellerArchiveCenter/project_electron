@@ -20,13 +20,13 @@ There are three basic pieces that comprise the transfer specification:
     <h2>
       <a href="/rac-bagit-spec/">RAC BagIt Specification</a>
     </h2>
-    <p>Requirements for the structure of transfers of digital records, which are based on the BagIt specification. Includes a BagIt Profile which encodes these requirements in a machine-readable format to ensure and facilitate compliance.</p>
+    <p>Requirements for the structure of transfers of digital records, which are based on the BagIt specification.</p>
   </div>
 
   <div class= "twelve columns card">
     <h2>
-      <a href="/scripts/">Example Python scripts</a>
+      <a href="/scripts/">Example scripts and BagIt Profile</a>
     </h2>
-    <p>Scripts to generate and validate sample bags. These allow users to point to whatever files they want to include in a sample bag’s payload directory.</p>
+    <p>Python scripts to generate and validate sample bags, and an example JSON RAC BagIt Profile which encodes transfer requirements in a machine-readable format to ensure and facilitate compliance.</p>
   </div>
 </div>
