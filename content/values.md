@@ -4,13 +4,28 @@ title: Values
 permalink: /values/
 ---
 
-Project Electron is a values-driven project. These are the sets of values and principles that shape our work.
+Project Electron is a values-driven project. Here are the sets of values and principles that shape our work.
 
-## [Project Electron Values](/project-values/)
-The values that guide and inform Project Electron.
+<div class="container">
+  <div class= "twelve columns card">
+    <h2>
+      <a href="/project-values/">Project Electron Values</a>
+    </h2>
+    <p>The values that guide and inform Project Electron.</p>
+  </div>
 
-## [Guiding Principles for Archival Access](/archival-access-values/)
-The Rockefeller Archive Center's foundational principles on which the Project Electron discovery infrastructure will be developed.
 
-## [Licensing Principles and Approaches](/licensing-principles/)
-The principles and specific licenses that we apply to our code, documentation, and project artifacts.
+  <div class= "twelve columns card">
+    <h2>
+      <a href="/archival-access-values/">Principles for Archival Access</a>
+    </h2>
+    <p>The Rockefeller Archive Center's foundational principles on which the Project Electron discovery infrastructure will be developed.</p>
+  </div>
+
+  <div class= "twelve columns card">
+    <h2>
+      <a href="/licensing-principles/">Licensing Principles and Approaches</a>
+    </h2>
+    <p>The principles and specific licenses that we apply to our code, documentation, and project artifacts.</p>
+  </div>
+</div>

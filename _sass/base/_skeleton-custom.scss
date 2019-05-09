@@ -23,7 +23,6 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  margin-top: 3em;
   }
 
 .column,
@@ -31,8 +30,8 @@
   width: 100%;
   float: left;
   box-sizing: border-box;
-  margin-bottom: 1em;
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  margin-top: 3%; }
 
 .column, .columns h2 {
   margin: 0 0 .3em 0; }
@@ -43,7 +42,7 @@
 }
 
 /* For devices larger than 1300px */
-@media (min-width: 1550px) {
+@media (min-width: 700px) {
   .column,
   .columns {
     margin-left: 3%; }
