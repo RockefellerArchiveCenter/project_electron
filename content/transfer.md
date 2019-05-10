@@ -13,7 +13,7 @@ There are three basic pieces that comprise the transfer specification:
     <h2>
       <a href="/transfer-requirements/">Transfer Requirements</a>
     </h2>
-    <p>A document which outlines the major requirements for transfers of digital records, including required metadata, structure, notifications, transfer protocol and size.</p>
+    <p>Specifies the requirements for transfers of digital records, including required metadata, structure, notifications, transfer protocol and size.</p>
   </div>
 
   <div class= "twelve columns card">
@@ -27,6 +27,6 @@ There are three basic pieces that comprise the transfer specification:
     <h2>
       <a href="/scripts/">Example scripts and BagIt Profile</a>
     </h2>
-    <p>Python scripts to generate and validate sample bags, and an example JSON RAC BagIt Profile which encodes transfer requirements in a machine-readable format to ensure and facilitate compliance.</p>
+    <p>Python scripts to generate and validate sample bags, and an example JSON BagIt Profile which encodes transfer requirements in a machine-readable format to ensure and facilitate compliance.</p>
   </div>
 </div>
