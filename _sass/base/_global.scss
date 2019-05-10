@@ -116,7 +116,11 @@ a:focus {
   color: darken($text-color, 30%);
   text-decoration: underline;
 }
-.post-content p a{
+.post-content p a {
+  text-decoration: underline;
+}
+
+.post-content li a {
   text-decoration: underline;
 }
 
