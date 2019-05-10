@@ -7,40 +7,65 @@ hide: true
 
 Project Electron consists of a specification and web application to facilitate ongoing transfers of digital records and their associated metadata from organizations to archives, a repository to store digital records and metadata, an API layer to manage system interactions, and integrations with current and future systems which assist in the archival processes of appraisal, acquisition, arrangement, description, access and preservation.
 
-### Transfer Specification
-A [specification to transfer digital records and metadata](/transfer/) to archives over a network connection.
-
-### Aurora
+## Aurora
 A Django web application to support and regularize the ongoing secure transfer of digital records
 and their metadata to the archives. Explore the [Aurora user documentation](https://docs.rockarch.org/aurora/) and find the code in our [Aurora GitHub repository](https://github.com/RockefellerArchiveCenter/aurora).
 
-### zodiac
-An API Gateway to manage system interactions. Access the code and learn more in our [zodiac GitHub repository](https://github.com/RockefellerArchiveCenter/zodiac).
-
-### Microservices
-A set of microservice applications which support integrations between current and future systems and assist in the archival
+## Microservices
+An API Gateway and set of microservice applications which support integrations between current and future systems and assist in the archival
 processes of accessioning, preservation, description, and access.
 
-#### ursa major
-Discovers and stores bags. Learn more in the [ursa major GitHub repository](https://github.com/RockefellerArchiveCenter/ursa_major).
+<div class="container">
+  <div class= "six columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/zodiac">zodiac</a>
+    </h3>
+    <p>An API Gateway with a user interface to manage system interactions</p>
+  </div>
+</div>
 
-#### fornax
-Creates Archivematica-compliant Submission Information Packages (SIPs). Learn more in the [fornax GitHub repository](https://github.com/RockefellerArchiveCenter/fornax).
+<div class="container">
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/ursa-major">ursa major</a>
+    </h3>
+    <p>Discovers and stores bags</p>
+  </div>
 
-#### libra
-Generates reports on files and activities in Fedora. Learn more in the [libra GitHub repository](https://github.com/RockefellerArchiveCenter/libra).
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/fornax">fornax</a>
+    </h3>
+    <p>Creates Archivematica-compliant Submission Information Packages</p>
+  </div>
 
-#### gemini
-Stores Archival Information Packages (AIPs) and Dissemination Information Packages (DIPs) in Fedora. Learn more in the [gemini GitHub repository](https://github.com/RockefellerArchiveCenter/gemini).
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/libra">libra</a>
+    </h3>
+    <p>Generates reports on files and activities in Fedora</p>
+  </div>
+</div>
 
-#### aquarius
-Transforms and delivers Accessions, Archival Objects and Digital Objects to ArchivesSpace. Learn more in the [aquarius GitHub repository](https://github.com/RockefellerArchiveCenter/aquarius).
+<div class="container">
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/gemini">gemini</a>
+    </h3>
+    <p>Stores Archival Information Packages and Dissemination Information Packages in Fedora</p>
+  </div>
 
-#### pisces
-Retrieves and Transforms data for discovery. Learn more in the [pisces GitHub repository](https://github.com/RockefellerArchiveCenter/pisces).
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/aquarius">aquarius</a>
+    </h3>
+    <p>Transforms and delivers accessions, archival objects and digital objects to ArchivesSpace</p>
+  </div>
 
-### Repository
-A Fedora repository to store digital records and metadata.
-
-### Discovery
-An archival discovery system.
+  <div class= "four columns card">
+    <h3>
+      <a href="https://github.com/RockefellerArchiveCenter/pisces">pisces</a>
+    </h3>
+    <p>Retrieves and transforms data for discovery</p>
+  </div>
+</div>
