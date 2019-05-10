@@ -20,4 +20,11 @@ In line with our [project value](/project-values/) to "create reproducible and m
     </h2>
     <p>Project Electron is a collaborative effort with leadership from the Rockefeller Archive Center Digital Programs Team.</p>
   </div>
+
+  <div class= "twelve columns card">
+    <h2>
+      <a href="http://blog.rockarch.org">Bits & Bytes</a>
+    </h2>
+    <p>Rockefeller Archive Center's blog where we regularly post updates and share aspects of Project Electron development.</p>
+  </div>
 </div>
