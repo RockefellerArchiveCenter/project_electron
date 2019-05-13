@@ -20,7 +20,7 @@ In line with our [project value](/project-values/) to "create reproducible and m
     <h2>
       <a href="/team/">Our team</a>
     </h2>
-    <p>Meet the Rockefeller Archive Center Digital Programs Team that provides leadership for this collaborative project</p>
+    <p>Meet the Rockefeller Archive Center Digital Programs Team that provides leadership for this collaborative project.</p>
   </div>
 
   <div class= "six columns card">
