@@ -1,42 +1,16 @@
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <ul class="list-inline">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#values">Values</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#team">Team</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#docs">Documentation</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#progress">Progress</a>
-                    </li>
-                    <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small">{{ site.copyright }}</p>
-            </div>
-            <div class="col-md-4">
-                {{ site.credits }}
-            </div>
-        </div>
-    </div>
+{% if site.theme_settings.katex and page.id %}
+<script src="{{ "/assets/js/katex_init.js" | relative_url }}"></script>
+{% endif %}
+
+{% if site.theme_settings.footer_text %}
+<footer role="contentinfo">
+	<div class="site-footer">
+		<p class="text">{{ site.theme_settings.footer_text }}</p>
+	</div>
+	<div class="license-footer">
+		<a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/">
+      <img src="{{ site.baseurl }}/assets/cc0.png" alt="Creative Commons 1.0 Universal License" />
+    </a>
+	</div>
 </footer>
+{% endif %}

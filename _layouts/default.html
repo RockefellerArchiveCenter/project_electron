@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<html>
-	<link rel="icon"
-				type="image/png"
-				href="../img/favicon.png">
-	{% include head.html %}
-
-	<body>
-		{% include header.html %}
-		{% include about.html %}
-		{% include values.html %}
-		{% include team.html %}
-		{% include docs.html %}
-		{% include page_content.html %}
-		{% include contact.html %}
-		{% include footer.html %}
-		{% include js.html %}
-	</body>
+<html class="no-js" lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="content" role="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
 </html>

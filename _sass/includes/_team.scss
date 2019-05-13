@@ -1,0 +1,46 @@
+.team-member {
+  margin-bottom: 2em;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-container {
+  position: relative;
+  width: 25%;
+  min-height: .05em;
+  padding-right: .75em;
+  padding-left: .75em;
+  float: left;
+}
+
+.text-container {
+  position: relative;
+  width: 75%;
+  min-height: .05em;
+  padding-right: .75em;
+  padding-left: .75em;
+  float: left;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row:before, .row:after {
+  display: table;
+  content: " ";
+  box-sizing: border-box;
+}
+
+.row:after {
+  clear: both;
+}

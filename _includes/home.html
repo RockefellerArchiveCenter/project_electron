@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+    <h1 class="title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}<pp>{% endif %}
+  </header>
+  <section class="post-content">
+    Rockefeller Archive Center's Project Electron aims to build sustainable, user-centered, and standards-compliant infrastructure
+    to support the ongoing acquisition, management, and preservation of digital records so that we can make
+    them available in the broadest and most equitable way possible.
+  </section>
+  <div class="container">
+    <div class="three columns">
+      <h2>
+        <a href="/about/">About</a>
+      </h2>
+      <p>Learn about the ideas that shape our work.</p>
+    </div>
+    <div class="three columns">
+      <h2>
+        <a href="/research/">Research</a>
+      </h2>
+      <p>Explore project artifacts and resources.</p>
+    </div>
+    <div class="three columns">
+      <h2>
+        <a href="/transfer/">Transfer</a>
+      </h2>
+      <p>Access the details of how to transfer records.</p>
+    </div>
+    <div class="three columns">
+      <h2>
+        <a href="/values/">Values</a>
+      </h2>
+      <p> Read about how it works with links to our code.</p>
+    </div>
+  </div>
+</article>

@@ -1,30 +1,84 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# SITE CONFIGURATION
+baseurl:
+url: "https://blog.rockarch.org"
+permalink: /:title
 
-url: http://yoursite.com
-title: Project Electron
-email: your-email@domain.com
-author: Your Name
-description: This website is the home of all news regarding the Rockefeller Archive Center and Marist College IT's Project Electron.
-copyright: 'Copyright &copy; 2016 Rockefeller Archive Center. All Rights Reserved.'
-credits: 'Based on Landing Page theme by <a href="http://startbootstrap.com/">Start Bootstrap</a>. Lightning photo by <a href="
-https://www.flickr.com/photos/ribarnica/">ribarnica</a>.'
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Project Electron
+  subtitle: Digital Records Infrastructure
+  avatar: assets/RAClogo.jpg
+  favicon: assets/favicon.png
+  gravatar: # Email MD5 hash
+  description: "Project Electron resources and documentation from the Rockefeller Archive Center" # used by search engines
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+  # Header and footer text
+  header_text:
+  header_text_feature_image:
+  footer_text: >
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
-# Build settings
+  # Icons
+  rss: false
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "RockefellerArchiveCenter"
+  google_plus:
+  instagram: "rockefellerarchivecenter"
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "rockarch_org"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: UA-10013579-3 # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+  search: false # Enable the search feature
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
 markdown: kramdown
-permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: twitter
-    url: https://twitter.com/rockarch_org
-  - title: github
-    url: https://github.com/RockefellerArchiveCenter
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate]
+theme: jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock

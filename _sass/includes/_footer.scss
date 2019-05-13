@@ -1,0 +1,19 @@
+.site-footer {
+  margin-top: .5em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  float: left;
+  color: lighten($text-color, 10%);
+  font-size: 0.9em;
+  a {
+      text-decoration: underline;
+      @extend .body-link;
+  }
+}
+
+.license-footer{
+  float: right;
+  margin-top: .5em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
