@@ -27,7 +27,7 @@ processes of accessioning, preservation, description, and access.
 <div class="container equal-height">
   <div class= "six columns card">
     <h3>
-      <a href="https://github.com/RockefellerArchiveCenter/ursa-major">ursa major</a>
+      <a href="https://github.com/RockefellerArchiveCenter/ursa_major">ursa major</a>
     </h3>
     <p>Discovers and stores bags</p>
   </div>
