@@ -8,21 +8,23 @@ We have developed a specification for transferring digital records and their met
 
 There are three basic pieces that comprise the transfer specification:
 
-<div class="container">
-  <div class= "twelve columns card">
+<div class="container equal-height">
+  <div class= "six columns card">
     <h2>
       <a href="/transfer-requirements/">Transfer Requirements</a>
     </h2>
     <p>Specifies the requirements for transfers of digital records, including required metadata, structure, notifications, transfer protocol and size.</p>
   </div>
 
-  <div class= "twelve columns card">
+  <div class= "six columns card">
     <h2>
       <a href="/rac-bagit-spec/">RAC BagIt Specification</a>
     </h2>
     <p>Requirements for the structure of transfers of digital records, which are based on the BagIt specification.</p>
   </div>
+</div>
 
+<div class="container">
   <div class= "twelve columns card">
     <h2>
       <a href="/scripts/">Example scripts and BagIt Profile</a>

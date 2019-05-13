@@ -15,8 +15,8 @@ and their metadata to the archives. Explore the [Aurora user documentation](http
 An API gateway and set of microservice applications which support integrations between current and future systems and assist in the archival
 processes of accessioning, preservation, description, and access.
 
-<div class="container">
-  <div class= "six columns card">
+<div class="container equal-height">
+  <div class= "twelve columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/zodiac">zodiac</a>
     </h3>
@@ -24,45 +24,47 @@ processes of accessioning, preservation, description, and access.
   </div>
 </div>
 
-<div class="container">
-  <div class= "four columns card">
+<div class="container equal-height">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/ursa-major">ursa major</a>
     </h3>
     <p>Discovers and stores bags</p>
   </div>
 
-  <div class= "four columns card">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/fornax">fornax</a>
     </h3>
     <p>Creates Archivematica-compliant Submission Information Packages</p>
   </div>
+</div>
 
-  <div class= "four columns card">
+<div class="container equal-height">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/libra">libra</a>
     </h3>
     <p>Generates reports on files and activities in Fedora</p>
   </div>
-</div>
 
-<div class="container">
-  <div class= "four columns card">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/gemini">gemini</a>
     </h3>
     <p>Stores Archival Information Packages and Dissemination Information Packages in Fedora</p>
   </div>
+</div>
 
-  <div class= "four columns card">
+<div class="container equal-height">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/aquarius">aquarius</a>
     </h3>
     <p>Transforms and delivers accessions, archival objects and digital objects to ArchivesSpace</p>
   </div>
 
-  <div class= "four columns card">
+  <div class= "six columns card">
     <h3>
       <a href="https://github.com/RockefellerArchiveCenter/pisces">pisces</a>
     </h3>

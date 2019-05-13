@@ -13,15 +13,17 @@ In line with our [project value](/project-values/) to "create reproducible and m
     </h2>
     <p>Details and GitHub repository links for the components of the project infrastructure including the Aurora transfer application, Zodiac API gateway, and the set of microservices that support systems integrations.</p>
   </div>
+</div>
 
-  <div class= "twelve columns card">
+<div class="container equal-height">
+  <div class= "six columns card">
     <h2>
       <a href="/team/">Our team</a>
     </h2>
     <p>Meet the Rockefeller Archive Center Digital Programs Team that provides leadership for this collaborative project</p>
   </div>
 
-  <div class= "twelve columns card">
+  <div class= "six columns card">
     <h2>
       <a href="http://blog.rockarch.org">Bits & Bytes</a>
     </h2>
