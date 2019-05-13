@@ -33,16 +33,13 @@
   word-wrap: break-word;
   margin-top: 3%; }
 
-.column, .columns h2 h3 {
-  margin: 0 0 .3em 0; }
-
 /* For devices larger than 400px */
 @media (min-width: 400px) {
     padding: 0;
 }
 
 /* For devices larger than 1300px */
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .column,
   .columns {
     margin-left: 3%; }
@@ -142,4 +139,5 @@
 .equal-height {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
