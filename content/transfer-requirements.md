@@ -5,7 +5,7 @@ permalink: /transfer-requirements/
 hide: true
 ---
 
-Version 1.2.3 (2019-05-9)
+Version 1.2.3 (2019-05-09)
 
 ## Table of Contents
 *   [Structure](#structure)

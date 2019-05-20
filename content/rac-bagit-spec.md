@@ -5,7 +5,7 @@ permalink: /rac-bagit-spec/
 hide: true
 ---
 
-Version 1.5.3 (2019-05-9)
+Version 1.5.3 (2019-05-09)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
 
@@ -232,7 +232,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### BagIt-Profile-Identifier
 
-*   **Definition:** An HTTP URI that
+*   **Definition:** An HTTP URI that identifies the BagIt Profile.
 *   **Data type:** Locally controlled, temporary URL: "https://gist.githubusercontent.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575/raw/097f2c96c27b1e67a173c6c390458a981ffdbd83/organizational-bag-profile.json"
 *   **Obligation:** Required
 *   **Repeatability:** No
