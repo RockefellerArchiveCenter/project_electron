@@ -18,6 +18,6 @@ These example Python scripts create and validate bags with user-supplied payload
 
 ## Rockefeller Archive Center BagIt Profile
 
-`organizational-bag-profile.json` is a Rockefeller Archive Center BagIt Profile which encodes transfer requirements in a machine-readable format to ensure and facilitate compliance.
+`organizational-bag-profile.json` is a sample Rockefeller Archive Center BagIt Profile which encodes transfer requirements in a machine-readable format to ensure and facilitate compliance. Each organization has a BagIt Profile which is customized to meet their needs.
 
 <script src="https://gist.github.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575.js"></script>
