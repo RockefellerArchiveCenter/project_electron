@@ -5,9 +5,9 @@ permalink: /rac-bagit-spec/
 hide: true
 ---
 
-Version 1.6 (2019-06-20)
+Version 1.7 (2019-08-16)
 
-This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags - or packages - of digital records which can be programatically validated and verified.
+This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags — or packages — of digital records which can be programatically validated and verified.
 
 Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, we have provided [example Python scripts](/scripts/) to create and validate bags. These scripts are for demonstration purposes only, and are not intended to be used in production. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
 
@@ -15,7 +15,7 @@ Donor organizations are responsible for creating bags which comply to this speci
 1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification").
 2.  Rockefeller Archive Center bags may be:
     1.  serialized (single .zip, .tar or .tar.gz file)
-    2.  un-serialized (a directory containing multiple files. **unserialized bags must be transferred one at a time, not in batches**)
+    2.  un-serialized (a directory containing multiple files — **unserialized bags must be transferred one at a time, not in batches**)
 3.  All bags must valid according to the organization's BagIt Profile.
 
 ## RAC BagIt Structure
@@ -104,7 +104,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Definition:** A unique identifier applied to each group of records composed of characters, numbers or letters, or a combination thereof, that uniquely identify the record within a given domain.
 *   **Purpose:** Ensures that records can be uniquely identified within the Rockefeller Archive Center's systems during archival processes.
 *   **Data type:** String
-*   **Obligation:** Required
+*   **Obligation:** Optional
 *   **Repeatability:** No
 *   **Examples:**
     *   "OyGpXmSFVkCpds7i4gRv"
@@ -158,7 +158,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Definition:** Identifies the individuals, organizations or departments that created the group of records.
 *   **Purpose:** Provides evidence and context for records by identifying the creator of the record and supports user search, allowing information to be filtered.
 *   **Data type:** String
-*   **Obligation:** Required
+*   **Obligation:** Optional
 *   **Repeatability:** Yes
 *   **Examples:**
     *   "Rockefeller Brothers Fund Communications Office"
