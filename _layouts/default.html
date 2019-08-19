@@ -2,8 +2,9 @@
 <html class="no-js" lang="en">
   {% include head.html %}
   <body>
+    <a href="#main" class="skip-link visually-hidden">Jump directly to main content</a>
     {% include header.html %}
-    <main class="content" role="main">
+    <main id="main" class="content" role="main">
       {{ content }}
     </main>
     {% include footer.html %}

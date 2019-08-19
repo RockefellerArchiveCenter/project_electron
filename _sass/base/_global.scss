@@ -14,6 +14,18 @@ html {
   background: $background-color;
 }
 
+// Skip link
+.skip-link {
+  background: rgba(255,255,255,.9);
+  padding: 20px 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
 // Typography
 ::selection {
   background: $selection-color;
