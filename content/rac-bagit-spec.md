@@ -101,7 +101,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 ### External-Identifier
 
 *   **Definition:** A unique identifier applied to each group of records composed of characters, numbers or letters, or a combination thereof, that uniquely identify the record within a given domain.
-*   **Purpose:** Ensures that records can be uniquely identified within the Rockefeller Archive Center's systems during archival processes.
+*   **Purpose:** Ensures that records can be uniquely identified by the donor organization.
 *   **Data type:** String
 *   **Obligation:** Optional
 *   **Repeatability:** No
