@@ -5,7 +5,7 @@ permalink: /rac-bagit-spec/
 hide: true
 ---
 
-Version 1.7 (2019-08-16)
+Version 1.7 (2019-08-20)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags — or packages — of digital records which can be programatically validated and verified.
 
@@ -60,22 +60,21 @@ This is a required element from the BagIt spec that contains a checksum for ever
 ##### bag-info.txt
 The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the BagIt Specification. For more details on the content, requirements, and usage of each field, please see the [Bag-Info Field Specification](#bag-info-field-specifications) section below. The RAC will index metadata from `bag-info.txt` as structured data. Please use standardized names and avoid the use of all acronyms as separate stakeholders may share the same acronyms but they may mean different things.
 
-```
-Source-Organization
-External-Identifier
-Internal-Sender-Description
-Title
-Date-Start
-Date-End
-Record-Creators
-Record-Type
-Language
-Bagging-Date
-Bag-Count
-Bag-Group-Identifier
-Payload-Oxum
-BagIt-Profile-Identifier
-```
+[Source-Organization](#source-organization)  
+[External-Identifier](#external-identifier)  
+[Internal-Sender-Description](#internal-sender-description)  
+[Title](#title)  
+[Date-Start](#date-start)  
+[Date-End](#date-end)  
+[Record-Creators](#record-creators)  
+[Record-Type](#record-type)  
+[Language](#language)  
+[Bagging-Date](#bagging-date)  
+[Bag-Count](#bag-count)  
+[Bag-Group-Identifier](#bag-group-identifier)  
+[Payload-Oxum](#payload-oxum)  
+[BagIt-Profile-Identifier](#bagit-profile-identifier)  
+
 
 ##### data
 Required directory for payload items. This directory may be serialized as a single file (for example a ZIP file), or un-serialized as a number of files and subdirectories.
