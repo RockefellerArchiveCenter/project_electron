@@ -122,7 +122,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Title
 
-*   **Definition:** The title of a group of records. Do not include dates in the title element. This should not be a description of the type of materials, but instead a declarative title for all of the records in the bag.
+*   **Definition:** The title of a group of records. Do not include dates or identifiers in the title element. This should not be a description of the type of materials, but instead a declarative title for all of the records in the bag.
 *   **Purpose:** Enables information search and discovery, facilitates user choice and provides additional context for archival records.
 *   **Data type:** String
 *   **Obligation:** Required
@@ -166,8 +166,8 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 ### Record-Type
 
 *   **Definition:** The broad category into which the records fall.
-*   **Purpose:** Allows records to be staged appropriately for archival processes and facilitates the appropriate application of embargo periods, which vary by record type.
-*   **Data type:** Locally controlled. See the [Rockefeller Archive Center BagIt Profile](/scripts) for acceptable values.
+*   **Purpose:** Allows records to be staged appropriately for archival processes and facilitates the application of embargo periods, which are based on record type.
+*   **Data type:** Locally controlled.
 *   **Obligation:** Required
 *   **Repeatability:** No
 *   **Examples:**
@@ -221,7 +221,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### Payload-Oxum
 
-*   **Definition:** The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt` if at all possible.
+*   **Definition:** The "octetstream sum" of the payload, namely, a two-part number of the form `OctetCount.StreamCount`, where OctetCount is the total number of octets (8-bit bytes) across all payload file content and StreamCount is the total number of payload files. Payload-Oxum should be included in `bag-info.txt`.
 *   **Purpose:** Payload-Oxum is intended for machine consumption.
 *   **Data type:** OctetCount.StreamCount
 *   **Obligation:** Required
@@ -231,7 +231,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 
 ### BagIt-Profile-Identifier
 
-*   **Definition:** An HTTP URI that identifies the BagIt Profile.
+*   **Definition:** An HTTP URI that identifies the BagIt Profile. The Rockefeller Archive Center will provide this identifier to the donor organization.
 *   **Data type:** Locally controlled, temporary URL: "https://gist.githubusercontent.com/HaSistrunk/65d59e558c436b9d934d98fd8fb0f575/raw/097f2c96c27b1e67a173c6c390458a981ffdbd83/organizational-bag-profile.json"
 *   **Obligation:** Required
 *   **Repeatability:** No
