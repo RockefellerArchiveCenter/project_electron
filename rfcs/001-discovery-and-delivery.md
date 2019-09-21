@@ -1,6 +1,6 @@
 # RFC 001: Discovery and Delivery
 
-Last updated: September 10, 2019
+Last updated: September 21, 2019
 
 ## Background
 A patchwork of systems currently supports discovery and delivery of archival records:
@@ -43,7 +43,8 @@ After conducting a review of existing third-party solutions, we realized that, a
   - Three sets of services move data between data sources and an Elasticsearch index, which will be the persistence layer for the discovery layer. These services will be built in Django and integrated with the existing Zodiac API Gateway environment, which allows us to take advantage of the messaging queue and UI within Zodiac:
     - Fetchers, which get data from data sources.
     - Transformers, which map data between predefined formats.
-    - Indexers, which add, update or delete transformed data in an index.
+    - Mergers, which merge transformed data from different sources.
+    - Indexers, which add, update or delete transformed and merged data in an index.
   - API middleware produces an API which can be used by clients to search and display data stored in the index.
   - A frontend provide a user interface to search and browse archival description, and view digitized and born-digital records.
 
@@ -61,14 +62,19 @@ After conducting a review of existing third-party solutions, we realized that, a
     - Mappings between data structures are described by Odin Mappings
   - Transform processes are triggered by fetch services
 
-#### Indexers
-  - The indexing service takes an object and either adds, updates or deletes it from the index.
-  - Related objects embedded in endpoints for other objects will be resolved by this service
-  - Persistent identifiers are created and managed by this service.
+#### Merger
+  - Looks to see if a transformed object already exists in the index and if it does, merges the two objects.
+  - Delivers the merged object to a queue to be indexed.
+
+#### Indexer
+  - The indexing service consumes an indexing queue and adds, deletes or updates Documents in bulk.
+  - Relationships to other Documents are also created or updated by this service.
+  - When necessary, this service mints persistent identifiers to be used in the index.
   - The elasticsearch-dsl library will be used for Document definitions as well as to provide a client for interacting with the Elasticsearch API.
 
-#### Formatters
-  - Serves as a formatter for returning data from Elasticsearch in the structure required by the front end.
+#### API Middleware
+  - Middleware which formats data from Elasticsearch into a more generic structure required by the frontend.
+  - Over time, other systems and services may consume this API.
   - The data returned in API responses will be determined by need; only data for which there is a specific use in the frontend will be returned. The API will therefore take a minimal approach, and data elements will be added as needed.
 
 #### Frontend
