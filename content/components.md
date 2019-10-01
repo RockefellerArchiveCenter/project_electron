@@ -14,6 +14,7 @@ Our Requests for Comments (RFCs) are lightly-structured documents which are inte
   - [RFC 001: Discovery and Delivery](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/001-discovery-and-delivery.md)
   - [RFC 002: API Conventions](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/002-api-conventions.md)
   - [RFC 003: Indexing](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/003-indexing.md)
+  - [RFC 004: Merging](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/004-mergers.md)
 
 ## Aurora
 A Django web application to support and regularize the ongoing secure transfer of digital records
