@@ -2,7 +2,7 @@
 
 Last updated: September 21, 2019
 
-## Background
+## Background/Problem Statement
 A patchwork of systems currently supports discovery and delivery of archival records:
   - DIMES (a heavily customized version of XTF) provides access to archival description serialized as EAD, some digitized records (things we are comfortable providing access to on the open web), and integrates with Aeon for request management.
   - Archival description created and managed in ArchivesSpace is exported as EAD each night, versioned using git, and indexed in DIMES. This process is brittle and fairly opaque, and has been a fairly consistent source of pain for several years.
