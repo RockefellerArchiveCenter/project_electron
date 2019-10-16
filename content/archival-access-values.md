@@ -15,7 +15,7 @@ Users should be able to adjust the level of mediation necessary for them to use 
 Minimize the amount and sensitivity of user data collected (including by and via third parties), and apply sensible data retention policies.
 
 ## Generative
-Support multiple pathways into and through description and records including people, organization and subjects. Support multiple modes of inquiry including machines, humans and machine-assisted humans. Encourage and reward curiosity.
+Support multiple pathways into and through description and records including people, organizations and subjects. Support multiple modes of inquiry including machines, humans and machine-assisted humans. Encourage and reward curiosity.
 
 ## Responsive and accessible
 Adapt to users’ needs and their devices.
