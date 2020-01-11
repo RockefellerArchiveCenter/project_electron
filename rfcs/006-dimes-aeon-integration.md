@@ -10,16 +10,47 @@ In order for users to view archival records, either in the reading room or via r
 We propose the development of a request broker application, which would encapsulates the logic required to integrate between DIMES and Aeon. This layer would accept lists of requests from DIMES, and perform a variety of steps before delivering that list to Aeon:
 - Check if the user attempting to submit the requests is authenticated in Aeon (TBD if this is technically possible)
 - Check if any of the requests are duplicates (TODO: define what is and is not a duplicate, TBD if this is technically possible)
-- Fetch additional data from ArchivesSpace such as restriction and location information for each request in the list (TODO: define source and scope -- i.e. container or request item -- of restriction data)
-- Format the data for each request (for example adding grouping identifiers) and structuring it in the way Aeon expects (Question: should we merge here, so that users have a preview of what the request will look like in Aeon?)
+- Fetch data from ArchivesSpace for each request in the list (TODO: define which fields need to be pulled, particularly with regard to restriction data)
+- Format the data for each request (for example adding grouping identifiers) and structuring it in the way Aeon expects (Question: should we merge requests for the same container here, so that users have a preview of what the request will look like in Aeon?)
 - Deliver the final request data to Aeon via a POST request
 
 The request broker would have a minimal UI. Users will not be able to create requests directly in the application, but they may be able to see requests submitted and/or a list of errors.
 
 Additionally, the broker should store only the bare minimum of data necessary so we can avoid saving personally identifying information or information duplicated in other systems.
 
-### Request Model
-Requests from DIMES are submitted to the request broker as a list. The request broker can remove items from this list (if they are duplicates) and can add data to an item, but it cannot add new items to this list. Aeon may further merge items on this list if they represent portions of the same circulating container, for example multiple folders from the same box. (TBD we may want to do this deduplication in the request broker)
+### Request Data
+
+#### Requests Submitted
+Requests from DIMES are submitted to the request broker as a list of ArchivesSpace URIs.
+
+```
+{"items":
+  [
+    "/repositories/2/archival_objects/1263",
+    "/repositories/2/archival_objects/1264"
+  ]
+}
+```
+
+#### Fields retrieved from ArchivesSpace
+
+The following fields are retrieved from ArchivesSpace for each request item:
+- Title
+- Date
+- Creator
+- Parent Series (or subseries)
+- Container information
+- Collection Title
+- Collection Identifier
+- Location
+- Restrictions
+
+(TODO: evaluate whether or not all of these fields are necessary in Aeon)
+
+#### Requests Delivered
+
+The data retrieved from ArchivesSpace is delivered to Aeon as `multipart/form-data`.
+
 
 ### DIMES UI
 The DIMES UI would need to provide the following functionality, at minimum:
