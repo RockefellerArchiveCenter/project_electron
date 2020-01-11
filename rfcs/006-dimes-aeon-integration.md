@@ -18,9 +18,9 @@ The request broker would have a minimal UI. Users will not be able to create req
 
 Additionally, the broker should store only the bare minimum of data necessary so we can avoid saving personally identifying information or information duplicated in other systems.
 
-### Request Data
+### Request Data Model
 
-#### Requests Submitted
+#### Initial request data submitted from DIMES
 Requests from DIMES are submitted to the request broker as a list of ArchivesSpace URIs.
 
 ```
@@ -32,7 +32,7 @@ Requests from DIMES are submitted to the request broker as a list of ArchivesSpa
 }
 ```
 
-#### Fields retrieved from ArchivesSpace
+#### Data retrieved from ArchivesSpace
 
 The following fields are retrieved from ArchivesSpace for each request item:
 - Title
@@ -47,7 +47,7 @@ The following fields are retrieved from ArchivesSpace for each request item:
 
 (TODO: evaluate whether or not all of these fields are necessary in Aeon)
 
-#### Requests Delivered
+#### Requests data delivered to Aeon
 
 The data retrieved from ArchivesSpace is delivered to Aeon as `multipart/form-data`.
 
