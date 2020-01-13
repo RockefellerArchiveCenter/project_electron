@@ -35,11 +35,10 @@ The service will accept only requests from known sources, identified by an API k
 
 ### Request Data Model
 
-At minimum, requests specify a target as well as a list of items.
+At minimum, requests specify a list of items.
 
 ```
-{ "target": "aeon",
-  "items":
+{ "items":
   [
     "/repositories/2/archival_objects/1263",
     "/repositories/2/archival_objects/1264"
@@ -50,8 +49,7 @@ At minimum, requests specify a target as well as a list of items.
 Additional data elements may be provided as needed.
 
 ```
-{ "target": "email",
-  "to_emails": ["test@example.org"]
+{ "to_emails": ["test@example.org"]
   "items":
   [
     "/repositories/2/archival_objects/1265",
