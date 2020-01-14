@@ -12,12 +12,14 @@ We created user stories to help define project requirements as part of the disco
 
 `“As a [kind of user] I want to do [an action] so that [goal].”`
 
-These user stories are divided into four user groups:
+An initial set of user stories are divided into four user groups:
 
   - Donors and Depositors
   - Researchers
   - Rockefeller Archive Center Staff
   - Allied Information Professionals
+
+Additionally, a second set stories specific to archival discovery and delivery -- many of which articulate pain points in current discovery and delivery environments -- was generated in 2019.
 
 [All user stories are available on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/user-stories).
 
