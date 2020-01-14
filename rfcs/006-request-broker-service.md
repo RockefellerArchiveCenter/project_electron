@@ -17,6 +17,8 @@ As we are about to move to a new generation of DIMES, we have an opportunity to 
 
 We propose the development of a request broker service, which would encapsulates the logic required to process requests submitted by users.
 
+![request broker diagram](006-request-broker.png)
+
 ### Endpoints and actions
 The service will provide the following three endpoints, each of which would provide its own logic:
 - `reading-room-request` - submits request(s) to the RAC's request management system (Aeon)
