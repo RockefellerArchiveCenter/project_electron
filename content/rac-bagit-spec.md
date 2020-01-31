@@ -5,7 +5,7 @@ permalink: /rac-bagit-spec/
 hide: true
 ---
 
-Version 1.7 (2019-08-20)
+Version 1.7.1 (2020-01-31)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags — or packages — of digital records which can be programatically validated and verified.
 
