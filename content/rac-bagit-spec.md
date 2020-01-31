@@ -174,7 +174,7 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
     *   "annual reports"
     *   "grant records"
 
-### Languages
+### Language
 
 *   **Definition:** The natural language(s) in which the materials are written.
 *   **Purpose:** Assists user evaluation of relevance and facilitates machine translation.
