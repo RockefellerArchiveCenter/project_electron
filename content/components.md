@@ -26,9 +26,9 @@ and their metadata to the archives. Explore the [Aurora user documentation](http
 An API gateway, microservice applications, and supporting libraries which enable integrations between current and future systems and assist in the archival processes of accessioning, preservation, and discovery. Explore [all Project Electron repositories](https://github.com/topics/project-electron) on GitHub.
 
   - [zodiac](https://github.com/RockefellerArchiveCenter/zodiac): an API gateway and administration interface for Project Electron microservices, managed via a message queue.
-  - [ursa major](https://github.com/RockefellerArchiveCenter/ursa_major): discovers and stories bags.
+  - [ursa major](https://github.com/RockefellerArchiveCenter/ursa_major): discovers and stores bags.
   - [fornax](https://github.com/RockefellerArchiveCenter/fornax): creates Archivematica-compliant Submission Information Packages.
-  - [gemini](https://github.com/RockefellerArchiveCenter/gemini): stores Archival Information Packages and Dissemination Information Packages in Fedora.
+  - [gemini](https://github.com/RockefellerArchiveCenter/gemini): downloads packages from the Archivematica Storage Servicestores and stores them in Fedora.
   - [aquarius](https://github.com/RockefellerArchiveCenter/aquarius): transforms and delivers accessions, archival objects and digital objects to ArchivesSpace.
   - [libra](https://github.com/RockefellerArchiveCenter/libra): generates reports on files and activities in Fedora.
   - [zorya](https://github.com/RockefellerArchiveCenter/zorya): packages bags.
@@ -36,9 +36,9 @@ An API gateway, microservice applications, and supporting libraries which enable
 ### Discovery
 
 - [pisces](https://github.com/RockefellerArchiveCenter/pisces): retrieves and transforms data for discovery.
-- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): merges, indexes, and deletes from index archival data (collections, objects, agents and terms).
+- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): merges, indexes, and deletes archival data (collections, objects, agents and terms).
 - [request broker](https://github.com/RockefellerArchiveCenter/request_broker): processes and delivers request data submitted by users in discovery environment.
-- [cartographer](https://github.com/RockefellerArchiveCenter/cartographer): application to manage JSON tree representations of all the archival collections, sub-collections, and parts (record group, subgroup, series, subseries, etc.) by a designated agent/creator.
+- [cartographer](https://github.com/RockefellerArchiveCenter/cartographer): manages JSON tree representations of all the archival collections, sub-collections, and parts (record group, subgroup, series, subseries, etc.) by a designated agent/creator.
 
 ### Libraries
 
