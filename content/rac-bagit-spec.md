@@ -16,7 +16,7 @@ Donor organizations are responsible for creating bags which comply to this speci
 2.  Rockefeller Archive Center bags may be:
     1.  serialized (single .zip, .tar or .tar.gz file)
     2.  un-serialized (a directory containing multiple files — **unserialized bags must be transferred one at a time, not in batches**)
-3.  All bags must valid according to the organization's BagIt Profile.
+3.  All bags must be valid according to the organization's BagIt Profile.
 
 ## RAC BagIt Structure
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag. Although the Rockefeller Archive Center accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
