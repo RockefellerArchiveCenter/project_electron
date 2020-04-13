@@ -23,7 +23,7 @@ A Django web application to support and regularize the ongoing secure transfer o
 and their metadata to the archives. Explore the [Aurora user documentation](https://docs.rockarch.org/aurora/) and find the code in our [Aurora GitHub repository](https://github.com/RockefellerArchiveCenter/aurora).
 
 ## API Gateway and microservices
-An API gateway and set of microservice applications which support integrations between current and future systems and assist in the archival processes of accessioning, preservation, description, and access. Explore [all Project Electron repositories](https://github.com/topics/project-electron) on GitHub.
+An API gateway, microservice applications, and supporting libraries which enable integrations between current and future systems and assist in the archival processes of accessioning, preservation, and discovery. Explore [all Project Electron repositories](https://github.com/topics/project-electron) on GitHub.
 
   - [zodiac](https://github.com/RockefellerArchiveCenter/zodiac): an API gateway and administration interface for Project Electron microservices, managed via a message queue.
   - [ursa major](https://github.com/RockefellerArchiveCenter/ursa_major): discovers and stories bags.
