@@ -5,7 +5,7 @@ permalink: /rac-bagit-spec/
 hide: true
 ---
 
-Version 1.7.1 (2020-01-31)
+Version 1.8 (2020-04-13)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags — or packages — of digital records which can be programatically validated and verified.
 
@@ -16,7 +16,7 @@ Donor organizations are responsible for creating bags which comply to this speci
 2.  Rockefeller Archive Center bags may be:
     1.  serialized (single .zip, .tar or .tar.gz file)
     2.  un-serialized (a directory containing multiple files — **unserialized bags must be transferred one at a time, not in batches**)
-3.  All bags must valid according to the organization's BagIt Profile.
+3.  All bags must be valid according to the organization's BagIt Profile.
 
 ## RAC BagIt Structure
 This section includes a simple example of a Rockefeller Archive Center BagIt Specification-compliant bag. Although the Rockefeller Archive Center accepts both serialized and un-serialized bags, this example specifies an unserialized bag.
@@ -24,7 +24,7 @@ This section includes a simple example of a Rockefeller Archive Center BagIt Spe
 ```
 <RAC-BAG-ID>/
     | bagit.txt
-    | manifest-md5.txt
+    | manifest-sha256.txt
     | bag-info.txt
     \--- data/
           | [payload files]
@@ -54,8 +54,8 @@ BagIt-Version: 0.97
 Tag-File-Character-Encoding: UTF-8
 ```
 
-##### manifest-md5.txt
-This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen `md5`, but `sha256` is also acceptable.
+##### manifest-sha256.txt
+This is a required element from the BagIt spec that contains a checksum for every item included in the bag's payload. For this example we have chosen sha256, but using sha512 is also acceptable. md5 is not accepted as a checksum algorithm.
 
 ##### bag-info.txt
 The Rockefeller Archive Center requires some of the below fields in our specification, and some are reserved BagIt fields as indicated in the BagIt Specification. For more details on the content, requirements, and usage of each field, please see the [Bag-Info Field Specification](#bag-info-field-specifications) section below. The RAC will index metadata from `bag-info.txt` as structured data. Please use standardized names and avoid the use of all acronyms as separate stakeholders may share the same acronyms but they may mean different things.
