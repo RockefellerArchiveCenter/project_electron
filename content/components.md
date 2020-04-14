@@ -36,7 +36,7 @@ An API gateway, microservice applications, and supporting libraries which enable
 ### Discovery
 
 - [pisces](https://github.com/RockefellerArchiveCenter/pisces): retrieves, merges and transforms data for discovery.
-- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): merges, indexes, and deletes archival data (collections, objects, agents and terms).
+- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): adds and deletes archival data (collections, objects, agents and terms) from an index.
 - [request broker](https://github.com/RockefellerArchiveCenter/request_broker): processes and delivers request data submitted by users in discovery environment.
 - [cartographer](https://github.com/RockefellerArchiveCenter/cartographer): manages JSON tree representations of all the archival collections, sub-collections, and parts (record group, subgroup, series, subseries, etc.) by a designated agent/creator.
 
