@@ -21,7 +21,7 @@ An initial set of user stories are divided into four user groups:
 
 Additionally, a second set stories specific to archival discovery and delivery -- many of which articulate pain points in current discovery and delivery environments -- was generated in 2019.
 
-[All user stories are available on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/user-stories).
+[All user stories are available on GitHub](https://github.com/RockefellerArchiveCenter/project_electron/tree/base/user-stories).
 
 ### Personas
 
@@ -31,7 +31,7 @@ Based on the user stories, we developed thirteen user personas and a persona tem
   - Researchers
   - Information Professionals
 
-  [All personas are available on GitHub](https://github.com/RockefellerArchiveCenter/personas/tree/master/project-electron-personas).
+  [All personas are available on GitHub](https://github.com/RockefellerArchiveCenter/personas/tree/base/project-electron-personas).
 
 ## Data modeling
 
@@ -40,4 +40,4 @@ Based on the user stories, we developed thirteen user personas and a persona tem
 Modeling archival data is essential to building systems integrations and supporting archival discovery. Our model is a work in progress, but we've been building a data model based on the Portland Common Data Model (PCDM). Follow our progress on our [Data Model Wiki](https://github.com/RockefellerArchiveCenter/rac-data-model/wiki) and check out the working model diagram available on our [Data Model GitHub repository](https://github.com/RockefellerArchiveCenter/rac-data-model).
 
 ### Annotated Bibliography
-In the early stages of the project, Project Electron team member Patrick Galligan created an [annotated bibliography on data modeling](https://github.com/RockefellerArchiveCenter/rac-data-model/blob/master/data_model_bibliography.md), a subject that we had limited previous experience with. This has been a resource for our team, and we hope it can be useful for others in exploring the topic.
+In the early stages of the project, Project Electron team member Patrick Galligan created an [annotated bibliography on data modeling](https://github.com/RockefellerArchiveCenter/rac-data-model/blob/base/data_model_bibliography.md), a subject that we had limited previous experience with. This has been a resource for our team, and we hope it can be useful for others in exploring the topic.
