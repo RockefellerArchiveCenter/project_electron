@@ -9,14 +9,14 @@ Project Electron consists of a specification and web application to facilitate o
 
 ## Requests for Comments
 
-Our [Requests for Comments](https://github.com/RockefellerArchiveCenter/project_electron/tree/master/rfcs) (RFCs) are lightly-structured documents which are intended primarily to create a record of decisions we've made regarding technical approaches to solve a particular problem. They are not intended to be policy statements, nor do we expect them to remain unchanged.
+Our [Requests for Comments](https://github.com/RockefellerArchiveCenter/project_electron/tree/base/rfcs) (RFCs) are lightly-structured documents which are intended primarily to create a record of decisions we've made regarding technical approaches to solve a particular problem. They are not intended to be policy statements, nor do we expect them to remain unchanged.
 
-  - [RFC 001: Discovery and Delivery](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/001-discovery-and-delivery.md)
-  - [RFC 002: API Conventions](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/002-api-conventions.md)
-  - [RFC 003: Indexing](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/003-indexing.md)
-  - [RFC 004: Merging](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/004-mergers.md)
-  - [RFC 005: Arrangement Maps](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/005-arrangement-maps.md)
-  - [RFC 006: Request Broker Service](https://github.com/RockefellerArchiveCenter/project_electron/blob/master/rfcs/006-request-broker-service.md)
+  - [RFC 001: Discovery and Delivery](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/001-discovery-and-delivery.md)
+  - [RFC 002: API Conventions](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/002-api-conventions.md)
+  - [RFC 003: Indexing](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/003-indexing.md)
+  - [RFC 004: Merging](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/004-mergers.md)
+  - [RFC 005: Arrangement Maps](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/005-arrangement-maps.md)
+  - [RFC 006: Request Broker Service](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/rfcs/006-request-broker-service.md)
 
 ## Aurora
 A Django web application to support and regularize the ongoing secure transfer of digital records
