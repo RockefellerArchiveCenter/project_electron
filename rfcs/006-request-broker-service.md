@@ -1,6 +1,6 @@
 # RFC 006 - Request Broker Service
 
-Last updated February 26, 2020
+Last updated July 21, 2020
 
 ## Background/Problem Statement
 
@@ -102,8 +102,19 @@ Additional data elements may be provided as needed. Each endpoint will likely re
   "body": "Here are some useful records I found today.",
   "items":
   [
-    "/repositories/2/archival_objects/1265",
-    "/repositories/2/archival_objects/1266"
+    {
+      "creator": "Ford Foundation",
+      "barcode": "A0000000037985",
+      "collection_name": "Ford Foundation records, General Correspondence",
+      "aggregation": "General Correspondence",
+      "dates": "1951-1960",
+      "location": "Rockefeller Archive Center, Blue Level, Vault 106 [Cabinet: 11a, Drawer: 2]",
+      "resource_id": "FA735",
+      "container": "Reel C-1138",
+      "title": "Adler, Mortimer J.",
+      "restrictions": "Closed until further notice due to personally identifying information.",
+      "ref": "/repositories/2/archival_objects/986296"
+    }
   ]
 }
 ```
