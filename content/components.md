@@ -36,8 +36,10 @@ An API gateway, microservice applications, and supporting libraries which enable
 ## Archival Discovery
 ### DIMES
 [DIMES](https://github.com/RockefellerArchiveCenter/dimes) is a React web application which provides the front-end user interface for the online discovery of archival collections, objects, and agents.
+
 ### Request Broker
 The [Request Broker](https://github.com/RockefellerArchiveCenter/request_broker) processes and delivers request data submitted by users from an archival discovery environment.
+
 ### Cartographer
 [Cartographer](https://github.com/RockefellerArchiveCenter/cartographer) manages JSON tree representations of all the archival collections, sub-collections, and parts (record group, subgroup, series, subseries, etc.) by a designated agent/creator.
 
