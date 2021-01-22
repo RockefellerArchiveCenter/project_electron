@@ -52,3 +52,4 @@ A highly performant data pipeline which fetches data from ArchivesSpace, transfo
   - [Electron Bonder](https://github.com/RockefellerArchiveCenter/ElectronBonder): client library for working with the Project Electron APIs built using [ArchivesSnake](https://github.com/archivesspace-labs/ArchivesSnake/).
   - [rac_es](https://github.com/RockefellerArchiveCenter/rac_es): helpers for Elasticsearch.
   - [rac-schemas](https://github.com/RockefellerArchiveCenter/rac_schemas): JSON schemas and validation helpers.
+  - [IIIF pipeline](https://github.com/RockefellerArchiveCenter/iiif-pipeline): a pipeline to create image derivatives and IIIF Manifests.
