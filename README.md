@@ -6,6 +6,10 @@ For more information about the project, visit [http://projectelectron.rockarch.o
 
 Project updates are also available on [Bits & Bytes](http://blog.rockarch.org/), the RAC's blog.
 
+## bibliography
+
+The `/bibliography` directory contains an annotated bibliography created during the discovery phase of Project Electron.
+
 ## user-stories
 
 The `/user-stores` directory contains CSV files of user stories gathered during the discovery phase of Project Electron. Learn more at [http://projectelectron.rockarch.org](http://projectelectron.rockarch.org).
@@ -19,4 +23,4 @@ Rockefeller Archive Center staff.
 
 ## License
 
-All code and documentation are available under the [MIT license](LICENSE), and all planning documents and policies are available under the [CC0 license](LICENSE-CC0.md). 
+All code and documentation are available under the [MIT license](LICENSE), and all planning documents and policies are available under the [CC0 license](LICENSE-CC0.md).
