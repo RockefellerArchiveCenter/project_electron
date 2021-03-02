@@ -35,9 +35,9 @@ Based on the user stories, we developed thirteen user personas and a persona tem
 
 ## Data modeling
 
-### Working Data Model
+### Data Model
 
-Modeling archival data is essential to building systems integrations and supporting archival discovery. Our model is a work in progress, but we've been building a data model based on the Portland Common Data Model (PCDM). Follow our progress on our [Data Model Wiki](https://github.com/RockefellerArchiveCenter/rac-data-model/wiki) and check out the working model diagram available on our [Data Model GitHub repository](https://github.com/RockefellerArchiveCenter/rac-data-model).
+Modeling archival data is essential to building systems integrations and supporting archival discovery. Our model is based on the Portland Common Data Model (PCDM). Check out the [working model overview](https://github.com/RockefellerArchiveCenter/rac_schemas/blob/base/Simplified_Data_Model.png) and JSON schema validations in the [RAC Schemas Repository](https://github.com/RockefellerArchiveCenter/rac_schemas).
 
 ### Annotated Bibliography
-In the early stages of the project, Project Electron team member Patrick Galligan created an [annotated bibliography on data modeling](https://github.com/RockefellerArchiveCenter/rac-data-model/blob/base/data_model_bibliography.md), a subject that we had limited previous experience with. This has been a resource for our team, and we hope it can be useful for others in exploring the topic.
+In the early stages of the project, Project Electron team member Patrick Galligan created an [annotated bibliography on data modeling](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/bibliography/data_model_bibliography.md), a subject that we had limited previous experience with. This has been a resource for our team, and we hope it can be useful for others in exploring the topic.
