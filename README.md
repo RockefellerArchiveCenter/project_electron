@@ -8,13 +8,14 @@ Project updates are also available on [Bits & Bytes](http://blog.rockarch.org/),
 
 ## bibliography
 
-The `/bibliography` directory contains an annotated bibliography created during the discovery phase of Project Electron.
+The `/bibliography` directory contains an annotated bibliography created during the discovery phase of Project Electron. The bibliography covers readings from topics related to data modeling, linked data, and archival data.
 
 ## user-stories
 
 The `/user-stores` directory contains CSV files of user stories gathered during the discovery phase of Project Electron. Learn more at [http://projectelectron.rockarch.org](http://projectelectron.rockarch.org).
 
 ## transfer-milestones.md
+
 The Project Electron Transfer Milestones document the tasks and timelines for the first phase of the project from September 2016 to January 2019.
 
 ## Authors
