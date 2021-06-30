@@ -47,7 +47,9 @@ The [Request Broker](https://github.com/RockefellerArchiveCenter/request_broker)
 A highly performant data pipeline which fetches data from ArchivesSpace, transforms it according to our data model, indexes it in Elasticsearch, and serves it up via an API.
 
 - [pisces](https://github.com/RockefellerArchiveCenter/pisces): retrieves, merges and transforms data for discovery.
-- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): adds and deletes archival data (collections, objects, agents and terms) from an index.
+- [scorpio](https://github.com/RockefellerArchiveCenter/scorpio): adds and deletes archival data (collections, objects, agents and terms) from an Elasticsearch index.
+- [argo](https://github.com/RockefellerArchiveCenter/argo): provides a wrapper around the Elasticsearch REST API, and adds additional endpoints required by the DIMES user interface.
+
 ## Libraries
 
   - [asterism](https://github.com/RockefellerArchiveCenter/asterism): helpers and common patterns used in Project Electron infrastructure.
