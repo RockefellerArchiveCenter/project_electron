@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/" # unless Gemfile is not in this location
+    schedule:
+      interval: "monthly"
