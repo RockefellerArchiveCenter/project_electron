@@ -66,9 +66,9 @@ theme_settings:
   # Post navigation
   post_navigation: false
 
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
+# # PAGINATION
+# paginate: 5
+# paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -76,8 +76,4 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
-theme: jekyll-theme-type
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# plugins: [jekyll-paginate]
