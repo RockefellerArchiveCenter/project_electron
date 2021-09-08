@@ -319,20 +319,6 @@
       "objType": "StorageService",
       "objId": "1234ba61-7242-4744-ba70-f52c2c059b6c",
       "field": "password"
-    },
-    {
-      "id": "0b16580e-efc5-4117-b7ca-7217e2aab69b",
-      "prompt": "Please enter the username with which to connect to the Aurora production environment.",
-      "objType": "StorageService",
-      "objId": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
-      "field": "login"
-    },
-    {
-      "id": "c27b5198-ec78-474b-ae6c-13d1517de4cb",
-      "prompt": "Please enter the password with which to connect to the Aurora production environment.",
-      "objType": "StorageService",
-      "objId": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
-      "field": "password"
     }
   ],
   "remoteRepositories": [],
@@ -343,20 +329,6 @@
       "description": "",
       "protocol": "sftp",
       "host": "aurora.dev.rockarch.org",
-      "port": 12060,
-      "bucket": "upload",
-      "login": "",
-      "password": "",
-      "loginExtra": "",
-      "allowsUpload": true,
-      "allowsDownload": false
-    },
-    {
-      "id": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
-      "name": "Aurora production",
-      "description": "",
-      "protocol": "sftp",
-      "host": "aurora.rockarch.org",
       "port": 12060,
       "bucket": "upload",
       "login": "",
