@@ -1,0 +1,369 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "appSettings": [],
+  "bagItProfiles": [
+    {
+      "id": "1f1803ec-4230-491c-a0e5-0dec24c41edb",
+      "name": "Rockefeller Archive Center",
+      "description": "Test BagIt Profile for Simons Foundation, Inc.",
+      "acceptBagItVersion": [
+        "0.97",
+        "1.0"
+      ],
+      "acceptSerialization": [
+        "application/tar",
+        "application/zip",
+        "application/tar+gzip"
+      ],
+      "allowFetchTxt": false,
+      "bagItProfileInfo": {
+        "bagItProfileIdentifier": "https://aurora.dev.rockarch.org/api/bagit_profiles/19.json",
+        "bagItProfileVersion": "",
+        "contactEmail": "archive@rockarch.org",
+        "contactName": "",
+        "externalDescription": "",
+        "sourceOrganization": "Rockefeller Archive Center",
+        "version": "0.1"
+      },
+      "manifestsRequired": [],
+      "manifestsAllowed": [
+        "sha256",
+        "sha512"
+      ],
+      "tagManifestsRequired": [],
+      "tagManifestsAllowed": [
+        "sha256",
+        "sha512"
+      ],
+      "tagFilesAllowed": [
+        "*"
+      ],
+      "tags": [
+        {
+          "id": "82ef4fe9-b2e8-4578-bfd5-0aa912edac88",
+          "tagFile": "bagit.txt",
+          "tagName": "BagIt-Version",
+          "required": true,
+          "values": [
+            "0.97",
+            "1.0"
+          ],
+          "defaultValue": "0.97",
+          "userValue": "",
+          "help": "Which version of the BagIt specification describes this bag's format?",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "23e9e476-4ff3-4104-8808-5a973975834c",
+          "tagFile": "bagit.txt",
+          "tagName": "Tag-File-Character-Encoding",
+          "required": true,
+          "values": [],
+          "defaultValue": "UTF-8",
+          "userValue": "",
+          "help": "How are this bag's plain-text tag files encoded? (Hint: usually UTF-8)",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0f0ceca2-b4a3-4b23-8c8a-f96b390cfb7e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Count",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "e2e6f9ef-2c96-44e8-bfc6-e42d7b6cf2ed",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Group-Identifier",
+          "required": false,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "f45ca797-2409-426f-b2b6-894cd0ebfb97",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bag-Size",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "a9720a73-93fc-4a79-98ca-a99caec50c17",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Date",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "e94e4ce2-deaf-4612-be80-21b5cca0ed17",
+          "tagFile": "bag-info.txt",
+          "tagName": "Bagging-Software",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "58b1357e-7fcf-4c9d-9451-571e7a645347",
+          "tagFile": "bag-info.txt",
+          "tagName": "External-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "6567a0ba-84d3-4dba-a99a-01ae8cf55b07",
+          "tagFile": "bag-info.txt",
+          "tagName": "Internal-Sender-Description",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "6810f322-1332-43af-ad6d-2ad7edb7006a",
+          "tagFile": "bag-info.txt",
+          "tagName": "Payload-Oxum",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "5c64286e-7429-40a8-9b7d-195b29bc2ac3",
+          "tagFile": "bag-info.txt",
+          "tagName": "Source-Organization",
+          "required": true,
+          "values": [],
+          "defaultValue": "Simons Foundation, Inc.",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "0de93efa-50cd-4944-ad7c-3409c783aa31",
+          "tagFile": "bag-info.txt",
+          "tagName": "Date-End",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "826287a7-6f83-4165-ae5a-cf4e40330cb5",
+          "tagFile": "bag-info.txt",
+          "tagName": "Record-Creators",
+          "required": false,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "2c315e42-1c24-459d-a85e-786578025e8e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Language",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "4f1176db-0ffe-4a0a-a4ac-a1480effc1be",
+          "tagFile": "bag-info.txt",
+          "tagName": "Title",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "e2ea8c2f-8414-41a3-abf7-9a29713db45e",
+          "tagFile": "bag-info.txt",
+          "tagName": "Date-Start",
+          "required": true,
+          "values": [],
+          "defaultValue": null,
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "4352b54b-696a-4024-9dff-692698108d3a",
+          "tagFile": "bag-info.txt",
+          "tagName": "Record-Type",
+          "required": true,
+          "values": [
+            "Basecamp records",
+            "proposalCentral records",
+            "Teams Folders"
+          ],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": false,
+          "wasAddedForJob": false
+        },
+        {
+          "id": "de84d0c0-5db8-401c-b843-5321ba8a027a",
+          "tagFile": "bag-info.txt",
+          "tagName": "BagIt-Profile-Identifier",
+          "required": true,
+          "values": [],
+          "defaultValue": "",
+          "userValue": "",
+          "help": "",
+          "isBuiltIn": false,
+          "isUserAddedFile": false,
+          "isUserAddedTag": true,
+          "wasAddedForJob": false
+        }
+      ],
+      "serialization": "optional",
+      "baseProfileId": null,
+      "isBuiltIn": false,
+      "tarDirMustMatchName": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "c490441e-02c0-49cd-b208-660714587eba",
+      "prompt": "Please enter the username with which to connect to the Aurora development environment.",
+      "objType": "StorageService",
+      "objId": "1234ba61-7242-4744-ba70-f52c2c059b6c",
+      "field": "login"
+    },
+    {
+      "id": "d39704fb-69e1-4bde-8325-df0c5328434f",
+      "prompt": "Please enter the password with which to connect to the Aurora development environment.",
+      "objType": "StorageService",
+      "objId": "1234ba61-7242-4744-ba70-f52c2c059b6c",
+      "field": "password"
+    },
+    {
+      "id": "0b16580e-efc5-4117-b7ca-7217e2aab69b",
+      "prompt": "Please enter the username with which to connect to the Aurora production environment.",
+      "objType": "StorageService",
+      "objId": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
+      "field": "login"
+    },
+    {
+      "id": "c27b5198-ec78-474b-ae6c-13d1517de4cb",
+      "prompt": "Please enter the password with which to connect to the Aurora production environment.",
+      "objType": "StorageService",
+      "objId": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
+      "field": "password"
+    }
+  ],
+  "remoteRepositories": [],
+  "storageServices": [
+    {
+      "id": "1234ba61-7242-4744-ba70-f52c2c059b6c",
+      "name": "Aurora development",
+      "description": "",
+      "protocol": "sftp",
+      "host": "aurora.dev.rockarch.org",
+      "port": 12060,
+      "bucket": "upload",
+      "login": "",
+      "password": "",
+      "loginExtra": "",
+      "allowsUpload": true,
+      "allowsDownload": false
+    },
+    {
+      "id": "6d4f2fad-53e3-448d-ab00-35e9aadc716e",
+      "name": "Aurora production",
+      "description": "",
+      "protocol": "sftp",
+      "host": "aurora.rockarch.org",
+      "port": 12060,
+      "bucket": "upload",
+      "login": "",
+      "password": "",
+      "loginExtra": "",
+      "allowsUpload": true,
+      "allowsDownload": false
+    }
+  ]
+}
