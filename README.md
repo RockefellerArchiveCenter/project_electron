@@ -24,7 +24,7 @@ Once the application starts successfully, you should be able to access the appli
 ## Usage
 Use `bundle exec jekyll build` to build the initial Jekyll `_site` directory which can be served.
 
-Run `bundle exec htmlproofer ./_site` to validate HTML output with [htmlproofer](https://github.com/gjtorikian/html-proofer).
+Run `bundle exec htmlproofer --assume-extension ./_site` to validate HTML output with [htmlproofer](https://github.com/gjtorikian/html-proofer).
 
 ## License
 
