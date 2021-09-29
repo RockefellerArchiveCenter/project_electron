@@ -1,9 +1,8 @@
 language: ruby
+cache: bundler
 rvm:
   - 2.7.4
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 script: ./script/cibuild
 
 # Branch blacklist, exclude branches that are not Github Pages
@@ -19,8 +18,6 @@ addons:
   apt:
     packages:
     - libcurl4-openssl-dev
-
-cache: bundler # caching bundler gem packages will speed up build
 
 notifications:
   email: false

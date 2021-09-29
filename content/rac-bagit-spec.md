@@ -9,7 +9,7 @@ Version 1.8 (2020-04-13)
 
 This page describes the Rockefeller Archive Center's BagIt specification, developed with the goal of facilitating consistently structured bags — or packages — of digital records which can be programatically validated and verified.
 
-Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, we have provided [example Python scripts](/scripts/) to create and validate bags. These scripts are for demonstration purposes only, and are not intended to be used in production. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BatItPHP) and [Ruby](https://github.com/topr/bagit).
+Donor organizations are responsible for creating bags which comply to this specification and transferring them via agreed-upon protocols and schedules. To assist donors in meeting these requirements, we have provided [example Python scripts](/scripts/) to create and validate bags. These scripts are for demonstration purposes only, and are not intended to be used in production. Other libraries for this specification are available in languages including [Java](https://github.com/LibraryOfCongress/bagit-java), [Python](https://github.com/LibraryOfCongress/bagit-python), [PHP](https://github.com/scholarslab/BagItPHP) and [Ruby](https://github.com/tipr/bagit).
 
 ## Specification
 1.  Rockefeller Archive Center bags conform to the [BagIt packaging specification](https://tools.ietf.org/html/draft-kunze-bagit-14 "BagIt Specification").
