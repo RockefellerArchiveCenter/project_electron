@@ -5,7 +5,7 @@
     {
       "id": "1f1803ec-4230-491c-a0e5-0dec24c41edb",
       "name": "Rockefeller Archive Center",
-      "description": "Test BagIt Profile for Simons Foundation, Inc.",
+      "description": "BagIt Profile for Simons Foundation, Inc.",
       "acceptBagItVersion": [
         "0.97",
         "1.0"
@@ -17,7 +17,7 @@
       ],
       "allowFetchTxt": false,
       "bagItProfileInfo": {
-        "bagItProfileIdentifier": "https://aurora.dev.rockarch.org/api/bagit_profiles/19.json",
+        "bagItProfileIdentifier": "https://aurora.rockarch.org/api/bagit_profiles/13.json",
         "bagItProfileVersion": "",
         "contactEmail": "archive@rockarch.org",
         "contactName": "",
@@ -324,9 +324,23 @@
   "remoteRepositories": [],
   "storageServices": [
     {
+      "id": "f8aa0c73-472f-43b0-b59b-e8f5ebe579f3",
+      "name": "Aurora Production",
+      "description": "Simons-RAC Active Transfer",
+      "protocol": "sftp",
+      "host": "aurora.rockarch.org",
+      "port": 12060,
+      "bucket": "upload",
+      "login": "",
+      "password": "",
+      "loginExtra": "",
+      "allowsUpload": true,
+      "allowsDownload": false
+    },
+    {
       "id": "1234ba61-7242-4744-ba70-f52c2c059b6c",
       "name": "Aurora development",
-      "description": "",
+      "description": "Test transfer instance",
       "protocol": "sftp",
       "host": "aurora.dev.rockarch.org",
       "port": 12060,
