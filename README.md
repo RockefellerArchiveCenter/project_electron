@@ -2,8 +2,6 @@
 
 The public website for Project Electron available at [https://projectelectron.rockarch.org/](https://projectelectron.rockarch.org/). This site is implemented as a [Jekyll](https://jekyllrb.com/) static site using the [Type Theme](https://github.com/rohanchandra/type-theme). Site contents is in the Markdown format and can be accessed in the `/contents` directory.
 
-[![Build Status](https://travis-ci.com/RockefellerArchiveCenter/project_electron.svg?branch=gh-pages)](https://travis-ci.org/RockefellerArchiveCenter/project_electron)
-
 ## Getting Started
 Install [git](https://git-scm.com/) and clone the repository:
 
