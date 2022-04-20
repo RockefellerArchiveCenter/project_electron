@@ -20,7 +20,7 @@ Our [Requests for Comments](https://github.com/RockefellerArchiveCenter/project_
 
 ## Transfer applications
 ### Aurora
-A Django web application to support and regularize the ongoing secure transfer of digital records and their metadata to the archives. Explore the [Aurora user documentation](https://docs.rockarch.org/aurora/) and find the code in our [Aurora GitHub repository](https://github.com/RockefellerArchiveCenter/aurora).
+A Django web application to support and regularize the ongoing secure transfer of digital records and their metadata to the archives. Explore the [Aurora user documentation](https://docs.rockarch.org/aurora-docs/) and find the code in our [Aurora GitHub repository](https://github.com/RockefellerArchiveCenter/aurora).
 
 ### API Gateway and microservices
 An API gateway, microservice applications, and supporting libraries which enable integrations between current and future systems and assist in the archival processes of accessioning, preservation, and discovery. Explore [all Project Electron repositories](https://github.com/topics/project-electron) on GitHub.
