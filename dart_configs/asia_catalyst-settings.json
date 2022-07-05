@@ -1,0 +1,105 @@
+{
+  "Accept-BagIt-Version": [
+    "0.97",
+    "1.0"
+  ],
+  "Accept-Serialization": [
+    "application/tar",
+    "application/zip",
+    "application/tar+gzip"
+  ],
+  "Allow-Fetch.txt": false,
+  "Serialization": "optional",
+  "Manifests-Allowed": [
+    "sha256",
+    "sha512"
+  ],
+  "Tag-Manifests-Allowed": [
+    "sha256",
+    "sha512"
+  ],
+  "Manifests-Required": [],
+  "Tag-Manifests-Required": [],
+  "Tag-Files-Allowed": [
+    "*"
+  ],
+  "BagIt-Profile-Info": {
+    "BagIt-Profile-Identifier": "https://aurora.dev.rockarch.org/api/bagit_profiles/21.json",
+    "BagIt-Profile-Version": "",
+    "Contact-Email": "archive@rockarch.org",
+    "Contact-Name": "",
+    "External-Description": "",
+    "Source-Organization": "Asia Catalyst, Inc.",
+    "Version": "0.1"
+  },
+  "Bag-Info": {
+    "Bag-Count": {
+      "required": false
+    },
+    "Bag-Group-Identifier": {
+      "required": false
+    },
+    "Bag-Size": {
+      "required": false
+    },
+    "Bagging-Date": {
+      "required": true
+    },
+    "Bagging-Software": {
+      "required": false
+    },
+    "External-Identifier": {
+      "required": true
+    },
+    "Internal-Sender-Description": {
+      "required": true
+    },
+    "Payload-Oxum": {
+      "required": true
+    },
+    "Source-Organization": {
+      "required": true
+    },
+    "Date-End": {
+      "required": true
+    },
+    "Record-Creators": {
+      "required": false
+    },
+    "Language": {
+      "required": true
+    },
+    "Title": {
+      "required": true
+    },
+    "Date-Start": {
+      "required": true
+    },
+    "Record-Type": {
+      "required": true,
+      "values": [
+        "2018 Transgender Rights Advocacy Leadership Program",
+        "Advocacy",
+        "Asia Catalyst Board of Directors",
+        "Capacity Building and Community Initiatives, China",
+        "Capacity Building and Community Initiatives, Regional",
+        "Communications",
+        "General Information",
+        "Institutional Fundraising and Development",
+        "Management",
+        "Monitoring and Evaluation",
+        "Myanmar Work",
+        "New Projects and Outreach",
+        "Rights Curriculum",
+        "Security Training"
+      ]
+    },
+    "BagIt-Profile-Identifier": {
+      "required": true
+    },
+    "New-Tag": {
+      "required": false
+    }
+  },
+  "Tag-Files-Required": []
+}
