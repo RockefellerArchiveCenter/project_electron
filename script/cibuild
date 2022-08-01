@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproofer --assume-extension --allow-hash-href --disable_external ./_site
+bundle exec htmlproofer _site --assume-extension --allow-hash-href --disable_external=true --ignore_files "_site/LICENSE-CC0.html"

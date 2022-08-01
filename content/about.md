@@ -17,7 +17,7 @@ In line with our [project value](/project-values/) to "create reproducible and m
 
 <div class= "twelve columns card">
   <h2>
-    <a href="http://blog.rockarch.org">Bits & Bytes</a>
+    <a href="https://blog.rockarch.org">Bits & Bytes</a>
   </h2>
   <p>Rockefeller Archive Center blog where we regularly post updates and share aspects of Project Electron development.</p>
 </div>
