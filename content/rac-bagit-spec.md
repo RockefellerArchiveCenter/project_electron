@@ -237,4 +237,4 @@ Valid JSON or JSON-LD file that includes metadata elements included in bag-info.
 *   **Repeatability:** No
 *   **Examples:**
     *   "https://standards.rockarch.org/bagit/organizational-bag-profile.json"
-    *   "http://rockarch.org/bagitprofiles/bag-profile.json"
+    *   "https://rockarch.org/bagitprofiles/bag-profile.json"

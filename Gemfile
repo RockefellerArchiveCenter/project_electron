@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-  gem "github-pages", "~> 226"
+  gem "github-pages", "~> 227"
 end
 
 # For testing build
-gem "html-proofer", "~> 3.19.3"
+gem "html-proofer", "~> 4.3.1"
