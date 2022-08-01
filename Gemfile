@@ -5,4 +5,4 @@ group :jekyll_plugins do
 end
 
 # For testing build
-gem "html-proofer", "~> 3.19.3"
+gem "html-proofer", "~> 4.3.1"
