@@ -49,8 +49,6 @@ A data pipeline which fetches data from ArchivesSpace, transforms it according t
 
 Our model for archival data is based on the Portland Common Data Model (PCDM). Check out the [working model overview](https://github.com/RockefellerArchiveCenter/rac_schemas/blob/base/Simplified_Data_Model.png) and JSON schema validations in the [RAC Schemas Repository](https://github.com/RockefellerArchiveCenter/rac_schemas).
 
-In 2017 in the early stages of the project, we also created an [annotated bibliography on data modeling](https://github.com/RockefellerArchiveCenter/project_electron/blob/base/bibliography/data_model_bibliography.md).
-
 ## License
 
 All code and documentation are available under the [MIT license](LICENSE), and all documentation is available under the [CC0 license](LICENSE-CC0.md).
