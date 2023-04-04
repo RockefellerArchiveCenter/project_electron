@@ -7,6 +7,8 @@ Project Electron consists of a specification and web application to facilitate o
 Read the [project values](project-values.md) and see our [licensing principles and approaches](licensing).
 
 ## Transfer applications
+See our [Guide to Digital Transfer](https://docs.rockarch.org/digital-transfer-guide/) to learn more about the process for transferring digital records to the archives.
+
 ### Aurora
 A Django web application to support and regularize the ongoing secure transfer of digital records and their metadata to the archives. Explore the [Aurora user documentation](https://docs.rockarch.org/aurora-docs/) and find the code in the [Aurora GitHub repository](https://github.com/RockefellerArchiveCenter/aurora).
 
