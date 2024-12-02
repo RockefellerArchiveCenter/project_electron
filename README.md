@@ -4,7 +4,7 @@ Project Electron is an initiative to build sustainable, open, and user-centered 
 
 Project Electron consists of a specification and web application to facilitate ongoing transfers of digital records and their associated metadata from organizations to archives, a repository to store digital records and metadata, an API layer to manage system interactions, and integrations with current and future systems which assist in the archival processes of appraisal, acquisition, arrangement, description, access and preservation. 
 
-Read the [project values](project-values.md) and see our [licensing principles and approaches](licensing).
+Read the [project values](project-values.md) and see our [licensing principles and approaches](licensing-principles.md).
 
 ## Transfer applications
 See our [Guide to Digital Transfer](https://docs.rockarch.org/digital-transfer-guide/) to learn more about the process for transferring digital records to the archives.
